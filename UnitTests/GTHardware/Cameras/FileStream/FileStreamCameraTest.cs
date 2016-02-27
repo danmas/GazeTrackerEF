@@ -52,7 +52,8 @@ namespace GTHardware.Cameras.FileStream
             // Can be used for testing to make sure N-Unit is responding properly
             log.Debug( "Hello World" );
 
-            FileStreamCamera fsc = new FileStreamCamera( UnitTestSettings.MEDIA_DIRECTORY + "\\public\\unit-tests\\head-tracking\\test08-move-head-no-glasses.avi", false );
+            FileStreamCamera fsc = new FileStreamCamera( 
+                UnitTestSettings.MEDIA_DIRECTORY + "\\public\\unit-tests\\head-tracking\\test08-move-head-no-glasses.avi", false );
 
             fsc.OnImage += new EventHandler<ImageEventArgs>( fsc_OnImage );
             fsc.Start();

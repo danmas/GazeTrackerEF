@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\
+E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerClientUI\obj\Debug\
 GazeTrackerClientUI
 none
 false
 DEBUG;TRACE
-D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\App.xaml
+E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerClientUI\App.xaml
 31266193444
 
 7-945332422
-121677200834
+121559495821
 ClientUI.xaml;EventNotifierControl.xaml;Style\style_iphone.xaml;
 
 True

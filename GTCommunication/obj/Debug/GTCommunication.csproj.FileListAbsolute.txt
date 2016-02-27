@@ -27,3 +27,9 @@ E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommunication.pdb
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTCommunication\obj\Debug\GTCommunication.csprojResolveAssemblyReference.cache
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTCommunication\obj\Debug\GTCommunication.dll
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTCommunication\obj\Debug\GTCommunication.pdb
+E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GazeTrackingData.xsd
+E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GTCommunication.dll
+E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GTCommunication.pdb
+E:\EYE\ITUGazeTracker\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.csprojResolveAssemblyReference.cache
+E:\EYE\ITUGazeTracker\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.dll
+E:\EYE\ITUGazeTracker\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.pdb

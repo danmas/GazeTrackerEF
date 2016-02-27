@@ -53,3 +53,14 @@ E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\OgamaClient\obj\Debug\Ogam
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\OgamaClient\obj\Debug\OgamaClient.csproj.GenerateResource.Cache
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\OgamaClient\obj\Debug\OgamaClient.dll
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\OgamaClient\obj\Debug\OgamaClient.pdb
+E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GazeTrackerUI.exe.log4net
+E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\OgamaClient.dll
+E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\OgamaClient.pdb
+E:\EYE\ITUGazeTracker\GazeTrackerEF\OgamaClient\obj\Debug\OgamaClient.csprojResolveAssemblyReference.cache
+E:\EYE\ITUGazeTracker\GazeTrackerEF\OgamaClient\obj\Debug\OgamaClient.g.resources
+E:\EYE\ITUGazeTracker\GazeTrackerEF\OgamaClient\obj\Debug\OgamaClient.Controls.EyeVideoControl.resources
+E:\EYE\ITUGazeTracker\GazeTrackerEF\OgamaClient\obj\Debug\OgamaClient.Controls.TrackStatusControl.resources
+E:\EYE\ITUGazeTracker\GazeTrackerEF\OgamaClient\obj\Debug\OgamaClient.Properties.Resources.resources
+E:\EYE\ITUGazeTracker\GazeTrackerEF\OgamaClient\obj\Debug\OgamaClient.csproj.GenerateResource.Cache
+E:\EYE\ITUGazeTracker\GazeTrackerEF\OgamaClient\obj\Debug\OgamaClient.dll
+E:\EYE\ITUGazeTracker\GazeTrackerEF\OgamaClient\obj\Debug\OgamaClient.pdb
