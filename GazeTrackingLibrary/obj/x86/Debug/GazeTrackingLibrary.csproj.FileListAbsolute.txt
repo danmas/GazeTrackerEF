@@ -1,0 +1,10 @@
+E:\EYE\GazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackingLibrary.dll
+E:\EYE\GazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackingLibrary.pdb
+E:\EYE\GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.csprojResolveAssemblyReference.cache
+E:\EYE\GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.dll
+E:\EYE\GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.pdb
+E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackingLibrary.dll
+E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackingLibrary.pdb
+E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.csprojResolveAssemblyReference.cache
+E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.dll
+E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.pdb
