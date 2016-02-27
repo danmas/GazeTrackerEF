@@ -36,3 +36,57 @@ E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Deb
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.csproj.GenerateResource.Cache
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.exe
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClientUI.exe
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClientUI.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.csprojResolveAssemblyReference.cache
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\EventNotifierControl.baml
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\Style\style_iphone.baml
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\App.baml
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\ClientUI.g.cs
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\EventNotifierControl.g.cs
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\App.g.cs
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI_MarkupCompile.cache
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI_MarkupCompile.lref
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\ClientUI.baml
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.g.resources
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.Properties.Resources.resources
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.csproj.GenerateResource.Cache
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.exe
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClientUI.exe
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClientUI.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.csprojResolveAssemblyReference.cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\EventNotifierControl.baml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\Style\style_iphone.baml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\App.baml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\ClientUI.g.cs
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\EventNotifierControl.g.cs
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\App.g.cs
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI_MarkupCompile.cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI_MarkupCompile.lref
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\ClientUI.baml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.g.resources
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.Properties.Resources.resources
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.csproj.GenerateResource.Cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.exe
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClientUI.exe
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClientUI.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.csprojResolveAssemblyReference.cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\EventNotifierControl.baml
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\Style\style_iphone.baml
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\App.baml
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\ClientUI.g.cs
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\EventNotifierControl.g.cs
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\App.g.cs
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI_MarkupCompile.cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI_MarkupCompile.lref
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\ClientUI.baml
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.g.resources
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.Properties.Resources.resources
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.csproj.GenerateResource.Cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.exe
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClientUI\obj\Debug\GazeTrackerClientUI.pdb

@@ -10,3 +10,18 @@ E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClient.dll
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.csprojResolveAssemblyReference.cache
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.dll
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClient.dll
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClient.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.dll
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.csprojResolveAssemblyReference.cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClient.dll
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClient.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.csprojResolveAssemblyReference.cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.dll
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClient.dll
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerClient.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.csprojResolveAssemblyReference.cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.dll
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerClient\obj\Debug\GazeTrackerClient.pdb

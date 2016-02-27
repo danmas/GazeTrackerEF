@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="e:\msvc\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="12.0">
+ <Targets>
+  <Target Name="E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommons.dll">
+   <Modules>
+    <Module Name="gtcommons.dll">
+     <Namespaces>
+      <Namespace Name="GTCommons">
+       <Types>
+        <Type Name="Converter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetDC(System.IntPtr)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="Breaking">
+             <Issue Certainty="95" Level="CriticalWarning">Because it is a P/Invoke method, 'Converter.GetDC(IntPtr)' should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GTCommands" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'GTCommands' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="GTCommons.Commands">
+       <Types>
+        <Type Name="AutotuneCommands" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'AutotuneCommands' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CalibrationCommands" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CalibrationCommands' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CameraCommands" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CameraCommands' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="SettingsCommands" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'SettingsCommands' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="TrackerViewerCommands" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'TrackerViewerCommands' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'Window', 'ContentControl', 'Control', 'FrameworkElement', 'UIElement', 'Visual', 'DependencyObject', 'DispatcherObject'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="GTCommons.Events">
+       <Types>
+        <Type Name="CalibrationPointEventArgs" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CalibrationPointEventArgs' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'RoutedEventArgs'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CalibrationResultEventArgs" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405" Status="Active" Created="2016-02-18 06:26:33Z" FixCategory="DependsOnFix">
+           <Issue Certainty="90" Level="Error">'CalibrationResultEventArgs' is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: 'RoutedEventArgs'</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="ComVisibleTypeBaseTypesShouldBeComVisible" Category="Microsoft.Interoperability" CheckId="CA1405">
+   <Name>COM visible type base types should be COM visible</Name>
+   <Description>COM visible types should have an object hierarchy that is uniformly COM visible.</Description>
+   <Resolution Name="Default">{0} is marked ComVisible(true) but has the following ComVisible(false) types in its object hierarchy: {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182202.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="interoperabilityrules.dll" Version="12.0.0.0" />
+  </Rule>
+  <Rule TypeName="MovePInvokesToNativeMethodsClass" Category="Microsoft.Design" CheckId="CA1060">
+   <Name>Move P/Invokes to NativeMethods class</Name>
+   <Description>This type contains members with the DllImport attribute. Members with the DllImport attribute should be contained in classes named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Description>
+   <Resolution Name="Default">Because it is a P/Invoke method, {0} should be defined in a class named NativeMethods, SafeNativeMethods, or UnsafeNativeMethods.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182161.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="designrules.dll" Version="12.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -10,3 +10,18 @@ E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTSettings.dll.lastco
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.csprojResolveAssemblyReference.cache
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.dll
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTSettings.dll
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTSettings.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.csprojResolveAssemblyReference.cache
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.dll
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTSettings.dll
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTSettings.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.csprojResolveAssemblyReference.cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.dll
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GTSettings.dll
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GTSettings.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.csprojResolveAssemblyReference.cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.dll
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTSettings\obj\Debug\GTSettings.pdb

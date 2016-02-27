@@ -48,6 +48,10 @@ namespace GazeTrackerUI.SettingsUI
         private bool hasBeenMoved;
         private bool isLoaded = false;
 
+
+        //private double calibPointSize = 100.0;
+
+
         #endregion
 
 
@@ -95,6 +99,10 @@ namespace GazeTrackerUI.SettingsUI
             CheckBoxEyeMouseSmooth.DataContext = Settings.Instance.Processing;
             CheckBoxEyeMouseEnabled.DataContext = Settings.Instance.Processing;
             SliderSmoothLevel.DataContext = Settings.Instance.EyeMovement;
+
+            //erv
+            SliderCapibPointSize.DataContext = Settings.Instance.Visualization;
+
             CheckBoxCrosshairEnabled.DataContext = Settings.Instance.Processing;
             
             TextBoxSettingsName.DataContext = Settings.Instance.FileSettings;
@@ -157,6 +165,9 @@ namespace GazeTrackerUI.SettingsUI
             ComboBoxTCPIPServerIPAddress.ItemsSource = GetIPAddresses();
             ComboBoxUDPServerIPAddress.ItemsSource = GetIPAddresses();
 
+            //erv
+            SliderCapibPointSize.Value = Settings.Instance.Visualization.CalibPointSize;
+
             // highlight big button
             switch (Settings.Instance.Processing.TrackingMethod)
             {
@@ -184,6 +195,8 @@ namespace GazeTrackerUI.SettingsUI
             EditSliderPupilMax.OnValueChange += PupilSizeChanged;
             EditSliderGlintMin.OnValueChange += GlintSizeChange;
             EditSliderGlintMax.OnValueChange += GlintSizeChange;
+            //erv
+            //EditSliderCapibPointSize.OnValueChange += calibPointSizeChange;
 
             // Auto-tune checkboxes
             CheckBoxAutoEye.Checked += CheckBoxAutoEye_Checked;
@@ -214,7 +227,11 @@ namespace GazeTrackerUI.SettingsUI
             if (TabItemTracking.IsSelected)
                 GridAdvancedTracking.Visibility = Visibility.Visible;
             else if (TabItemCalibration.IsSelected)
+            {
                 GridAdvancedCalibration.Visibility = Visibility.Visible;
+                //erv
+                ExpanderMyAdvanced.Visibility = Visibility.Visible;
+            }
             else if (TabItemNetwork.IsSelected)
                 GridAdvancedNetwork.Visibility = Visibility.Visible;
             else if (TabItemCamera.IsSelected)
@@ -236,6 +253,8 @@ namespace GazeTrackerUI.SettingsUI
             GridAdvancedOptions.Visibility = Visibility.Collapsed;
 
             ExpanderColors.Visibility = Visibility.Collapsed;
+            //erv
+            ExpanderMyAdvanced.Visibility = Visibility.Collapsed;
         }
 
         private static List<string> GetIPAddresses()
@@ -326,14 +345,20 @@ namespace GazeTrackerUI.SettingsUI
 
         private void GlintSizeChange(object sender, RoutedEventArgs e)
         {
-            Settings.Instance.Processing.GlintSizeMinimum =  (int) EditSliderGlintMin.Value;
-            Settings.Instance.Processing.GlintSizeMaximum =  (int) EditSliderGlintMax.Value;
+            Settings.Instance.Processing.GlintSizeMinimum = (int)EditSliderGlintMin.Value;
+            Settings.Instance.Processing.GlintSizeMaximum = (int)EditSliderGlintMax.Value;
 
-            EditSliderGlintMax.Minimum = (int) EditSliderGlintMin.Value + 1;
+            EditSliderGlintMax.Minimum = (int)EditSliderGlintMin.Value + 1;
 
-            if(EditSliderGlintMax.Value < EditSliderGlintMin.Value)
+            if (EditSliderGlintMax.Value < EditSliderGlintMin.Value)
                 Settings.Instance.Processing.GlintSizeMaximum = Settings.Instance.Processing.GlintSizeMinimum + 1;
         }
+
+        //erv
+        //private void calibPointSizeChange(object sender, RoutedEventArgs e)
+        //{
+        //    Settings.Instance.Visualization.CalibPointSize = (double)EditSliderCapibPointSize.Value;
+        //}
 
         #endregion
 
@@ -459,6 +484,8 @@ namespace GazeTrackerUI.SettingsUI
         }
 
         #endregion
+
+
 
 
         #region Visualization
@@ -670,7 +697,7 @@ namespace GazeTrackerUI.SettingsUI
         {
             if (TextBoxSettingsName.Text.Length < 1)
                 Settings.Instance.FileSettings.SettingsName = "Settings " + DateTime.Now.ToString("dddd dd MMMM",CultureInfo.CreateSpecificCulture("en-US"));
-
+            Console.WriteLine(" !!!!!!!!!!! SaveSettings()");
             Settings.Instance.WriteConfigFile();
 
             Visibility = Visibility.Collapsed;

@@ -32,3 +32,54 @@ E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\S
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.csproj.GenerateResource.Cache
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.exe
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerUI.exe.log4net
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\SequenceCapture.exe
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\SequenceCapture.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.csprojResolveAssemblyReference.cache
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\DummyCalibrationWindow.baml
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\Simple Styles.baml
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCaptureMainWindow.baml
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\App.baml
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\DummyCalibrationWindow.g.cs
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCaptureMainWindow.g.cs
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\App.g.cs
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture_MarkupCompile.cache
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.g.resources
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.Properties.Resources.resources
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.csproj.GenerateResource.Cache
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.exe
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerUI.exe.log4net
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\SequenceCapture.exe
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\SequenceCapture.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.csprojResolveAssemblyReference.cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\DummyCalibrationWindow.baml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\Simple Styles.baml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCaptureMainWindow.baml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\App.baml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\DummyCalibrationWindow.g.cs
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCaptureMainWindow.g.cs
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\App.g.cs
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture_MarkupCompile.cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.g.resources
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.Properties.Resources.resources
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.csproj.GenerateResource.Cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.exe
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackerUI.exe.log4net
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\SequenceCapture.exe
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\SequenceCapture.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.csprojResolveAssemblyReference.cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\DummyCalibrationWindow.baml
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\Simple Styles.baml
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCaptureMainWindow.baml
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\App.baml
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\DummyCalibrationWindow.g.cs
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCaptureMainWindow.g.cs
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\App.g.cs
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture_MarkupCompile.cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.g.resources
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.Properties.Resources.resources
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.csproj.GenerateResource.Cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.exe
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\SequenceCapture\obj\Debug\SequenceCapture.pdb

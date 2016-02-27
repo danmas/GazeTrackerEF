@@ -84,7 +84,7 @@
        				<TextBlock HorizontalAlignment="Center" Margin="0,0.02,0,2.02" Foreground="#FFCBCBCB" Text="quality" TextWrapping="Wrap" d:LayoutOverrides="Height"/>
        			</Grid>
 				-->
-       			<Label Content="Resolution: 00 x 00 px" Foreground="#FF828282" x:Name="LabelResolution" Margin="4,1,0,0" FontFamily="Segoe UI Light" VerticalAlignment="Top" FontSize="10.667" HorizontalAlignment="Left"/>
+       			<Label Content="Resolution: 00 x 00 px" Foreground="#FF828282" x:Name="LabelResolution" Margin="4,1,0,0" FontFamily="Segoe UI Light" VerticalAlignment="Top" FontSize="12.667" HorizontalAlignment="Left"/>
 			
 			
     </Grid>

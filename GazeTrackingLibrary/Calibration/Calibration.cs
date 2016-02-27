@@ -44,6 +44,8 @@ namespace GazeTrackingLibrary.Calibration
 
         #region Get/Set
 
+
+
         public CalibMethod CalibMethod
         {
             get { return calibMethod; }

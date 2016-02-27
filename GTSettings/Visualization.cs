@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Xml;
 using GTCommons.Enum;
+using System;
 
 namespace GTSettings
 {
@@ -41,6 +42,8 @@ namespace GTSettings
         private int pupilMinGray = 127;
         private Color pupilThresholdColor = Color.Red;
         private VideoModeEnum videoMode = VideoModeEnum.Normal;
+
+        private double calibPointSize = 100.0;
 
 
         //public enum ColorNames : int
@@ -297,6 +300,22 @@ namespace GTSettings
             }
         }
 
+
+        #endregion
+
+        #region AdditionCalibOptions
+
+        public double CalibPointSize
+        {
+            get { return calibPointSize; }
+            set
+            {
+                calibPointSize = value;
+                OnPropertyChanged("CalibPointSize");
+                Console.WriteLine("!!!!!!!!!!!!!! set CalibPointSize " + calibPointSize);
+            }
+        }
+
         #endregion
 
         #endregion // Properties
@@ -325,6 +344,8 @@ namespace GTSettings
             Settings.WriteElement(xmlWriter, "GlintCrossGray", GlintCrossGray.ToString());
             Settings.WriteElement(xmlWriter, "GlintMinGray", GlintMinGray.ToString());
             Settings.WriteElement(xmlWriter, "GlintMaxGray", GlintMaxGray.ToString());
+            //erv
+            Settings.WriteElement(xmlWriter, "CalibPointSize", CalibPointSize.ToString());
 
             xmlWriter.WriteEndElement();
         }
@@ -409,6 +430,12 @@ namespace GTSettings
                                 case "GlintMaxGray":
                                     GlintMaxGray = int.Parse(xmlReader.Value);
                                     break;
+                                //erv
+                                    System.Console.WriteLine("!!!!!!!!!!! Load CalibPointSize");
+                                case "CalibPointSize":
+                                    CalibPointSize = double.Parse(xmlReader.Value);
+                                    break;
+
                             }
                             break;
                     }

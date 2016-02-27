@@ -35,7 +35,7 @@ namespace GazeTrackerUI.CalibrationUI
         private SolidColorBrush _colorBackground;
         private SolidColorBrush _colorPoints;
         private double _deacceleration = 0.6;
-        private double _pointDuration = 1000;
+        private double _pointDuration = 100;
         private double _pointTransitionDuration = 1000;
         private bool _randomOrder = true;
         private bool calibrationCompleted;

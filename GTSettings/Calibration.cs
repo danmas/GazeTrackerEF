@@ -338,7 +338,10 @@ namespace GTSettings
             RandomizePointOrder = true;
             AutoAcceptPoints = true;
             WaitForValidData = true;
-            Acceleration = 6;
+
+            //erv Acceleration = 6;
+            Acceleration = 1;
+
             Deacceleration = 4;
             PointDiameter = 35;
         }

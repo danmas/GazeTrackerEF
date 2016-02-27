@@ -9,3 +9,17 @@ E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommons.dll.lastcod
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.csprojResolveAssemblyReference.cache
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.dll
 E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommons.dll
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommons.pdb
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.dll
+I:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommons.dll
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommons.pdb
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.csprojResolveAssemblyReference.cache
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.dll
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommons.dll
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\Debug\GTCommons.pdb
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.csprojResolveAssemblyReference.cache
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.dll
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.pdb

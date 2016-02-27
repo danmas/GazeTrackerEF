@@ -1,4 +1,6 @@
-﻿using System;
+
+//-- usings 
+using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
@@ -15,14 +17,16 @@ using GTCommons.Enum;
 using GTSettings;
 using GTCommons.Events;
 
-namespace GazeTrackerUI.CalibrationUI
+	//-- namespace GazeTrackerUI.CalibrationUI//-- 
+	namespace GazeTrackerUI.CalibrationUI
 {
-
-
-    public partial class CalibrationWindow : Window
+ 
+	//-- class CalibrationWindow
+	    public partial class CalibrationWindow : Window
     {
-
-        #region Variables
+ 
+	//-- #region Variables
+	        #region Variables
 
         private static CalibrationWindow instance;
         private readonly VisualGazePoint visualPoint;
@@ -30,13 +34,15 @@ namespace GazeTrackerUI.CalibrationUI
         public bool ExportCalibrationResults { get; set; }
 
         #endregion
-
-
-        #region Constructor
+ 
+	//-- конструктор CalibrationWindow
+	        #region Constructor
 
         public CalibrationWindow()
         {
-            //this.DataContext = TrackingScreen.TrackingScreenBounds;
+ 
+		//-- Инициализируем компоненты, выставляем размер экрана
+		            //this.DataContext = TrackingScreen.TrackingScreenBounds;
             InitializeComponent();
             visualPoint = new VisualGazePoint();
 
@@ -47,8 +53,9 @@ namespace GazeTrackerUI.CalibrationUI
             Height = TrackingScreen.TrackingScreenHeight;
 
             ExportCalibrationResults = false;
-
-            // Hide menues and stuff
+ 
+		//-- скрываем меню, настраиваем обработчики событий
+		            // Hide menues and stuff
             calibrationMenu.Visibility = Visibility.Collapsed;
             sharingUC.Visibility = Visibility.Collapsed;
 
@@ -62,16 +69,22 @@ namespace GazeTrackerUI.CalibrationUI
             sharingUC.OnDataSent += sharingUC_OnDataSent;
 
             KeyDown += Calibration_KeyDown;
-        }
+ 
+		//-- //--             
+		//-- //--         
+		        }
 
         #endregion
 
 
-        #region Public Start/Stop/Reset/Recalibrate
+	//-- Start()
+	       #region Public Start/Stop/Reset/Recalibrate
 
         public void Start()
         {
-            CanvasRoot.Width = Width; // Tracking screen width
+ 
+		//-- код
+		            CanvasRoot.Width = Width; // Tracking screen width
             CanvasRoot.Height = Height;
 
             // Partial calibration if not zero or not full screen, set active calibration area by applying margin to the control. 
@@ -127,10 +140,26 @@ namespace GazeTrackerUI.CalibrationUI
             calibrationControl.ColorPoints = Settings.Instance.Calibration.PointColor;
             calibrationControl.ColorBackground = Settings.Instance.Calibration.BackgroundColor;
             calibrationControl.PointDuration = Settings.Instance.Calibration.PointDuration;
+            Console.WriteLine("--- ERV --- calibrationControl.PointDuration=" + calibrationControl.PointDuration);
+            calibrationControl.PointDuration = 2000.0;
+
             calibrationControl.PointTransitionDuration = Settings.Instance.Calibration.PointTransitionDuration;
+            Console.WriteLine("--- ERV --- calibrationControl.PointTransitionDuration=" + calibrationControl.PointTransitionDuration);
+            calibrationControl.PointTransitionDuration = 2000.0;
+
             calibrationControl.PointDiameter = Settings.Instance.Calibration.PointDiameter;
+            //erv 
+            calibrationControl.PointDiameter = Settings.Instance.Visualization.CalibPointSize;
+            Console.WriteLine("--- ERV -- Start() PointDiameter = CalibPointSize" + calibrationControl.PointDiameter);
+
             calibrationControl.Acceleration = Settings.Instance.Calibration.Acceleration;
+            calibrationControl.Acceleration = 0.9;
+            Console.WriteLine("--- ERV --- calibrationControl.Acceleration=" + calibrationControl.Acceleration);
+
             calibrationControl.Deacceleration = Settings.Instance.Calibration.Deacceleration;
+            Console.WriteLine("--- ERV --- calibrationControl.Deacceleration=" + calibrationControl.Deacceleration);
+            calibrationControl.Deacceleration = 0.9;
+
             calibrationControl.UseInfantGraphics = Settings.Instance.Calibration.UseInfantGraphics;
 
 
@@ -144,9 +173,13 @@ namespace GazeTrackerUI.CalibrationUI
             this.BringIntoView();
             // Start calibration procedure
             calibrationControl.Start();
-        }
+ 
+		//-- //--         
+		        }
 
-        public void Stop()
+
+	//-- код
+	        public void Stop()
         {
             calibrationControl.Stop();
         }
@@ -474,6 +507,15 @@ namespace GazeTrackerUI.CalibrationUI
         public GTGazeData GazeDataRaw { get; set; }
 
         #endregion
+ 
+	//-- class
+	}
+ 
+	//-- namespace 
+	} 
+	//-- 
+            
+	
+// конец файла
 
-    }
-}
+ 

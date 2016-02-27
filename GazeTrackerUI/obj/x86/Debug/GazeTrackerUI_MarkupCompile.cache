@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerUI\obj\x86\Debug\
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerUI\obj\x86\Debug\
 GazeTrackerUI
 none
 false
 TRACE;DEBUG
-E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerUI\App.xaml
+D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GazeTrackerUI\App.xaml
 27-1339849218
 1-1552839074
 38181208709
-24-886084196
+241755506850
 Calibration\VisualGazePoint.xaml;Calibration\CalibrationMenuUC.xaml;Calibration\CalibrationWindow.xaml;Calibration\CalibrationControl.xaml;Calibration\CalibrationFeedbackPoint.xaml;Calibration\CalibrationPoint.xaml;Calibration\SharingControlUC.xaml;MenubarIconsUserControl.xaml;MessageWindow.xaml;Settings\CameraIconUC.xaml;Settings\ComponentPlacingWindow.xaml;Settings\IlluminationEllipseUC.xaml;Settings\SettingsWindow.xaml;Style\style_editslider.xaml;Style\Simple Styles.xaml;Style\style_datagrid.xaml;Style\style_iphone.xaml;Style\style_iphonesmall.xaml;Style\style_tabcontrol.xaml;Tools\ColorPickerUserControl.xaml;Tools\CrosshairDriver.xaml;TrackerViewer\PerformanceCountersUC.xaml;TrackerViewer\TrackBoxUC.xaml;TrackerViewer\VideoImageControl.xaml;GazeTrackerUIMainWindow.xaml;TrackerViewer\VideoImageOverlay.xaml;TrackerViewer\VideoViewer.xaml;
 
 False

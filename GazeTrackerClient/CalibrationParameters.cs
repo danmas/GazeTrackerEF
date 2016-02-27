@@ -17,6 +17,7 @@ namespace GazeTrackerClient
 
         private SolidColorBrush backgroundColor = new SolidColorBrush(Colors.DarkGray);
         private int numberOfPoints = 9;
+        //private int numberOfPoints = 2;
         private SolidColorBrush pointColor = new SolidColorBrush(Colors.White);
         private bool randomizeOrder = true;
         private double speed = 1;

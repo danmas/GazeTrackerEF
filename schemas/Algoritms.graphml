@@ -448,24 +448,6 @@ END;
       </data>
     </node>
     <node id="n14">
-      <data key="d4"/>
-      <data key="d6">
-        <y:UMLNoteNode>
-          <y:Geometry height="118.13928682812343" width="275.44397040766046" x="244.25176877214597" y="387.5367580968583"/>
-          <y:Fill color="#FFFFFF" transparent="false"/>
-          <y:BorderStyle color="#C0C0C0" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="86.5" modelName="custom" textColor="#000000" visible="true" width="275.44397040766046" x="0.0" y="15.819643414061716">base должен быть!!!
-E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:UMLNoteNode>
-      </data>
-    </node>
-    <node id="n15">
       <data key="d4"><![CDATA[NATIVE_CODE]]></data>
       <data key="d5"><![CDATA[namespace GazeTrackingLibrary.Detection.Eye
 {
@@ -484,12 +466,11 @@ E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\<y:LabelModel>
           </y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="4"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n16">
+    <node id="n15">
       <data key="d4"><![CDATA[NATIVE_CODE]]></data>
       <data key="d5"><![CDATA[}]]></data>
       <data key="d6">
@@ -506,12 +487,11 @@ E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\<y:LabelModel>
           </y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="2"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n17">
+    <node id="n16">
       <data key="d4"><![CDATA[PROC_BEG]]></data>
       <data key="d5"><![CDATA[
 --------------------------------------------------------------------------------
@@ -544,7 +524,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n18">
+    <node id="n17">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[		  l_sql varchar2(4000) :='';
       l_str varchar2(4000) :='';
@@ -573,7 +553,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n19">
+    <node id="n18">
       <data key="d4"><![CDATA[SH_END]]></data>
       <data key="d5"><![CDATA[END;
 ]]></data>
@@ -586,7 +566,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n20">
+    <node id="n19">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[    for i in 1 .. p_fn_sv.count loop
       if(p_fn_sv(i).str_value is not null) then
@@ -617,7 +597,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n21">
+    <node id="n20">
       <data key="d4"><![CDATA[FOR_BEG]]></data>
       <data key="d5"><![CDATA[  for rec in (select id_check_func, func_name, proc_or_func 
     from crc_check_functions 
@@ -641,7 +621,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n22">
+    <node id="n21">
       <data key="d4"><![CDATA[FOR_BEG]]></data>
       <data key="d5"><![CDATA[    for rec2 in (select param_name, data_field_name 
       from crc_check_func_params where id_check_func = rec.id_check_func)
@@ -662,7 +642,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n23">
+    <node id="n22">
       <data key="d4"><![CDATA[FOR_END]]></data>
       <data key="d5"><![CDATA[end loop; --по активным проверочным фнкциям ]]></data>
       <data key="d6">
@@ -680,7 +660,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n24">
+    <node id="n23">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[l_param_str := null;]]></data>
       <data key="d6">
@@ -692,7 +672,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n25">
+    <node id="n24">
       <data key="d4"><![CDATA[IF]]></data>
       <data key="d5"><![CDATA[rec2.data_field_name is not null]]></data>
       <data key="d6">
@@ -704,14 +684,14 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n26">
+    <node id="n25">
       <data key="d4"><![CDATA[EI]]></data>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="8.01812872948328" width="8.486003978115491" x="180.1346173915714" y="1961.5266550249535"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890578023" y="2.009064364741562">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890577455" y="2.009064364741562">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -722,7 +702,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n27">
+    <node id="n26">
       <data key="d4"><![CDATA[FOR_BEG]]></data>
       <data key="d5"><![CDATA[        for i in 1 .. p_fn_sv.count loop
 
@@ -742,7 +722,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n28">
+    <node id="n27">
       <data key="d4"><![CDATA[FOR_END]]></data>
       <data key="d5"><![CDATA[end loop; --по входным данным]]></data>
       <data key="d6">
@@ -760,7 +740,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n29">
+    <node id="n28">
       <data key="d4"><![CDATA[IF]]></data>
       <data key="d5"><![CDATA[UPPER(rec2.data_field_name ) = UPPER(p_fn_sv(i).field_name)]]></data>
       <data key="d6">
@@ -772,14 +752,14 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n30">
+    <node id="n29">
       <data key="d4"><![CDATA[EI]]></data>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="8.01812872948328" width="8.486003978115491" x="180.1346173915714" y="1887.7431257112485"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890578023" y="2.009064364741562">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890577455" y="2.009064364741562">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -790,7 +770,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n31">
+    <node id="n30">
       <data key="d4"><![CDATA[IF]]></data>
       <data key="d5"><![CDATA[l_param_str is null]]></data>
       <data key="d6">
@@ -802,14 +782,14 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n32">
+    <node id="n31">
       <data key="d4"><![CDATA[EI]]></data>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="8.01812872948328" width="8.486003978115491" x="180.1346173915714" y="1865.5025634232543"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890578023" y="2.009064364741562">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890577455" y="2.009064364741562">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -820,7 +800,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n33">
+    <node id="n32">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[l_param_str := rec2.param_name||'=>'''||NVL(p_fn_sv(i).str_value||'''','NULL');  ]]></data>
       <data key="d6">
@@ -832,7 +812,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n34">
+    <node id="n33">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[l_param_str := l_param_str||','||rec2.param_name||'=>'''||NVL(p_fn_sv(i).str_value||'''','NULL');  ]]></data>
       <data key="d6">
@@ -844,7 +824,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n35">
+    <node id="n34">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[    if(l_param_str is not null) then
       l_param_str := '('||l_param_str||')';
@@ -861,7 +841,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n36">
+    <node id="n35">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[    l_check := rec.func_name||l_param_str;
 ]]></data>
@@ -874,7 +854,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n37">
+    <node id="n36">
       <data key="d4"><![CDATA[IF]]></data>
       <data key="d5"><![CDATA[rec.proc_or_func is null or rec.proc_or_func = 'F']]></data>
       <data key="d6">
@@ -882,18 +862,18 @@ do_check_procedures<y:LabelModel>
           <y:Geometry height="42.09777217810051" width="199.1272217707101" x="84.81400849527347" y="2167.5885466109476"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="199.1272217707101" x="0.0" y="10.502011089050256">тип не указан или функция? </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="199.1272217707101" x="0.0" y="10.50201108905003">тип не указан или функция? </y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n38">
+    <node id="n37">
       <data key="d4"><![CDATA[EI]]></data>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="8.01812872948328" width="8.486003978115491" x="180.1346173915714" y="2280.3624286907525"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890578023" y="2.009064364741562">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890577455" y="2.009064364741789">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -904,7 +884,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n39">
+    <node id="n38">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[        l_sql := 'select '||l_check||' into :l_ret from dual';
         -- crc_logger.writeDebugDetail(' --- sql: '|| l_sql,'line:' || $$plsql_line||' program:'|| $$plsql_unit); 
@@ -919,7 +899,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n40">
+    <node id="n39">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[        l_sql := 'begin '||l_check||'; end;';
        -- crc_logger.writeDebugDetail(' --- sql: '|| l_sql,'line:' || $$plsql_line||' program:'|| $$plsql_unit); 
@@ -935,7 +915,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n41">
+    <node id="n40">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[begin]]></data>
       <data key="d6">
@@ -953,7 +933,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n42">
+    <node id="n41">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[    end;
 ]]></data>
@@ -972,7 +952,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n43">
+    <node id="n42">
       <data key="d4"><![CDATA[IF]]></data>
       <data key="d5"><![CDATA[l_ret < 0]]></data>
       <data key="d6">
@@ -980,18 +960,18 @@ do_check_procedures<y:LabelModel>
           <y:Geometry height="42.09777217810051" width="199.1272217707101" x="84.81400849527347" y="2455.7968428727577"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="199.1272217707101" x="0.0" y="10.50201108905003">вернулась ошибка? </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="199.1272217707101" x="0.0" y="10.502011089050484">вернулась ошибка? </y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n44">
+    <node id="n43">
       <data key="d4"><![CDATA[EI]]></data>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="8.01812872948328" width="8.486003978115491" x="180.1346173915714" y="2623.4466143852533"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890578023" y="2.009064364741789">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890577455" y="2.009064364741789">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1002,7 +982,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n45">
+    <node id="n44">
       <data key="d4"><![CDATA[OUTPUT]]></data>
       <data key="d5"><![CDATA[      crc_logger.writeDebugDetail('Проверка '||l_check||' выполнена.','line:' || $$plsql_line||' program:'|| $$plsql_unit); 
 ]]></data>
@@ -1021,7 +1001,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n46">
+    <node id="n45">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[l_msg_str := ]]></data>
       <data key="d6">
@@ -1029,7 +1009,26 @@ do_check_procedures<y:LabelModel>
           <y:Geometry height="21.048886089050256" width="170.0" x="99.37761938062852" y="1289.4560693666008"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="175.12890625" x="-2.564453125" y="1.1738571070251282">формируем строку сообщения<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="175.12890625" x="-2.564453125" y="1.1738571070250146">формируем строку сообщения<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n46">
+      <data key="d4"><![CDATA[ACTION]]></data>
+      <data key="d5"><![CDATA[   'Выполнение процедур проверок. Параметры:'||CHR(13)||l_msg_param_str;
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="22.781123654331395" width="170.0" x="99.37761938062852" y="1310.5049554556508"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.781123654331395" modelName="custom" textColor="#000000" visible="true" width="170.0" x="0.0" y="-2.2737367544323206E-13">ключ, операция, список параметров<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1040,25 +1039,6 @@ do_check_procedures<y:LabelModel>
       </data>
     </node>
     <node id="n47">
-      <data key="d4"><![CDATA[ACTION]]></data>
-      <data key="d5"><![CDATA[   'Выполнение процедур проверок. Параметры:'||CHR(13)||l_msg_param_str;
-]]></data>
-      <data key="d6">
-        <y:GenericNode configuration="com.yworks.flowchart.process">
-          <y:Geometry height="22.781123654331395" width="170.0" x="99.37761938062852" y="1310.5049554556508"/>
-          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
-          <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.781123654331395" modelName="custom" textColor="#000000" visible="true" width="170.0" x="0.0" y="0.0">ключ, операция, список параметров<y:LabelModel>
-              <y:SmartNodeLabelModel distance="4.0"/>
-            </y:LabelModel>
-            <y:ModelParameter>
-              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-            </y:ModelParameter>
-          </y:NodeLabel>
-        </y:GenericNode>
-      </data>
-    </node>
-    <node id="n48">
       <data key="d4"><![CDATA[OUTPUT]]></data>
       <data key="d5"><![CDATA[    crc_logger.writeDebugDetail(l_msg_str,'line:' || $$plsql_line||' program:'|| $$plsql_unit);
 ]]></data>
@@ -1077,7 +1057,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n49">
+    <node id="n48">
       <data key="d4"><![CDATA[FOR_END]]></data>
       <data key="d5"><![CDATA[end loop; --по параметрам  ]]></data>
       <data key="d6">
@@ -1095,13 +1075,13 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n50">
+    <node id="n49">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.bpmn.Event.withShadow">
           <y:Geometry height="30.0" width="30.0" x="274.8760917572996" y="1017.7265949032143"/>
           <y:Fill color="#FFFFFFE6" color2="#FF0000" transparent="false"/>
           <y:BorderStyle color="#27AE27" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="13.0" y="34.0">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="13.0" y="34.000000000000114">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1119,7 +1099,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n51">
+    <node id="n50">
       <data key="d4"><![CDATA[OUTPUT]]></data>
       <data key="d5"><![CDATA[      l_str := 'Не выполнена проверка: '|| l_check||CHR(13) ||l_msg_str;
       crc_logger.writeErrorDetail(l_str,'line:' || $$plsql_line||' program:'|| $$plsql_unit); 
@@ -1140,7 +1120,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n52">
+    <node id="n51">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[      exception when others then]]></data>
       <data key="d6">
@@ -1158,7 +1138,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n53">
+    <node id="n52">
       <data key="d4"><![CDATA[OUTPUT]]></data>
       <data key="d5"><![CDATA[      l_str :=  crc_constants.getMsg(crc_constants.crc_err_call_check_func)||' '|| l_check||CHR(13) ||l_msg_str ||CHR(13) ||DBMS_UTILITY.FORMAT_ERROR_STACK();
       crc_logger.writeErrorDetail(l_str,'line:' || $$plsql_line||' program:'|| $$plsql_unit); 
@@ -1179,7 +1159,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n54">
+    <node id="n53">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[      RAISE_APPLICATION_ERROR
         (
@@ -1195,7 +1175,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n55">
+    <node id="n54">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[      RAISE_APPLICATION_ERROR
         (
@@ -1211,7 +1191,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n56">
+    <node id="n55">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[   select d.base_table_name, d.result_table_name, d.mat_view_name
       into l_base_table_name,l_result_table_name, l_mat_view_name
@@ -1233,7 +1213,7 @@ do_check_procedures<y:LabelModel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n57">
+    <node id="n56">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[
 BEGIN]]></data>
@@ -1252,7 +1232,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n58">
+    <node id="n57">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[      exception when others then]]></data>
       <data key="d6">
@@ -1270,7 +1250,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n59">
+    <node id="n58">
       <data key="d6">
         <y:GenericNode configuration="com.yworks.bpmn.Event.withShadow">
           <y:Geometry height="30.0" width="30.0" x="281.1403262391092" y="2868.489248253587"/>
@@ -1294,7 +1274,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n60">
+    <node id="n59">
       <data key="d4"><![CDATA[OUTPUT]]></data>
       <data key="d5"><![CDATA[      l_str :=  crc_constants.getMsg(crc_constants.crc_err_internal_error)||CHR(13) ||SQLERRM||CHR(13) ||DBMS_UTILITY.FORMAT_ERROR_STACK() ||CHR(13) || 'line:' || $$plsql_line||' program:'|| $$plsql_unit;
       crc_logger.writeErrorDetail(l_str,'line:' || $$plsql_line||' program:'|| $$plsql_unit); 
@@ -1315,7 +1295,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n61">
+    <node id="n60">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[      RAISE_APPLICATION_ERROR
         (
@@ -1331,7 +1311,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n62">
+    <node id="n61">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[  return 1;	
 
@@ -1345,7 +1325,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n63">
+    <node id="n62">
       <data key="d4"><![CDATA[IF]]></data>
       <data key="d5"><![CDATA[SQLCODE <= -20000 and SQLCODE > -20100]]></data>
       <data key="d6">
@@ -1353,18 +1333,18 @@ BEGIN]]></data>
           <y:Geometry height="42.09777217810051" width="199.1272217707101" x="84.81400849527529" y="2775.0356936388066"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="199.1272217707101" x="0.0" y="2.955136089050029">Исключение из системы корректировок?  </y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="199.1272217707101" x="0.0" y="2.955136089050484">Исключение из системы корректировок?  </y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n64">
+    <node id="n63">
       <data key="d4"><![CDATA[EI]]></data>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.flowchart.start2">
           <y:Geometry height="8.01812872948328" width="8.486003978115491" x="180.13461739157322" y="2924.4915361278286"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890578023" y="2.009064364741789">
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="2.2430019890577455" y="2.009064364741789">
             <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1375,7 +1355,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n65">
+    <node id="n64">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[      RAISE_APPLICATION_ERROR
         (
@@ -1391,7 +1371,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n66">
+    <node id="n65">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[null;
 ]]></data>
@@ -1400,7 +1380,7 @@ BEGIN]]></data>
           <y:Geometry height="22.781123654331623" width="114.99326455113214" x="338.21961027733016" y="2513.4051297279057"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="70.50390625" x="22.24467915056607" y="2.0399758896660387">пустой блок<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="70.50390625" x="22.24467915056607" y="2.039975889665584">пустой блок<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1410,7 +1390,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n67">
+    <node id="n66">
       <data key="d4"><![CDATA[NATIVE_CODE]]></data>
       <data key="d5"><![CDATA[public class Eyetracker
     {
@@ -1429,12 +1409,11 @@ BEGIN]]></data>
           </y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="4"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n68">
+    <node id="n67">
       <data key="d4"><![CDATA[NATIVE_CODE]]></data>
       <data key="d5"><![CDATA[}
 ]]></data>
@@ -1452,12 +1431,11 @@ BEGIN]]></data>
           </y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="2"/>
-            <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n69">
+    <node id="n68">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[        #region Fields
 
@@ -1489,7 +1467,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n70">
+    <node id="n69">
       <data key="d4"><![CDATA[ACTION]]></data>
       <data key="d5"><![CDATA[        #region Variables
 
@@ -1515,7 +1493,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n71">
+    <node id="n70">
       <data key="d4"><![CDATA[NATIVE_CODE]]></data>
       <data key="d5"><![CDATA[        #region Events
 
@@ -1705,7 +1683,7 @@ BEGIN]]></data>
         </y:GenericNode>
       </data>
     </node>
-    <node id="n72">
+    <node id="n71">
       <data key="d4"><![CDATA[START_ACTS]]></data>
       <data key="d6">
         <y:SVGNode>
@@ -1726,7 +1704,7 @@ BEGIN]]></data>
         </y:SVGNode>
       </data>
     </node>
-    <node id="n73">
+    <node id="n72">
       <data key="d4"><![CDATA[DG_BEG]]></data>
       <data key="d6">
         <y:SVGNode>
@@ -1734,6 +1712,841 @@ BEGIN]]></data>
           <y:Fill color="#CCCCFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
           <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="143.91015625" x="-43.67499923706055" y="68.53585815429688">Генерация EyeTracker.cs<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n73">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLNoteNode>
+          <y:Geometry height="118.13928682812343" width="225.84397040766044" x="1835.822929218497" y="19.383645422069094"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#C0C0C0" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" modelName="custom" textColor="#000000" visible="true" width="225.84397040766044" x="0.0" y="25.882143414061716">Генерация CalibrationWindow.xaml.cs
+<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:UMLNoteNode>
+      </data>
+    </node>
+    <node id="n74">
+      <data key="d4"><![CDATA[DG_BEG]]></data>
+      <data key="d5"><![CDATA[CODE_JAVA]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="64.53585815429688" width="56.560157775878906" x="1676.6721253943342" y="46.185359758981576"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="211.275390625" x="-77.35761642456055" y="68.53585815429688">Генерация CalibrationWindow.xaml.cs<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:SVGNodeProperties usingVisualBounds="true"/>
+          <y:SVGModel svgBoundsPolicy="0">
+            <y:SVGContent refid="1"/>
+          </y:SVGModel>
+        </y:SVGNode>
+      </data>
+    </node>
+    <node id="n75">
+      <data key="d4"><![CDATA[SI_BEG]]></data>
+      <data key="d5"><![CDATA[using System;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Threading;
+using GazeTrackerUI.Tools;
+using GazeTrackingLibrary;
+using GazeTrackingLibrary.Logging;
+using GazeTrackingLibrary.Utils;
+using GTCommons;
+using System.IO;
+using GTCommons.Enum;
+using GTSettings;
+using GTCommons.Events;
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.internalStorage">
+          <y:Geometry height="55.804717792552765" width="167.39241346185827" x="1621.255997551345" y="162.57737154255028"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="42.021484375" x="62.685464543429134" y="18.551772958776382">usings <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n76">
+      <data key="d4"><![CDATA[WR_RES_FILE]]></data>
+      <data key="d5"><![CDATA[GazeTrackerUI\Calibration\CalibrationWindow.xaml.cs]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.dataBase">
+          <y:Geometry height="64.53585815429688" width="148.682197954262" x="1832.2529423046853" y="153.84623118080617"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" modelName="custom" textColor="#000000" visible="true" width="148.682197954262" x="0.0" y="-0.9195709228515625">Записать в файл GazeTrackerUI\Calibration\CalibrationWindow.xaml.cs<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n77">
+      <data key="d4"><![CDATA[PROC_BEG]]></data>
+      <data key="d5"><![CDATA[        #region Constructor
+
+        public CalibrationWindow()
+        {
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="40.0" width="200.0" x="1945.8632068870145" y="414.840552056943"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="5.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="200.0" x="0.0" y="0.0">конструктор CalibrationWindow<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n78">
+      <data key="d4"><![CDATA[ACTION]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="166.7513148999774" x="1962.4875494370258" y="653.4042548578919"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="0.0">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n79">
+      <data key="d4"><![CDATA[SH_END]]></data>
+      <data key="d5"><![CDATA[        }
+
+        #endregion
+
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="29.91754988212216" width="31.607385478285096" x="2030.0595141478723" y="801.3928413513772"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="5.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389487"/>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n80">
+      <data key="d4"><![CDATA[SI_END]]></data>
+      <data key="d5"><![CDATA[
+// конец файла
+
+]]></data>
+      <data key="d6">
+        <y:ShapeNode>
+          <y:Geometry height="40.0" width="50.0" x="3168.449582175376" y="531.7230611573302"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="23.0" y="18.0">
+            <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:Shape type="triangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n81">
+      <data key="d4"><![CDATA[NATIVE_CODE]]></data>
+      <data key="d5"><![CDATA[namespace GazeTrackerUI.CalibrationUI
+{
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.annotation">
+          <y:Geometry height="599.3064645510758" width="69.0163836393408" x="1788.6484110132033" y="254.61404065720671"/>
+          <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="599.3064645510758" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="0.0" y="0.0">namespace GazeTrackerUI.CalibrationUI
+<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="4"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n82">
+      <data key="d4"><![CDATA[NATIVE_CODE]]></data>
+      <data key="d5"><![CDATA[}]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.annotation">
+          <y:Geometry height="594.218041000247" width="69.0163836393408" x="3069.433198536035" y="254.61404065720671"/>
+          <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="594.218041000247" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="0.0" y="0.0">namespace <y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="2"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n83">
+      <data key="d4"><![CDATA[NATIVE_CODE]]></data>
+      <data key="d5"><![CDATA[    public partial class CalibrationWindow : Window
+    {
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.annotation">
+          <y:Geometry height="209.43544653068696" width="62.0163836393408" x="1876.414794652544" y="259.7024642080355"/>
+          <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="62.0163836393408" x="0.0" y="-2.8421709430404007E-14">class CalibrationWindow<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="4"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n84">
+      <data key="d4"><![CDATA[NATIVE_CODE]]></data>
+      <data key="d5"><![CDATA[}
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.annotation">
+          <y:Geometry height="209.43544653068696" width="69.0163836393408" x="2985.4168148966946" y="254.61404065720671"/>
+          <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="0.0" y="-2.8421709430404007E-14">class<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Byte" name="com.yworks.flowchart.style.orientation" value="2"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n85">
+      <data key="d4"><![CDATA[ACTION]]></data>
+      <data key="d5"><![CDATA[        #region Variables
+
+        private static CalibrationWindow instance;
+        private readonly VisualGazePoint visualPoint;
+        private double margin = 100;
+        public bool ExportCalibrationResults { get; set; }
+
+        #endregion
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="30.0" width="166.7513148999774" x="1962.487549437025" y="364.65544704420734"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.679368387488694" y="5.6494140625">#region Variables<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n86">
+      <data key="d4"><![CDATA[NATIVE_CODE]]></data>
+      <data key="d5"><![CDATA[        public void Stop()
+        {
+            calibrationControl.Stop();
+        }
+
+        public void Reset()
+        {
+            instance = new CalibrationWindow();
+        }
+
+        public void Recalibrate()
+        {
+            calibrationControl.CanvasCalibration.Background = calibrationControl.ColorBackground;
+            calibrationMenu.Visibility = Visibility.Collapsed;
+            calibrationControl.Reset();
+            calibrationControl.Start();
+        }
+
+        #endregion
+
+
+        #region OnEvents
+
+        #region OnEvents from CalibrationControl / Tracker
+
+        private void calibrationControl_Start(object sender, RoutedEventArgs e)
+        {
+            // Notify tracker that calibration starts
+            Tracker.Instance.CalibrationStart();
+        }
+
+        private void calibrationControl_PointStart(object sender, RoutedEventArgs e)
+        {
+            var control = sender as CalibrationControl;
+            // Notify tracker that a point is displayed (start sampling)
+
+            if (control != null)
+                Tracker.Instance.CalibrationPointStart(control.CurrentPoint.Number, calibrationControl.AdjustPointFromPartialCalibration(calibrationControl.CurrentPoint.Point)); // Convert point to absolute screen pos.
+        }
+
+        private void calibrationControl_PointEnd(object sender, RoutedEventArgs e)
+        {
+            var control = sender as CalibrationControl;
+
+            //// Notify tracker that a point has been displayed (stop sampling)
+            if (control == null) return;
+
+            Tracker.Instance.CalibrationPointEnd();
+
+            if (!control.IsRecalibratingPoint) return;
+
+            calibrationControl_End(null, null);
+            control.IsRecalibratingPoint = false;
+        }
+
+        private void calibrationControl_End(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                // Notify tracker that calibration has ended, it will raise an event when calculations are done
+                Tracker.Instance.OnCalibrationComplete += Tracker_OnCalibrationCompleted;
+                Tracker.Instance.CalibrationEnd();
+            }
+            catch (Exception ex)
+            {
+                ErrorLogger.ProcessException(ex, false);
+            }
+        }
+
+        private void Tracker_OnCalibrationCompleted(object sender, EventArgs e)
+        {
+            //if (!tracker.Calibration.IsCalibrated)
+            //{
+            //    MessageWindow msgWin = new MessageWindow();
+            //    msgWin.Text = "Calibration unsuccessful. Not enough images could be captured during the calibration. Try to calibrate again.";
+            //    msgWin.Show();
+            //    msgWin.Closed += new EventHandler(errorMsgWin_Closed);
+            //    return;
+            //}
+
+            if (calibrationMenu.CheckBoxVisualFeedback.IsChecked.Value)
+                visualPoint.Visibility = Visibility.Visible;
+
+            // Unregister event
+            Tracker.Instance.OnCalibrationComplete -= Tracker_OnCalibrationCompleted;
+
+            // Draw feedback on calibration points and the tracker.calibrationTargets overlaid
+            BitmapSource calibrationResult =
+                calibrationControl.VisualizeCalibrationResults(Tracker.Instance.Calibration.CalibMethod.CalibrationTargets);
+
+            // Generate indicator of calibration quality (1-5 star)
+            calibrationMenu.GenerateQualityIndicator(Tracker.Instance.Calibration.CalibMethod.Degrees);
+            calibrationMenu.SetAccuracy(
+                Tracker.Instance.Calibration.CalibMethod.DegreesLeft,
+                Tracker.Instance.Calibration.CalibMethod.DegreesRight);
+
+            if (ExportCalibrationResults)
+            {
+                // Send event
+                GTCommands.Instance.Calibration.ExportResults(calibrationResult, calibrationMenu.ratingCalibrationQuality.RatingValue);
+            }
+            else
+            {
+                // Show menu to accept or recalibrate
+                calibrationMenu.Visibility = Visibility.Visible;
+
+                if (calibrationMenu.CheckBoxVisualFeedback.IsChecked.Value)
+                {
+                    CanvasRoot.Children.Remove(visualPoint);
+                    ToggleCrosshair(null, null);
+                }
+            }
+        }
+
+        #endregion
+
+
+        #region Events - StopOnEscape or ErrorMsgWin Close
+
+        private void Calibration_KeyDown(object sender, KeyEventArgs e)
+        {
+            // Exit on Escape-key
+            if (e.Key.Equals(Key.Escape))
+            {
+                calibrationControl.Stop();
+                Tracker.Instance.CalibrationAbort();
+                Close();
+
+            }
+        }
+
+        private void errorMsgWin_Closed(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        #endregion
+
+
+        #region Calibration menu events (accept/redo/share)
+
+        private void RedoCalibration(object sender, RoutedEventArgs e)
+        {
+            visualPoint.Visibility = Visibility.Collapsed;
+            Recalibrate();
+        }
+
+        private void AcceptCalibration(object sender, RoutedEventArgs e)
+        {
+            // Hide UI
+            calibrationMenu.Visibility = Visibility.Collapsed;
+            this.visualPoint.Visibility = Visibility.Collapsed;
+
+            // Grab screenshot
+            string savePath =
+                GTPath.GetLocalApplicationDataPath()
+                + Path.DirectorySeparatorChar
+                + "Calibration"
+                + Path.DirectorySeparatorChar
+                + Tracker.Instance.Calibration.ID
+                + Path.DirectorySeparatorChar
+                + "calibrationScreen.png";
+            SaveImage(savePath, CanvasRoot.GetScreenShot(1));
+
+            // Dump Instance settings into the calibration folder
+            FileInfo fileSettings = new FileInfo(Settings.Instance.FileSettings.SettingsDirectory + Settings.Instance.GetLatestConfigurationFile());
+
+            try
+            {
+                File.Copy(fileSettings.FullName, Tracker.Instance.Calibration.DataFolder + "\\" + fileSettings.Name);
+            }
+            catch (Exception ex)
+            {
+                Console.Out.WriteLine("Error dumping calibration data in CalibrationWindow.AcceptCalibration(), message: " + ex.Message);
+            }
+
+            // Trigger global calibration accept (will hide this)
+            GTCommands.Instance.Calibration.Accept();
+        }
+
+        private void ShareData(object sender, RoutedEventArgs e)
+        {
+            calibrationMenu.Visibility = Visibility.Collapsed;
+            sharingUC.SendData(Tracker.Instance, CanvasRoot.GetScreenShot(1));
+            sharingUC.Visibility = Visibility.Visible;
+        }
+
+        private static void SaveImage(string file, BitmapSource bmpScr)
+        {
+            if (file == "") return;
+
+            try
+            {
+                FileStream fileStream = new FileStream(file, FileMode.Create);
+
+                JpegBitmapEncoder encoder = new JpegBitmapEncoder();
+                encoder.Frames.Add(BitmapFrame.Create(bmpScr));
+                encoder.QualityLevel = 100;
+                encoder.Save(fileStream);
+                fileStream.Close();
+                fileStream.Dispose();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.Message);
+            }
+        }
+        private void sharingUC_OnDataSent(object sender, RoutedEventArgs e)
+        {
+            sharingUC.Visibility = Visibility.Collapsed;
+            calibrationMenu.Visibility = Visibility.Visible;
+        }
+
+        #endregion
+
+
+        #endregion
+
+
+        #region Crosshair - Visual feedback on gaze position
+
+        private void ToggleCrosshair(object sender, RoutedEventArgs e)
+        {
+            if (calibrationMenu.CheckBoxVisualFeedback.IsChecked.Value)
+            {
+                RegisterForGazeDataEvent();
+
+                // Add crosshair (visual feedback indicator) to canvas
+                CanvasRoot.Children.Add(visualPoint);
+
+                Canvas.SetTop(visualPoint, 0);
+                Canvas.SetLeft(visualPoint, 0);
+                Panel.SetZIndex(visualPoint, 3);
+            }
+            else
+            {
+                UnregisterForGazeDataEvent();
+                CanvasRoot.Children.Remove(visualPoint);
+            }
+        }
+
+        private void ToggleSmoothing(object sender, RoutedEventArgs e)
+        {
+            if (calibrationMenu.CheckBoxSmooth.IsChecked.Value)
+                Settings.Instance.Processing.EyeMouseSmooth = true;
+            else
+                Settings.Instance.Processing.EyeMouseSmooth = false;
+
+            UnregisterForGazeDataEvent();
+            RegisterForGazeDataEvent();
+        }
+
+        private void AccuracyParamsChange(object sender, RoutedEventArgs e)
+        {
+            if (calibrationMenu.DistanceFromScreen != Settings.Instance.Calibration.DistanceFromScreen)
+            {
+                Settings.Instance.Calibration.DistanceFromScreen = calibrationMenu.DistanceFromScreen;
+                double left = Tracker.Instance.Calibration.CalibMethod.CalculateDegreesLeft();  // recalculate
+                double right = Tracker.Instance.Calibration.CalibMethod.CalculateDegreesRight(); // recalculate
+                calibrationMenu.SetAccuracy(left, right);
+            }
+        }
+
+
+        private void RegisterForGazeDataEvent()
+        {
+            if (Settings.Instance.Processing.EyeMouseSmooth)
+                Tracker.Instance.GazeDataSmoothed.GazeDataChanged += GazeDataRaw_OnNewGazeData;
+            else
+                Tracker.Instance.GazeDataRaw.GazeDataChanged += GazeDataRaw_OnNewGazeData;
+        }
+
+        private void UnregisterForGazeDataEvent()
+        {
+            try
+            {
+                Tracker.Instance.GazeDataSmoothed.GazeDataChanged -= GazeDataRaw_OnNewGazeData;
+                Tracker.Instance.GazeDataRaw.GazeDataChanged -= GazeDataRaw_OnNewGazeData;
+            }
+            catch (Exception ex)
+            {
+            }
+        }
+
+        private void GazeDataRaw_OnNewGazeData(double x, double y)
+        {
+            // On new data move the cross-hair
+            CanvasRoot.Dispatcher.BeginInvoke
+                (
+                    DispatcherPriority.Normal,
+                    new Action
+                        (
+                        delegate
+                        {
+                            if (x < 0 || y < 0) return;
+                            Canvas.SetTop(visualPoint, y - visualPoint.Height / 2);
+                            Canvas.SetLeft(visualPoint, x - visualPoint.Width / 2);
+                        }
+                        )
+                );
+        }
+
+        #endregion
+
+
+        #region Set/Get
+
+        public static CalibrationWindow Instance
+        {
+            get
+            {
+                if (instance == null)
+                {
+                    instance = new CalibrationWindow();
+                }
+
+                return instance;
+            }
+        }
+
+        public CalibrationPoint CurrentPoint
+        {
+            get { return calibrationControl.CurrentPoint; }
+        }
+
+        public GTGazeData GazeDataRaw { get; set; }
+
+        #endregion
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.document">
+          <y:Geometry height="100.0" width="100.0" x="2817.7744004634096" y="402.0939743047426"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="100.0" x="0.0" y="39.453125">код</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n87">
+      <data key="d4"><![CDATA[ACTION]]></data>
+      <data key="d5"><![CDATA[            //this.DataContext = TrackingScreen.TrackingScreenBounds;
+            InitializeComponent();
+            visualPoint = new VisualGazePoint();
+
+            // Get tracking-screen size
+            Left = TrackingScreen.TrackingScreenLeft;
+            Top = TrackingScreen.TrackingScreenTop;
+            Width = TrackingScreen.TrackingScreenWidth;
+            Height = TrackingScreen.TrackingScreenHeight;
+
+            ExportCalibrationResults = false;
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.document">
+          <y:Geometry height="64.46714365291007" width="166.7513148999774" x="1962.487549437026" y="484.84055205694295"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="6.592946826455034">Инициализируем компоненты, выставляем размер экрана</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n88">
+      <data key="d4"><![CDATA[ACTION]]></data>
+      <data key="d5"><![CDATA[            // Hide menues and stuff
+            calibrationMenu.Visibility = Visibility.Collapsed;
+            sharingUC.Visibility = Visibility.Collapsed;
+
+            calibrationMenu.OnAccept += AcceptCalibration;
+            calibrationMenu.OnShare += ShareData;
+            calibrationMenu.OnRecalibrate += RedoCalibration;
+            calibrationMenu.OnToggleCrosshair += ToggleCrosshair;
+            calibrationMenu.OnToggleSmoothing += ToggleSmoothing;
+            calibrationMenu.OnAccuracyParamsChange += AccuracyParamsChange;
+
+            sharingUC.OnDataSent += sharingUC_OnDataSent;
+
+            KeyDown += Calibration_KeyDown;
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.document">
+          <y:Geometry height="64.46714365291007" width="166.7513148999774" x="1962.487549437026" y="569.1224034574175"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="6.592946826455091">скрываем меню, настраиваем обработчики событий</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n89">
+      <data key="d4"><![CDATA[PROC_BEG]]></data>
+      <data key="d5"><![CDATA[       #region Public Start/Stop/Reset/Recalibrate
+
+        public void Start()
+        {
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="40.0" width="200.0" x="2175.8632068870147" y="414.84055205694295"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="5.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="200.0" x="0.0" y="0.0">Start()<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n90">
+      <data key="d4"><![CDATA[SH_END]]></data>
+      <data key="d5"><![CDATA[        }
+
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="29.91754988212216" width="31.607385478285096" x="2260.0595141478725" y="650.0916465831233"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="5.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389487"/>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n91">
+      <data key="d4"><![CDATA[ACTION]]></data>
+      <data key="d5"><![CDATA[            CanvasRoot.Width = Width; // Tracking screen width
+            CanvasRoot.Height = Height;
+
+            // Partial calibration if not zero or not full screen, set active calibration area by applying margin to the control. 
+            if (GTSettings.Settings.Instance.Calibration.AreaWidth != 0 &&
+                Settings.Instance.Calibration.AreaHeight != 0 &&
+                Settings.Instance.Calibration.AreaWidth != Width &&
+                Settings.Instance.Calibration.AreaHeight != Height)
+            {
+                calibrationControl.Width = Settings.Instance.Calibration.AreaWidth;
+                calibrationControl.Height = Settings.Instance.Calibration.AreaHeight;
+
+                // Align the calibration control (center)
+                if (Settings.Instance.Calibration.CalibrationAlignment == CalibrationAlignmentEnum.Center)
+                {
+                    Canvas.SetTop(calibrationControl, Height / 2 - (calibrationControl.Height / 2));
+                    Canvas.SetLeft(calibrationControl, Width / 2 - (calibrationControl.Width / 2));
+                }
+                else
+                {
+                    // Align left/right, top, bottom
+                    switch (Settings.Instance.Calibration.CalibrationAlignment)
+                    {
+                        case CalibrationAlignmentEnum.Top:
+                            Canvas.SetTop(calibrationControl, 0);
+                            Canvas.SetLeft(calibrationControl, Width / 2 - (calibrationControl.Width / 2));
+                            break;
+                        case CalibrationAlignmentEnum.Bottom:
+                            Canvas.SetTop(calibrationControl, CanvasRoot.Height - calibrationControl.Height);
+                            Canvas.SetLeft(calibrationControl, Width / 2 - (calibrationControl.Width / 2));
+                            break;
+                        case CalibrationAlignmentEnum.Left:
+                            Canvas.SetTop(calibrationControl, Height / 2 - (calibrationControl.Height / 2));
+                            Canvas.SetLeft(calibrationControl, 0);
+                            break;
+                        case CalibrationAlignmentEnum.Right:
+                            Canvas.SetTop(calibrationControl, Height / 2 - (calibrationControl.Height / 2));
+                            Canvas.SetLeft(calibrationControl, CanvasRoot.Width - calibrationControl.Width);
+                            break;
+                    }
+                }
+            }
+            else
+            {
+                calibrationControl.Width = Width;
+                calibrationControl.Height = Height;
+                Canvas.SetTop(calibrationControl, 0);
+                Canvas.SetLeft(calibrationControl, 0);
+            }
+
+            // Initialize calibration control and settings
+            calibrationControl.NumberOfPoints = Settings.Instance.Calibration.NumberOfPoints;
+            calibrationControl.RandomOrder = Settings.Instance.Calibration.RandomizePointOrder;
+            calibrationControl.ColorPoints = Settings.Instance.Calibration.PointColor;
+            calibrationControl.ColorBackground = Settings.Instance.Calibration.BackgroundColor;
+            calibrationControl.PointDuration = Settings.Instance.Calibration.PointDuration;
+            Console.WriteLine("--- ERV --- calibrationControl.PointDuration=" + calibrationControl.PointDuration);
+            calibrationControl.PointDuration = 2000.0;
+
+            calibrationControl.PointTransitionDuration = Settings.Instance.Calibration.PointTransitionDuration;
+            Console.WriteLine("--- ERV --- calibrationControl.PointTransitionDuration=" + calibrationControl.PointTransitionDuration);
+            calibrationControl.PointTransitionDuration = 2000.0;
+
+            calibrationControl.PointDiameter = Settings.Instance.Calibration.PointDiameter;
+            //erv 
+            calibrationControl.PointDiameter = Settings.Instance.Visualization.CalibPointSize;
+            Console.WriteLine("--- ERV -- Start() PointDiameter = CalibPointSize" + calibrationControl.PointDiameter);
+
+            calibrationControl.Acceleration = Settings.Instance.Calibration.Acceleration;
+            calibrationControl.Acceleration = 0.9;
+            Console.WriteLine("--- ERV --- calibrationControl.Acceleration=" + calibrationControl.Acceleration);
+
+            calibrationControl.Deacceleration = Settings.Instance.Calibration.Deacceleration;
+            Console.WriteLine("--- ERV --- calibrationControl.Deacceleration=" + calibrationControl.Deacceleration);
+            calibrationControl.Deacceleration = 0.9;
+
+            calibrationControl.UseInfantGraphics = Settings.Instance.Calibration.UseInfantGraphics;
+
+
+
+            // Register for events
+            calibrationControl.OnCalibrationStart += calibrationControl_Start;
+            calibrationControl.OnPointStart += calibrationControl_PointStart;
+            calibrationControl.OnPointStop += calibrationControl_PointEnd;
+            calibrationControl.OnCalibrationEnd += calibrationControl_End;
+
+            this.BringIntoView();
+            // Start calibration procedure
+            calibrationControl.Start();
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.document">
+          <y:Geometry height="64.46714365291007" width="166.7513148999774" x="2192.4875494370262" y="484.8405520569429"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="2.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.09375" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="21.68669682645509">код</y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n92">
+      <data key="d4"><![CDATA[DG_BEG]]></data>
+      <data key="d5"><![CDATA[CODE_JAVA]]></data>
+      <data key="d6">
+        <y:SVGNode>
+          <y:Geometry height="64.53585815429688" width="56.560157775878906" x="615.1880933782613" y="11.467773322589494"/>
+          <y:Fill color="#CCCCFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="211.275390625" x="-77.35761642456055" y="68.53585815429688">Генерация CalibrationWindow.xaml.cs<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1767,7 +2580,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e1" source="n2" target="n15">
+    <edge id="e1" source="n2" target="n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="9.79045117650412" ty="-190.4499024272326">
@@ -1799,7 +2612,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e4" source="n17" target="n18">
+    <edge id="e4" source="n16" target="n17">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.65897288639826" sy="19.832483128820968" tx="0.6589728863973505" ty="-6.978314833682816"/>
@@ -1809,7 +2622,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e5" source="n31" target="n33">
+    <edge id="e5" source="n30" target="n32">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1827,7 +2640,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e6" source="n31" target="n34">
+    <edge id="e6" source="n30" target="n33">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1847,7 +2660,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e7" source="n33" target="n32">
+    <edge id="e7" source="n32" target="n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-9.094947017729282E-13" ty="0.0"/>
@@ -1857,7 +2670,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e8" source="n34" target="n32">
+    <edge id="e8" source="n33" target="n31">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1869,7 +2682,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e9" source="n32" target="n30">
+    <edge id="e9" source="n31" target="n29">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1879,7 +2692,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e10" source="n30" target="n28">
+    <edge id="e10" source="n29" target="n27">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1889,7 +2702,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e11" source="n28" target="n26">
+    <edge id="e11" source="n27" target="n25">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1899,7 +2712,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e12" source="n26" target="n49">
+    <edge id="e12" source="n25" target="n48">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1909,7 +2722,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e13" source="n21" target="n24">
+    <edge id="e13" source="n20" target="n23">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1919,7 +2732,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e14" source="n49" target="n35">
+    <edge id="e14" source="n48" target="n34">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1929,7 +2742,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e15" source="n35" target="n36">
+    <edge id="e15" source="n34" target="n35">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1939,7 +2752,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e16" source="n37" target="n39">
+    <edge id="e16" source="n36" target="n38">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1957,7 +2770,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e17" source="n37" target="n40">
+    <edge id="e17" source="n36" target="n39">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1977,7 +2790,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e18" source="n39" target="n38">
+    <edge id="e18" source="n38" target="n37">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-9.094947017729282E-13" ty="0.0"/>
@@ -1987,7 +2800,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e19" source="n40" target="n38">
+    <edge id="e19" source="n39" target="n37">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1999,7 +2812,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e20" source="n36" target="n41">
+    <edge id="e20" source="n35" target="n40">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2009,7 +2822,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e21" source="n41" target="n37">
+    <edge id="e21" source="n40" target="n36">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2019,7 +2832,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e22" source="n38" target="n52">
+    <edge id="e22" source="n37" target="n51">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2029,7 +2842,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e23" source="n42" target="n43">
+    <edge id="e23" source="n41" target="n42">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-3.842817167163048"/>
@@ -2039,7 +2852,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e24" source="n43" target="n51">
+    <edge id="e24" source="n42" target="n50">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2057,7 +2870,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e25" source="n55" target="n44">
+    <edge id="e25" source="n54" target="n43">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-9.094947017729282E-13" ty="0.0"/>
@@ -2067,7 +2880,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e26" source="n43" target="n66">
+    <edge id="e26" source="n42" target="n65">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -2079,7 +2892,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e27" source="n66" target="n44">
+    <edge id="e27" source="n65" target="n43">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-1.2009098970847845" sy="2.9186467745275877" tx="0.0" ty="0.0">
@@ -2091,7 +2904,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e28" source="n44" target="n23">
+    <edge id="e28" source="n43" target="n22">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2101,7 +2914,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e29" source="n61" target="n64">
+    <edge id="e29" source="n60" target="n63">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -2113,7 +2926,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e30" source="n29" target="n31">
+    <edge id="e30" source="n28" target="n30">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2131,7 +2944,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e31" source="n27" target="n29">
+    <edge id="e31" source="n26" target="n28">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2141,7 +2954,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e32" source="n25" target="n27">
+    <edge id="e32" source="n24" target="n26">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2159,7 +2972,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e33" source="n22" target="n25">
+    <edge id="e33" source="n21" target="n24">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2169,7 +2982,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e34" source="n24" target="n22">
+    <edge id="e34" source="n23" target="n21">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2179,7 +2992,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e35" source="n47" target="n48">
+    <edge id="e35" source="n46" target="n47">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2189,7 +3002,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e36" source="n18" target="n57">
+    <edge id="e36" source="n17" target="n56">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2199,7 +3012,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e37" source="n46" target="n47">
+    <edge id="e37" source="n45" target="n46">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2209,7 +3022,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e38" source="n20" target="n46">
+    <edge id="e38" source="n19" target="n45">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2219,7 +3032,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e39" source="n48" target="n21">
+    <edge id="e39" source="n47" target="n20">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2229,7 +3042,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e40" source="n51" target="n55">
+    <edge id="e40" source="n50" target="n54">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2239,7 +3052,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e41" source="n53" target="n54">
+    <edge id="e41" source="n52" target="n53">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2249,7 +3062,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e42" source="n54" target="n42">
+    <edge id="e42" source="n53" target="n41">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2259,7 +3072,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e43" source="n52" target="n53">
+    <edge id="e43" source="n51" target="n52">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2269,7 +3082,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e44" source="n56" target="n20">
+    <edge id="e44" source="n55" target="n19">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2279,7 +3092,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e45" source="n60" target="n61">
+    <edge id="e45" source="n59" target="n60">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2289,7 +3102,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e46" source="n58" target="n63">
+    <edge id="e46" source="n57" target="n62">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2299,7 +3112,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e47" source="n23" target="n62">
+    <edge id="e47" source="n22" target="n61">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2309,7 +3122,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e48" source="n62" target="n58">
+    <edge id="e48" source="n61" target="n57">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2319,7 +3132,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e49" source="n57" target="n56">
+    <edge id="e49" source="n56" target="n55">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2329,7 +3142,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e50" source="n63" target="n65">
+    <edge id="e50" source="n62" target="n64">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="2.7284841053187847E-12" ty="4.900040232750143"/>
@@ -2347,7 +3160,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e51" source="n65" target="n64">
+    <edge id="e51" source="n64" target="n63">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-9.094947017729282E-13" ty="0.0"/>
@@ -2357,7 +3170,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e52" source="n63" target="n60">
+    <edge id="e52" source="n62" target="n59">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -2369,7 +3182,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e53" source="n64" target="n19">
+    <edge id="e53" source="n63" target="n18">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2379,8 +3192,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e54" source="n15" target="n67">
-      <data key="d9"/>
+    <edge id="e54" source="n14" target="n66">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-1.7295488234958611" sy="-189.84708545936564" tx="0.0" ty="0.0"/>
@@ -2390,8 +3202,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e55" source="n67" target="n69">
-      <data key="d9"/>
+    <edge id="e55" source="n66" target="n68">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="17.04694787570702" sy="-31.755199629560025" tx="0.0" ty="0.0"/>
@@ -2401,8 +3212,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e56" source="n69" target="n70">
-      <data key="d9"/>
+    <edge id="e56" source="n68" target="n69">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2412,8 +3222,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e57" source="n70" target="n4">
-      <data key="d9"/>
+    <edge id="e57" source="n69" target="n4">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2424,7 +3233,6 @@ BEGIN]]></data>
       </data>
     </edge>
     <edge id="e58" source="n5" target="n6">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2434,8 +3242,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e59" source="n4" target="n71">
-      <data key="d9"/>
+    <edge id="e59" source="n4" target="n70">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-11.214786023563192" ty="-17.253422247799563"/>
@@ -2445,8 +3252,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e60" source="n71" target="n68">
-      <data key="d9"/>
+    <edge id="e60" source="n70" target="n67">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="39.52555432763461" sy="-19.863685753188747" tx="18.15484932467757" ty="72.89852462900365"/>
@@ -2456,8 +3262,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e61" source="n68" target="n16">
-      <data key="d9"/>
+    <edge id="e61" source="n67" target="n15">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="2.559548888460995" ty="-192.39129723478004"/>
@@ -2467,8 +3272,7 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e62" source="n16" target="n7">
-      <data key="d9"/>
+    <edge id="e62" source="n15" target="n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2478,10 +3282,202 @@ BEGIN]]></data>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="e63" source="n72" target="n73">
+    <edge id="e63" source="n71" target="n72">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="1.2180502138280644" ty="20.33797874501306"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e64" source="n75" target="n76">
+      <data key="d8"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="dotted" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="4.0" x="23.06267781617248" y="27.507255524724997">
+            <y:LabelModel>
+              <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="28.0" distanceToCenter="false" position="right" ratio="0.61155977957683" segment="-1"/>
+            </y:ModelParameter>
+            <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
+          </y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e65" source="n75" target="n81">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="9.79045117650412" ty="-190.4499024272326">
+            <y:Point x="1704.9522042822741" y="363.81737050551203"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e66" source="n77" target="n87">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.65897288639826" sy="12.29238051280209" tx="1.0988459529030534" ty="-5.500126474699093"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e67" source="n74" target="n75">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e68" source="n81" target="n83">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="-1.7295488234958611" sy="-189.84708545936564" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e69" source="n83" target="n85">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="17.04694787570702" sy="-31.755199629560025" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e70" source="n85" target="n77">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e71" source="n89" target="n86">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="-11.214786023563192" ty="-17.253422247799563"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e72" source="n86" target="n84">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="39.52555432763461" sy="-19.863685753188747" tx="18.15484932467757" ty="72.89852462900365"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e73" source="n84" target="n82">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="2.559548888460995" ty="-192.39129723478004"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e74" source="n82" target="n80">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e75" source="n87" target="n88">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e76" source="n88" target="n78">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e77" source="n89" target="n91">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.65897288639826" sy="12.29238051280209" tx="1.0988459529030534" ty="-5.500126474699093"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e78" source="n77" target="n89">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e79" source="n91" target="n90">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e80" source="n72" target="n92">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e81" source="n78" target="n79">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
           <y:BendStyle smoothed="false"/>

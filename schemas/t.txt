@@ -1,0 +1,23 @@
+
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\schemas>REM Generation  src classes from  scheme. 
+
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\schemas>chcp 1251 
+’ҐЄгй п Є®¤®ў п бва ­Ёж : 1251
+
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\schemas>REM chcp 65001 
+
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\schemas>set DRAKON_GEN="D:\ERV\PROJECTS\DrakonGen\exe\drakongen.jar" 
+
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\schemas>REM set BASE_DIR= 
+
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\schemas>REM java -jar "D:\ERV\PROJECTS\DrakonGen\exe\drakongen.jar"    
+
+E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\schemas>java -jar "D:\ERV\PROJECTS\DrakonGen\exe\drakongen.jar" E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\ Algoritms.graphml 
+Базовый каталог:E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\ Файл со схемой:Algoritms.graphml
+ <--- Was read:Algoritms.graphml
+--->Текущая реальность из Акт: CODE_JAVA
+---> Разбираем силуэт 
+--->Текущая реальность из Начало: CODE_JAVA
+----> Записываем файл E:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\\GazeTrackingLibrary\Detection\Eye\EyeTracker.cs
+
+--- Конец активности 

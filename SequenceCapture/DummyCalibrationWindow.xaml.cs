@@ -28,7 +28,8 @@ namespace SequenceCapture
             calibrationControl.Height = (double) size.Height;
             Canvas.SetTop(calibrationControl, 0);
             Canvas.SetLeft(calibrationControl, 0);
-            calibrationControl.PointDiameter = 40;
+            //erv calibrationControl.PointDiameter = 40;
+            calibrationControl.PointDiameter = 140;
             calibrationControl.NumberOfPoints = 9;
 
             Show();
