@@ -43,7 +43,7 @@ namespace GTSettings
         private Color pupilThresholdColor = Color.Red;
         private VideoModeEnum videoMode = VideoModeEnum.Normal;
 
-        private double calibPointSize = 77.0;
+//        private double calibPointSize = 77.0;
 
 
         //public enum ColorNames : int
@@ -305,6 +305,7 @@ namespace GTSettings
 
         #region AdditionCalibOptions
 
+/*
         public double CalibPointSize
         {
             get { return calibPointSize; }
@@ -315,7 +316,7 @@ namespace GTSettings
                 Console.WriteLine("!!!! ---------- > !!!!!!!!!! set CalibPointSize " + calibPointSize);
             }
         }
-
+*/
         #endregion
 
         #endregion // Properties
@@ -345,8 +346,8 @@ namespace GTSettings
             Settings.WriteElement(xmlWriter, "GlintMinGray", GlintMinGray.ToString());
             Settings.WriteElement(xmlWriter, "GlintMaxGray", GlintMaxGray.ToString());
             //erv
-            Settings.WriteElement(xmlWriter, "CalibPointSize", CalibPointSize.ToString());
-            Console.WriteLine(" ---------------------> xmlWrite CalibPointSize " + CalibPointSize);
+            //Settings.WriteElement(xmlWriter, "CalibPointSize", CalibPointSize.ToString());
+            //Console.WriteLine(" ---------------------> xmlWrite CalibPointSize " + CalibPointSize);
 
             xmlWriter.WriteEndElement();
         }
@@ -431,11 +432,11 @@ namespace GTSettings
                                 case "GlintMaxGray":
                                     GlintMaxGray = int.Parse(xmlReader.Value);
                                     break;
-                                case "CalibPointSize":
-                                    CalibPointSize = double.Parse(xmlReader.Value);
-                                    //erv
-                                    System.Console.WriteLine("!!!!!!!!!!! Load CalibPointSize" + CalibPointSize);
-                                    break;
+                                //case "CalibPointSize":
+                                //    CalibPointSize = double.Parse(xmlReader.Value);
+                                //    //erv
+                                //    System.Console.WriteLine("!!!!!!!!!!! Load CalibPointSize" + CalibPointSize);
+                                //    break;
 
                             }
                             break;

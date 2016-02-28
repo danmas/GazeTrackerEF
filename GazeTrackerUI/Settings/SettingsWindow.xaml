@@ -620,19 +620,28 @@
             </Grid>
         </Expander>
 
-        <Expander x:Name="ExpanderMyAdvanced" Header="MyAdvanced" ExpandDirection="Down" 
+        <Expander x:Name="ExpanderMyAdvanced" Header="Additional" ExpandDirection="Down" 
                   Margin="0,139.334,438.333,0" Foreground="#FFAFAFAF" 
                   Background="{x:Null}" BorderThickness="0" ToolTip="My Advanced configuration options" 
-                  Panel.ZIndex="6" IsExpanded="False" HorizontalAlignment="Right" Width="170.4">
+                  Panel.ZIndex="6" IsExpanded="False" HorizontalAlignment="Right" Width="170.4" BorderBrush="#FF7B7A7A">
             <Grid Height="164.248" Margin="0,0,10,0" RenderTransformOrigin="0.488,0.417">
-                <Rectangle Fill="#D8040404" Stroke="Black" RadiusX="4" RadiusY="4" Margin="0,-0.124,-7.6,0.372"/>
-                <Button Content="Button" HorizontalAlignment="Left" Margin="74.218,108.448,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.037,0.306"/>
-                <Label Content="Calibration point size" HorizontalAlignment="Left" Margin="10,9.952,0,0" VerticalAlignment="Top" Width="172.418"  FontFamily="Verdana" FontSize="12" Foreground="#FF989898"/>
-                <Slider x:Name="SliderCapibPointSize" Value="{Binding CalibPointSize}" Minimum="30.0" Maximum="150.0" 
+                <Rectangle Fill="#D8353535" Stroke="Black" RadiusX="4" RadiusY="4" Margin="0,-0.124,-7.6,0.372"/>
+                <!--Button Content="Button" HorizontalAlignment="Left" Margin="74.218,108.448,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.037,0.306"/-->
+                <Label Content="Point diameter" HorizontalAlignment="Left" Margin="10,9.952,0,0" VerticalAlignment="Top" Width="142.018"  FontFamily="Verdana" FontSize="12" Foreground="#FF989898"/>
+                <Slider x:Name="SliderPointDiameter" Value="{Binding PointDiameter}" Minimum="30.0" Maximum="150.0" 
                         Style="{StaticResource SimpleSlider}" HorizontalAlignment="Left" Margin="10,35.641,0,0" 
                         VerticalAlignment="Top" Width="139.218" AutoToolTipPlacement="TopLeft"/>
-                <GazeTrackerUI_Tools:EditSlider x:Name="EditSliderCapibPointSize"  Minimum="30.0" Maximum="150.0" 
-                        HorizontalAlignment="Left" Margin="10.982,79.193,0,0" VerticalAlignment="Top" Width="139.218"/>
+                
+                <Label Content="Point duration" HorizontalAlignment="Left" Margin="10,54.657,0,0" VerticalAlignment="Top" Width="142.953"  FontFamily="Verdana" FontSize="12" Foreground="#FF989898"/>
+                <Slider x:Name="SliderPointDuration" Value="{Binding PointDuration}" Minimum="100.0" Maximum="3000.0" 
+                	Style="{StaticResource SimpleSlider}" HorizontalAlignment="Left" Margin="10,80.346,0,0" 
+                	VerticalAlignment="Top" Width="139.218" AutoToolTipPlacement="TopLeft"/>
+                <Label Content="Point transition duration" HorizontalAlignment="Left" Margin="9.8,98.39,0,0" VerticalAlignment="Top" Width="142.953"  FontFamily="Verdana" FontSize="12" Foreground="#FF989898"/>
+                <Slider x:Name="SliderPointTransitionDuration" Value="{Binding PointTransitionDuration}" Minimum="100.0" Maximum="3000.0" 
+                	Style="{StaticResource SimpleSlider}" HorizontalAlignment="Left" Margin="9.8,124.079,0,0" 
+                	VerticalAlignment="Top" Width="139.218" AutoToolTipPlacement="TopLeft"/>
+                <!-- GazeTrackerUI_Tools:EditSlider x:Name="EditSliderCapibPointSize"  Minimum="30.0" Maximum="150.0" 
+                        HorizontalAlignment="Left" Margin="10.982,79.193,0,0" VerticalAlignment="Top" Width="139.218"/-->
                 <!--Slider x:Name="SliderTest" Value="{Binding CalibPointSize}" Background="#FF3D3D3D" 
                         Margin="9.8,59.817,0,141.031" Style="{StaticResource SimpleSlider}" BorderBrush="{x:Null}" 
                         Foreground="#FF848484" Minimum="30.0" AutoToolTipPlacement="TopLeft" LargeChange="0" 
