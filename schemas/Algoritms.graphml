@@ -1573,7 +1573,7 @@ BEGIN]]></data>
           <y:Geometry height="118.13928682812343" width="225.84397040766044" x="3604.9442144263085" y="-1781.5343439959204"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#C0C0C0" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" modelName="custom" textColor="#000000" visible="true" width="225.84397040766044" x="0.0" y="25.882143414061716">Генерация CalibrationControl.cs
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" modelName="custom" textColor="#000000" visible="true" width="225.84397040766044" x="0.0" y="25.882143414061602">Генерация CalibrationControl.cs
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -1714,7 +1714,7 @@ using GTSettings;
           <y:Geometry height="29.91754988212216" width="31.607385478285096" x="3799.180799355684" y="-1142.8027946274588"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="5.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389203"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.134975058938835"/>
         </y:GenericNode>
       </data>
     </node>
@@ -1801,7 +1801,7 @@ using GTSettings;
           <y:Geometry height="209.43544653068696" width="62.0163836393408" x="3645.5360798603556" y="-1541.215525209954"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="62.0163836393408" x="0.0" y="-2.8421709430404007E-14">class CalibrationControl : UserControl<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="62.0163836393408" x="4.547473508864641E-13" y="-2.8421709430404007E-14">class CalibrationControl : UserControl<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1869,7 +1869,7 @@ using GTSettings;
           <y:Geometry height="30.0" width="166.7513148999774" x="3731.608834644837" y="-1474.9475069452108"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.679368387488694" y="5.6494140625">#region Variables<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.679368387488466" y="5.6494140625">#region Variables<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2264,7 +2264,7 @@ using GTSettings;
           <y:Geometry height="64.46714365291007" width="166.7513148999774" x="1235.7029327408313" y="-117.87756918635773"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="2.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="6.592946826455091">скрываем меню, настраиваем обработчики событий</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="6.592946826455034">скрываем меню, настраиваем обработчики событий</y:NodeLabel>
         </y:GenericNode>
       </data>
     </node>
@@ -2300,7 +2300,7 @@ using GTSettings;
           <y:Geometry height="29.91754988212216" width="31.607385478285096" x="4029.180799355684" y="-1077.6709207034019"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="5.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389487"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.134975058938835"/>
         </y:GenericNode>
       </data>
     </node>
@@ -2434,7 +2434,7 @@ using GTSettings;
           <y:Geometry height="118.13928682812343" width="225.84397040766044" x="1995.3335781715477" y="275.51031649416325"/>
           <y:Fill color="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#C0C0C0" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" modelName="custom" textColor="#000000" visible="true" width="225.84397040766044" x="0.0" y="25.882143414061716">Генерация CalibrationWindow.xaml.cs
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" modelName="custom" textColor="#000000" visible="true" width="225.84397040766044" x="2.2737367544323206E-13" y="25.882143414061716">Генерация CalibrationWindow.xaml.cs
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2574,7 +2574,7 @@ using GTCommons.Events;
           <y:Geometry height="599.3064645510758" width="69.0163836393408" x="1948.159059966254" y="510.74071172930087"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="599.3064645510758" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="0.0" y="0.0">namespace GazeTrackerUI.CalibrationUI
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="599.3064645510758" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="0.0" y="1.1368683772161603E-13">namespace GazeTrackerUI.CalibrationUI
 <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
@@ -2597,7 +2597,7 @@ using GTCommons.Events;
           <y:Geometry height="594.218041000247" width="69.0163836393408" x="3228.943847489086" y="510.74071172930087"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="594.218041000247" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="0.0" y="0.0">namespace <y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="594.218041000247" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="0.0" y="1.1368683772161603E-13">namespace <y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2621,7 +2621,7 @@ using GTCommons.Events;
           <y:Geometry height="209.43544653068696" width="62.0163836393408" x="2035.9254436055949" y="515.8291352801297"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="62.0163836393408" x="0.0" y="-2.8421709430404007E-14">class CalibrationWindow<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="62.0163836393408" x="2.2737367544323206E-13" y="-2.8421709430404007E-14">class CalibrationWindow<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -2674,7 +2674,7 @@ using GTCommons.Events;
           <y:Geometry height="30.0" width="166.7513148999774" x="2121.998198390076" y="620.7821181163015"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.679368387488694" y="5.6494140625">#region Variables<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.679368387488466" y="5.6494140625">#region Variables<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3141,7 +3141,7 @@ using GTCommons.Events;
           <y:Geometry height="40.0" width="166.7513148999774" x="3961.6088346448378" y="-1231.795585960572"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="4.547473508864641E-13" y="0.0">code<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="0.0">code<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3170,7 +3170,7 @@ using GTCommons.Events;
           <y:Geometry height="59.90646895142467" width="166.7513148999774" x="3732.2678075312356" y="-1325.892332348311"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="2.8421709430404007E-14">Инициализируем компоненты, выставляем размер экрана<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="4.547473508864641E-13" y="1.4210854715202004E-13">Инициализируем компоненты, выставляем размер экрана<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3231,7 +3231,7 @@ using GTCommons.Events;
           <y:Geometry height="30.0" width="166.7513148999774" x="3731.6088346448373" y="-1430.5124721531286"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.679368387488694" y="5.6494140625">#region Variables<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.67936838748892" y="5.6494140625">#region Variables<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3263,7 +3263,7 @@ using GTCommons.Events;
           <y:Geometry height="59.90646895142467" width="166.7513148999774" x="3732.2678075312356" y="-1251.0590709373569"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="-1.4210854715202004E-14">скрываем меню, настраиваем обработчики событий<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="4.547473508864641E-13" y="1.4210854715202004E-13">скрываем меню, настраиваем обработчики событий<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3285,7 +3285,7 @@ using GTCommons.Events;
           <y:Geometry height="29.91754988212216" width="31.607385478285096" x="2188.9111902145246" y="924.0567608498892"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="5.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.134975058938835"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389487"/>
         </y:GenericNode>
       </data>
     </node>
@@ -3299,7 +3299,7 @@ using GTCommons.Events;
           <y:Geometry height="29.91754988212216" width="31.607385478285096" x="2418.911190214525" y="905.0451228619196"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="5.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.134975058938835"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389487"/>
         </y:GenericNode>
       </data>
     </node>
@@ -3398,7 +3398,7 @@ using GTCommons.Events;
           <y:Geometry height="40.0" width="166.7513148999774" x="2351.339225503679" y="750.9204576047495"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="4.547473508864641E-13" y="0.0">code<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="0.0">code<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3427,7 +3427,7 @@ using GTCommons.Events;
           <y:Geometry height="59.90646895142467" width="166.7513148999774" x="2121.9981983900766" y="740.9672231290372"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="-8.526512829121202E-14">Инициализируем компоненты, выставляем размер экрана<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="4.547473508864641E-13" y="-8.526512829121202E-14">Инициализируем компоненты, выставляем размер экрана<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3479,7 +3479,7 @@ using GTCommons.Events;
           <y:Geometry height="59.90646895142467" width="166.7513148999774" x="2121.9981983900766" y="815.800484539991"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="2.8421709430404007E-14">скрываем меню, настраиваем обработчики событий<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="4.547473508864641E-13" y="-8.526512829121202E-14">скрываем меню, настраиваем обработчики событий<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3618,7 +3618,7 @@ using GTSettings;
           <y:Geometry height="29.91754988212216" width="31.607385478285096" x="2091.7928977498373" y="-139.85469087545812"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="5.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389487"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389203"/>
         </y:GenericNode>
       </data>
     </node>
@@ -3705,7 +3705,7 @@ using GTSettings;
           <y:Geometry height="209.43544653068696" width="62.0163836393408" x="1938.1481782545093" y="-445.084352688526"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="62.0163836393408" x="0.0" y="0.0">class CalibrationControl : UserControl<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="62.0163836393408" x="0.0" y="-2.8421709430404007E-14">class CalibrationControl : UserControl<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3750,7 +3750,7 @@ using GTSettings;
           <y:Geometry height="30.0" width="166.7513148999774" x="2024.22093303899" y="-378.8163344237828"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.679368387488466" y="5.6494140625">#region Variables<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="97.392578125" x="34.67936838748892" y="5.6494140625">#region Variables<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3906,7 +3906,7 @@ using GTSettings;
           <y:Geometry height="29.91754988212216" width="31.607385478285096" x="2779.0961324155614" y="-70.80848063264037"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="5.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389487"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.1349750589389203"/>
         </y:GenericNode>
       </data>
     </node>
@@ -3949,7 +3949,7 @@ using GTSettings;
           <y:Geometry height="59.90646895142467" width="166.7513148999774" x="2024.8799059253893" y="-229.7611598268827"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="2.8421709430404007E-14">Инициализируем компоненты<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.90646895142467" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="2.2737367544323206E-13" y="2.8421709430404007E-14">Инициализируем компоненты<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -3995,7 +3995,7 @@ using GTSettings;
           <y:Geometry height="30.0" width="166.7513148999774" x="2024.220933038991" y="-334.3812996317006"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="84.05078125" x="41.350266824988466" y="5.6494140625">#region Events<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="84.05078125" x="41.35026682498892" y="5.6494140625">#region Events<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4108,7 +4108,7 @@ using GTSettings;
           <y:Geometry height="40.0" width="166.7513148999774" x="2487.1929134665293" y="-224.93314588981062"/>
           <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="0.0">code<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="4.547473508864641E-13" y="0.0">code<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4149,7 +4149,7 @@ using GTSettings;
           <y:Geometry height="209.43544653068696" width="69.0163836393408" x="3083.6870269106976" y="-289.9462648396184"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="4.547473508864641E-13" y="-2.8421709430404007E-14">#endregion<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="0.0" y="-2.8421709430404007E-14">#endregion<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4906,7 +4906,7 @@ using GTSettings;
           <y:Geometry height="209.43544653068696" width="69.0163836393408" x="4006.169365831001" y="-406.0904447337982"/>
           <y:Fill color="#FFFFFF" color2="#FFFFFF" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="4.547473508864641E-13" y="0.0">class<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="209.43544653068696" modelName="custom" textColor="#000000" visible="true" width="69.0163836393408" x="4.547473508864641E-13" y="-2.8421709430404007E-14">class<y:LabelModel>
               <y:SmartNodeLabelModel distance="4.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -4918,6 +4918,237 @@ using GTSettings;
             <y:Property class="java.lang.Byte" name="LAYER_STYLE_PROPERTY_KEY" value="1"/>
           </y:StyleProperties>
         </y:GenericNode>
+      </data>
+    </node>
+    <node id="n145">
+      <data key="d4"><![CDATA[WR_RES_FILE]]></data>
+      <data key="d5"><![CDATA[GazeTrackingLibrary\Detection\Eye\EyeTracker.cs]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.dataBase">
+          <y:Geometry height="64.53585815429688" width="148.682197954262" x="45.99755177375437" y="-1567.3532603767298"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" modelName="custom" textColor="#000000" visible="true" width="148.682197954262" x="0.0" y="6.6273040771484375">Записать в файл GazeTrackingLibrary\Detection\Eye\EyeTracker.cs<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n146">
+      <data key="d4"><![CDATA[WR_RES_FILE]]></data>
+      <data key="d5"><![CDATA[GazeTrackingLibrary\Calibration\CalibrationTarget.cs]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.dataBase">
+          <y:Geometry height="64.53585815429688" width="148.682197954262" x="218.03388578965428" y="-1567.3532603767298"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" modelName="custom" textColor="#000000" visible="true" width="148.682197954262" x="0.0" y="6.6273040771484375">Записать в файл GazeTrackingLibrary\Calibration\CalibrationTarget.cs<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n147">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLNoteNode>
+          <y:Geometry height="145.59537010605402" width="225.84397040766044" x="282.1638801885447" y="-1734.1137565860054"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#C0C0C0" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="146.875" modelName="custom" textColor="#000000" visible="true" width="225.84397040766044" x="0.0" y="-0.6398149469728196">CalibrationTarget
+This class defines a calibration target, which will contain different information,
+    /// such as its coordinates or a list with pupil centers obtained during calibration<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:UMLNoteNode>
+      </data>
+    </node>
+    <node id="n148">
+      <data key="d4"><![CDATA[WR_RES_FILE]]></data>
+      <data key="d5"><![CDATA[GazeTrackingLibrary\Calibration\Interpolation.cs]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.dataBase">
+          <y:Geometry height="64.53585815429688" width="148.682197954262" x="354.0338171585729" y="-1404.7308622760165"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" modelName="custom" textColor="#000000" visible="true" width="148.682197954262" x="0.0" y="6.6273040771484375">Записать в файл GazeTrackingLibrary\Calibration\Interpolation.cs<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n149">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLNoteNode>
+          <y:Geometry height="145.59537010605402" width="225.84397040766044" x="418.1638115574633" y="-1571.4913584852916"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#C0C0C0" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="86.5" modelName="custom" textColor="#000000" visible="true" width="225.84397040766044" x="0.0" y="29.54768505302718"> class CalibPupil : CalibMethod
+
+Calibration of polynomial with pupil center only<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:UMLNoteNode>
+      </data>
+    </node>
+    <node id="n150">
+      <data key="d4"><![CDATA[WR_RES_FILE]]></data>
+      <data key="d5"><![CDATA[GazeTrackingLibrary\Tracker.cs]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.dataBase">
+          <y:Geometry height="64.53585815429688" width="148.682197954262" x="686.0483413109234" y="-1361.5954150547773"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="51.28125" modelName="custom" textColor="#000000" visible="true" width="148.682197954262" x="-2.8421709430404007E-14" y="6.6273040771484375">Записать в файл GazeTrackingLibrary\Tracker.cs<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n151">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLNoteNode>
+          <y:Geometry height="145.59537010605402" width="225.84397040766044" x="750.1783357098138" y="-1528.3559112640528"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#C0C0C0" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="86.5" modelName="custom" textColor="#000000" visible="true" width="225.84397040766044" x="0.0" y="29.54768505302718">class Tracker
+
+Отслеживание движения глаз<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:UMLNoteNode>
+      </data>
+    </node>
+    <node id="n152">
+      <data key="d4"><![CDATA[PROC_BEG]]></data>
+      <data key="d5"><![CDATA[public void SetCamera(int deviceNumber, int deviceMode)
+        {]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="40.0" width="200.0" x="797.0900880218442" y="-1275.8944307972592"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="5.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="200.0" x="0.0" y="0.0">SetCamera()<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n153">
+      <data key="d4"><![CDATA[ACTION]]></data>
+      <data key="d5"><![CDATA[            GTHardware.Camera.Instance.SetDirectShowCamera(deviceNumber, deviceMode);
+            GTHardware.Camera.Instance.Device.OnImage += new EventHandler<GTHardware.Cameras.ImageEventArgs>(Device_OnImage);
+            GTHardware.Camera.Instance.Device.Start();
+
+            // Bing camera settings to device (brightness etc.). 
+            // Sliders are bound to CameraSettings, here we bind them to the camera interface  
+            if (GTHardware.Camera.Instance.Device != null && GTHardware.Camera.Instance.DeviceType == GTHardware.Camera.DeviceTypeEnum.DirectShow)
+            {
+                DirectShowCamera dShowCam = (DirectShowCamera)GTHardware.Camera.Instance.Device;
+                Settings.Instance.Camera.OnVideoProcAmpPropertyChanged += dShowCam.OnVideoProcAmpPropertyChanged;
+                Settings.Instance.Camera.OnCameraControlPropertyChanged += dShowCam.OnCameraControlPropertyChanged;
+            }
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.process">
+          <y:Geometry height="40.0" width="166.7513148999774" x="813.7144305718548" y="-1201.959131228181"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_size" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.0" modelName="custom" textColor="#000000" visible="true" width="166.7513148999774" x="0.0" y="0.0">code<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n154">
+      <data key="d4"><![CDATA[SH_END]]></data>
+      <data key="d5"><![CDATA[        }
+
+        #endregion
+
+]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.terminator">
+          <y:Geometry height="29.91754988212216" width="31.607385478285096" x="881.286395282702" y="-1141.959131228181"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="5.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="36.1875" modelName="internal" modelPosition="c" textColor="#000000" visible="true" width="31.607385478285096" x="0.0" y="-3.134975058938835"/>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n155">
+      <data key="d4"><![CDATA[WR_RES_FILE]]></data>
+      <data key="d5"><![CDATA[GTHardware\Cameras\DirectShow\DirectShowCamera.cs]]></data>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.flowchart.dataBase">
+          <y:Geometry height="64.53585815429688" width="148.682197954262" x="1135.1272229607575" y="-1361.5954150547773"/>
+          <y:Fill color="#E5FFFF" color2="#E5FFFF" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="66.375" modelName="custom" textColor="#000000" visible="true" width="148.682197954262" x="0.0" y="-0.9195709228515625">Записать в файл GTHardware\Cameras\DirectShow\DirectShowCamera.cs<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n156">
+      <data key="d4"/>
+      <data key="d6">
+        <y:UMLNoteNode>
+          <y:Geometry height="156.82855948658505" width="299.983020319165" x="1199.2572173596477" y="-1528.3559112640528"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#C0C0C0" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="node_width" configuration="CroppingLabel" fontFamily="Dialog" fontSize="16" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="146.875" modelName="custom" textColor="#000000" visible="true" width="299.983020319165" x="0.0" y="4.976779743292354">class DirectShowCamera : CameraBase, ISampleGrabberCB
+
+Получение фреймов от устройства, пропускание их через цепочку фильтров и отправка нав дерево процесса обработки приложения<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+        </y:UMLNoteNode>
       </data>
     </node>
     <edge id="e0" source="n2" target="n3">
@@ -5957,7 +6188,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e92" source="n104" target="n107">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -5968,7 +6198,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e93" source="n88" target="n88">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -5981,7 +6210,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e94" source="n105" target="n87">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -5992,7 +6220,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e95" source="n106" target="n74">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6023,7 +6250,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e98" source="n111" target="n113">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6034,7 +6260,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e99" source="n112" target="n109">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6045,7 +6270,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e100" source="n94" target="n111">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6056,7 +6280,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e101" source="n102" target="n110">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6179,7 +6402,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e112" source="n129" target="n119">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6190,7 +6412,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e113" source="n130" target="n127">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6201,7 +6422,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e114" source="n131" target="n118">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6212,7 +6432,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e115" source="n118" target="n125">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="2.5403657462297815" ty="-30.092552506367838"/>
@@ -6233,7 +6452,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e117" source="n134" target="n133">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6244,7 +6462,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e118" source="n126" target="n137">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-2.7095483460893774" ty="-30.0"/>
@@ -6255,7 +6472,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e119" source="n125" target="n135">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="8.409018149362055" sy="-26.404937625841626" tx="-4.299245917843109" ty="-81.03010838481725"/>
@@ -6266,7 +6482,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e120" source="n132" target="n126">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6277,7 +6492,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e121" source="n135" target="n132">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="8.90522198920462" sy="-84.71772326534347" tx="0.0" ty="0.0"/>
@@ -6288,7 +6502,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e122" source="n137" target="n136">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="32.50236607270426" sy="-21.91089581712339" tx="0.8888894472770517" ty="-76.62861908246686"/>
@@ -6299,7 +6512,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e123" source="n136" target="n138">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="6.757541850409325" sy="-77.36220063285839" tx="-5.655547194648989" ty="-55.058390716201075"/>
@@ -6310,7 +6522,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e124" source="n138" target="n139">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6322,7 +6533,6 @@ using GTSettings;
     </edge>
     <edge id="e125" source="n112" target="n126">
       <data key="d8"><![CDATA[REF]]></data>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6333,7 +6543,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e126" source="n139" target="n140">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6344,7 +6553,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e127" source="n140" target="n141">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6355,7 +6563,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e128" source="n141" target="n142">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6366,7 +6573,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e129" source="n142" target="n143">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6377,7 +6583,6 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e130" source="n143" target="n144">
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6388,7 +6593,66 @@ using GTSettings;
       </data>
     </edge>
     <edge id="e131" source="n144" target="n122">
-      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e132" source="n147" target="n146">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e133" source="n149" target="n148">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e134" source="n151" target="n150">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e135" source="n152" target="n153">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.65897288639826" sy="12.29238051280209" tx="0.6589728863973505" ty="-9.304419778243755"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e136" source="n153" target="n154">
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e137" source="n156" target="n155">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>

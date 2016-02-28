@@ -406,3 +406,6 @@ E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.Pr
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.csproj.GenerateResource.Cache
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.exe.manifest
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.application
+E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.config
+E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.exe
+E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.pdb
