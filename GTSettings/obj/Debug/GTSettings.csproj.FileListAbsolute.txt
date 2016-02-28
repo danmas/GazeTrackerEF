@@ -30,3 +30,8 @@ E:\EYE\GazeTrackerEF\Debug\GTSettings.pdb
 E:\EYE\GazeTrackerEF\GTSettings\obj\Debug\GTSettings.csprojResolveAssemblyReference.cache
 E:\EYE\GazeTrackerEF\GTSettings\obj\Debug\GTSettings.dll
 E:\EYE\GazeTrackerEF\GTSettings\obj\Debug\GTSettings.pdb
+E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GTSettings.dll
+E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GTSettings.pdb
+E:\EYE\ITUGazeTracker\GazeTrackerEF\GTSettings\obj\Debug\GTSettings.csprojResolveAssemblyReference.cache
+E:\EYE\ITUGazeTracker\GazeTrackerEF\GTSettings\obj\Debug\GTSettings.dll
+E:\EYE\ITUGazeTracker\GazeTrackerEF\GTSettings\obj\Debug\GTSettings.pdb

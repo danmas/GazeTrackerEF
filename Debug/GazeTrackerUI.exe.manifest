@@ -227,14 +227,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GazeTrackerUI.exe" size="890368">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GazeTrackerUI.exe" size="891904">
       <assemblyIdentity name="GazeTrackerUI" version="2.1.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>GRj6E0GAt/wpF0OxN08XNJKq//8=</dsig:DigestValue>
+        <dsig:DigestValue>ulHot25fqyiGYJ8SzQ8jJNZ5hYg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -246,7 +246,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>d/Mi7+p/ZX1Z7ftfJSYHVn5WZog=</dsig:DigestValue>
+        <dsig:DigestValue>4uz+FRMg4sGfAjKQRtsRICgdRJw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -275,14 +275,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GTSettings.dll" size="70144">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GTSettings.dll" size="69120">
       <assemblyIdentity name="GTSettings" version="2.1.0.0" publicKeyToken="D1FDB187D7E10584" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>znRugxMrY8EQvLEC6BgV/MnY5qA=</dsig:DigestValue>
+        <dsig:DigestValue>tnwREHzZ1zY7/itb3gTyeBLm/m4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

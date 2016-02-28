@@ -141,16 +141,16 @@ using GTCommons.Events;
             calibrationControl.ColorBackground = Settings.Instance.Calibration.BackgroundColor;
             calibrationControl.PointDuration = Settings.Instance.Calibration.PointDuration;
             Console.WriteLine("--- ERV --- calibrationControl.PointDuration=" + calibrationControl.PointDuration);
-            calibrationControl.PointDuration = 2000.0;
+            //calibrationControl.PointDuration = 2000.0;
 
             calibrationControl.PointTransitionDuration = Settings.Instance.Calibration.PointTransitionDuration;
             Console.WriteLine("--- ERV --- calibrationControl.PointTransitionDuration=" + calibrationControl.PointTransitionDuration);
-            calibrationControl.PointTransitionDuration = 2000.0;
+            //calibrationControl.PointTransitionDuration = 2000.0;
 
-            //calibrationControl.PointDiameter = Settings.Instance.Calibration.PointDiameter;
+            calibrationControl.PointDiameter = Settings.Instance.Calibration.PointDiameter;
             //erv 
-            calibrationControl.PointDiameter = Settings.Instance.Visualization.CalibPointSize;
-            Console.WriteLine("--- ERV -----------------> Start() PointDiameter = CalibPointSize " + calibrationControl.PointDiameter);
+            //calibrationControl.PointDiameter = Settings.Instance.Visualization.CalibPointSize;
+            //Console.WriteLine("--- ERV -----------------> Start() PointDiameter = CalibPointSize " + calibrationControl.PointDiameter);
 
             calibrationControl.Acceleration = Settings.Instance.Calibration.Acceleration;
             calibrationControl.Acceleration = 0.9;

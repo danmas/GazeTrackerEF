@@ -101,7 +101,10 @@ namespace GazeTrackerUI.SettingsUI
             SliderSmoothLevel.DataContext = Settings.Instance.EyeMovement;
 
             //erv
-            SliderCapibPointSize.DataContext = Settings.Instance.Visualization;
+            //SliderCapibPointSize.DataContext = Settings.Instance.Visualization;
+            SliderPointDiameter.DataContext = Settings.Instance.Calibration;
+            SliderPointDuration.DataContext = Settings.Instance.Calibration;
+            SliderPointTransitionDuration.DataContext = Settings.Instance.Calibration;
 
             CheckBoxCrosshairEnabled.DataContext = Settings.Instance.Processing;
             
@@ -166,7 +169,11 @@ namespace GazeTrackerUI.SettingsUI
             ComboBoxUDPServerIPAddress.ItemsSource = GetIPAddresses();
 
             //erv
-            SliderCapibPointSize.Value = Settings.Instance.Visualization.CalibPointSize;
+            //SliderCapibPointSize.Value = Settings.Instance.Visualization.CalibPointSize;
+            SliderPointDiameter.Value = Settings.Instance.Calibration.PointDiameter;
+            SliderPointDuration.Value = Settings.Instance.Calibration.PointDuration;
+            SliderPointTransitionDuration.Value = Settings.Instance.Calibration.PointTransitionDuration;
+
 
             // highlight big button
             switch (Settings.Instance.Processing.TrackingMethod)
