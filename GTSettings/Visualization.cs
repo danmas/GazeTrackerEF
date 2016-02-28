@@ -431,10 +431,10 @@ namespace GTSettings
                                 case "GlintMaxGray":
                                     GlintMaxGray = int.Parse(xmlReader.Value);
                                     break;
-                                //erv
-                                    System.Console.WriteLine("!!!!!!!!!!! Load CalibPointSize");
                                 case "CalibPointSize":
                                     CalibPointSize = double.Parse(xmlReader.Value);
+                                    //erv
+                                    System.Console.WriteLine("!!!!!!!!!!! Load CalibPointSize" + CalibPointSize);
                                     break;
 
                             }

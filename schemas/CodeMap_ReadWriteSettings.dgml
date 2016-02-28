@@ -1,61 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@1 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=AppClose OverloadingParameters=[(@2 Namespace=System Type=Object),(@3 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" Category="CodeSchema_Method" Bounds="113.026766666667,1.4210854715202E-14,86.5833333333334,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="AppClose" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="AppClose" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=899 StartCharacterOffset=0 EndLineNumber=899 EndCharacterOffset=0)">
+    <Node Id="(@15 @18 @19 Member=(Name=ComboBoxSettingsFiles_SelectionChanged OverloadingParameters=[@16,(@17 Namespace=System.Windows Type=RoutedEventArgs)]))" Category="CodeSchema_Method" Bounds="154.391788905024,0,260.656666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ComboBoxSettingsFiles_SelectionChanged" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ComboBoxSettingsFiles_SelectionChanged" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Settings/SettingsWindow.xaml.cs StartLineNumber=687 StartCharacterOffset=8 EndLineNumber=687 EndCharacterOffset=8)" />
+    <Node Id="(@15 @18 @19 Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@9 @10 Type=Int32),@16]))" Category="CodeSchema_Method" Bounds="187.330404357872,466.531473403159,339.04,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/obj/x86/Debug/Settings/SettingsWindow.g.i.cs StartLineNumber=1540 StartCharacterOffset=8 EndLineNumber=1540 EndCharacterOffset=8)" />
+    <Node Id="(@15 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=AppClose OverloadingParameters=[@16,(@17 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" Category="CodeSchema_Method" Bounds="176.987846751084,335.76,86.5833333333334,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="AppClose" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="AppClose" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=899 StartCharacterOffset=0 EndLineNumber=899 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
-    <Node Id="(@1 Namespace=GazeTrackerUI.SettingsUI Type=SettingsWindow Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@2 Namespace=System Type=Int32),(@2 Namespace=System Type=Object)]))" Category="CodeSchema_Method" Bounds="134.279166548249,132.651116442962,339.04,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/obj/x86/Debug/Settings/SettingsWindow.g.i.cs StartLineNumber=1540 StartCharacterOffset=8 EndLineNumber=1540 EndCharacterOffset=8)" />
-    <Node Id="(@5 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=Calibrate)" Category="CodeSchema_Method" Bounds="2.8421709430404E-14,20.7311164429617,83.0266666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Calibrate" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Calibrate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=297 StartCharacterOffset=4 EndLineNumber=297 EndCharacterOffset=4)" />
-    <Node Id="(@5 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=CleanUp)" Category="CodeSchema_Method" Bounds="2.71685536354875,132.651116442962,80.8066666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CleanUp" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="CleanUp" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=343 StartCharacterOffset=4 EndLineNumber=343 EndCharacterOffset=4)" />
-    <Node Id="(@5 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=ShowSetupWindow)" Category="CodeSchema_Method" Bounds="42.1947271789228,188.611116442962,139.103333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ShowSetupWindow" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ShowSetupWindow" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=578 StartCharacterOffset=4 EndLineNumber=578 EndCharacterOffset=4)" />
-    <Node Id="(@7 Namespace=GTSettings Type=Settings Member=WriteConfigFile)" Category="CodeSchema_Method" Bounds="0,244.571116442962,117.563333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="WriteConfigFile" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="WriteConfigFile" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTSettings/Settings.cs StartLineNumber=294 StartCharacterOffset=8 EndLineNumber=294 EndCharacterOffset=8)" />
-    <Node Id="@4" Category="CodeSchema_Method" Bounds="191.087740317105,76.6911164429617,104.446666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="HideWindow" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="HideWindow" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Settings/SettingsWindow.xaml.cs StartLineNumber=760 StartCharacterOffset=8 EndLineNumber=760 EndCharacterOffset=8)" />
-    <Node Id="@6" Category="CodeSchema_Method" Bounds="57.944306983772,76.6911164429617,103.143333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SaveSettings" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SaveSettings" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Settings/SettingsWindow.xaml.cs StartLineNumber=696 StartCharacterOffset=0 EndLineNumber=696 EndCharacterOffset=0)">
+    <Node Id="(@15 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=GazeTrackerUIMainWindow_ContentRendered OverloadingParameters=[@16,(@9 @10 Type=EventArgs)]))" Category="CodeSchema_Method" Bounds="0,261.850071553292,280.793333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="GazeTrackerUIMainWindow_ContentRendered" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="GazeTrackerUIMainWindow_ContentRendered" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=84 StartCharacterOffset=4 EndLineNumber=84 EndCharacterOffset=4)" />
+    <Node Id="(@21 @22 @23 Member=Calibrate)" Category="CodeSchema_Method" Bounds="63.961080084417,337.521161767394,83.0266666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Calibrate" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Calibrate" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=297 StartCharacterOffset=4 EndLineNumber=297 EndCharacterOffset=4)" />
+    <Node Id="(@21 @22 @23 Member=CleanUp)" Category="CodeSchema_Method" Bounds="-2.8421709430404E-14,411.358879684775,80.8066666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CleanUp" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="CleanUp" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=343 StartCharacterOffset=4 EndLineNumber=343 EndCharacterOffset=4)" />
+    <Node Id="(@21 @22 @23 Member=Connect)" Category="CodeSchema_Method" Bounds="105.700620836685,111.919984110749,79.9266666666667,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Connect" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method Virtual" Label="Connect" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=169 StartCharacterOffset=4 EndLineNumber=169 EndCharacterOffset=4)" />
+    <Node Id="(@21 @22 @23 Member=ShowSetupWindow)" Category="CodeSchema_Method" Bounds="91.5424635970975,522.491473403159,139.103333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ShowSetupWindow" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ShowSetupWindow" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=578 StartCharacterOffset=4 EndLineNumber=578 EndCharacterOffset=4)" />
+    <Node Id="(@7 @8 @12 Member=drawEyeROI)" Category="CodeSchema_Field" Bounds="427.925750820761,111.92,100.59,25.96" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="drawEyeROI" />
+    <Node Id="(@7 @8 @12 Member=drawGlints)" Category="CodeSchema_Field" Bounds="426.711498379463,223.84,93.0166666666667,25.96" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="drawGlints" />
+    <Node Id="(@7 @8 @12 Member=drawPupil)" Category="CodeSchema_Field" Bounds="349.941143417726,55.96,89.3966666666667,25.96" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="drawPupil" />
+    <Node Id="(@7 @8 Type=Settings Member=WriteConfigFile)" Category="CodeSchema_Method" Bounds="103.578798644677,578.451473403159,117.563333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="WriteConfigFile" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="WriteConfigFile" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTSettings/Settings.cs StartLineNumber=294 StartCharacterOffset=8 EndLineNumber=294 EndCharacterOffset=8)" />
+    <Node Id="(@7 Type=&lt;PrivateImplementationDetails&gt;{298B4C2B-C91B-40D3-BF9B-1446574523FD} Member=$$method0x60001c5-1)" Category="CodeSchema_Field" Bounds="310.793433333333,279.8,159.116666666667,25.96" CodeSchemaProperty_IsInternal="True" CodeSchemaProperty_IsStatic="True" DelayedCrossGroupLinksState="Fetched" Label="$$method0x60001c5-1" />
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="228.823677607938,111.92,114.783333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="LoadConfigFile" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="LoadConfigFile" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTSettings/Settings.cs StartLineNumber=338 StartCharacterOffset=8 EndLineNumber=338 EndCharacterOffset=8)" />
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="336.353844702187,167.88,114.783333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="LoadConfigFile" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="LoadConfigFile" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTSettings/Visualization.cs StartLineNumber=353 StartCharacterOffset=8 EndLineNumber=353 EndCharacterOffset=8)" />
+    <Node Id="@20" Category="CodeSchema_Method" Bounds="243.9502,410.571473403159,104.446666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="HideWindow" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="HideWindow" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Settings/SettingsWindow.xaml.cs StartLineNumber=760 StartCharacterOffset=8 EndLineNumber=760 EndCharacterOffset=8)" />
+    <Node Id="@24" Category="CodeSchema_Field" CodeSchemaProperty_IsExternal="True" CodeSchemaProperty_IsStatic="True" DelayedCrossGroupLinksState="Fetched" Label="Empty" UseManualLocation="True" />
+    <Node Id="@25" Category="CodeSchema_Method" Bounds="115.753087833169,167.879984110749,165.956666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="LoadLatestConfiguration" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="LoadLatestConfiguration" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTSettings/Settings.cs StartLineNumber=397 StartCharacterOffset=8 EndLineNumber=397 EndCharacterOffset=8)" />
+    <Node Id="@26" Category="CodeSchema_Method" Bounds="110.806766666667,410.571473403159,103.143333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SaveSettings" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SaveSettings" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Settings/SettingsWindow.xaml.cs StartLineNumber=696 StartCharacterOffset=0 EndLineNumber=696 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
-      <Category Ref="CurrentCallStackEntry" />
     </Node>
+    <Node Id="_standardGraphExternalsGroup" Category="Externals" Bounds="481.137278035521,168.587469132496,86.99,25" Group="Collapsed" Label="Externals" />
   </Nodes>
   <Links>
-    <Link Source="(@1 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=AppClose OverloadingParameters=[(@2 Namespace=System Type=Object),(@3 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" Target="@6" Category="CodeSchema_Calls" Bounds="122.125666716192,25.9599995422363,26.2714352159205,43.0487138191191" Weight="1">
+    <Link Source="(@15 @18 @19 Member=(Name=ComboBoxSettingsFiles_SelectionChanged OverloadingParameters=[@16,(@17 Namespace=System.Windows Type=RoutedEventArgs)]))" Target="@11" Category="CodeSchema_Calls" Bounds="284.893533818114,25.9599995422363,1.02818287912891,76.9608050582868" Weight="1" />
+    <Link Source="(@15 @18 @19 Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@9 @10 Type=Int32),@16]))" Target="@20" Category="CodeSchema_FunctionPointer" Bounds="316.863531003883,442.633077408052,25.9127886753691,23.8983819425341" Weight="1" />
+    <Link Source="(@15 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=AppClose OverloadingParameters=[@16,(@17 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" Target="@26" Category="CodeSchema_Calls" Bounds="177.932959376792,361.720005493164,32.3005639710343,41.7341449140011" Weight="1">
       <Category Ref="CallStackDirectCall" />
-      <Category Ref="CurrentCallStackCall" />
     </Link>
-    <Link Source="(@1 Namespace=GazeTrackerUI.SettingsUI Type=SettingsWindow Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@2 Namespace=System Type=Int32),(@2 Namespace=System Type=Object)]))" Target="@4" Category="CodeSchema_FunctionPointer" Bounds="263.94779297441,108.76299511519,25.8210670349577,23.8881236592236" Weight="1" />
-    <Link Source="(@5 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=Calibrate)" Target="@6" Category="CodeSchema_Calls" Bounds="57.286640590261,46.6911167907715,29.5065403095648,24.2812026364875" Weight="1" />
-    <Link Source="(@5 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=CleanUp)" Target="@6" Category="CodeSchema_Calls" Bounds="58.5207830365798,108.451233429946,28.7128370970775,24.199885344468" Weight="1" />
-    <Link Source="(@5 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=ShowSetupWindow)" Target="@6" Category="CodeSchema_Calls" Bounds="109.953973383431,111.649329216811,1.53374898435133,76.9617810126815" Weight="1" />
-    <Link Source="@4" Target="@6" Category="CodeSchema_Calls" Bounds="170.087642618815,89.6711158752441,21.0000897216797,0" Weight="1" />
-    <Link Source="@6" Target="(@7 Namespace=GTSettings Type=Settings Member=WriteConfigFile)" Category="CodeSchema_Calls" Bounds="34.2637977600098,102.651016235352,72.6490592956543,133.649002075195" Weight="1" />
+    <Link Source="(@15 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=GazeTrackerUIMainWindow_ContentRendered OverloadingParameters=[@16,(@9 @10 Type=EventArgs)]))" Target="@25" Category="CodeSchema_Calls" Bounds="148.454393420025,201.486444520453,37.4725341564035,60.3636183457578" Weight="1" />
+    <Link Source="(@21 @22 @23 Member=Calibrate)" Target="@26" Category="CodeSchema_Calls" Bounds="115.585445941369,363.48114440918,31.1512189972002,39.9902583299613" Weight="1" />
+    <Link Source="(@21 @22 @23 Member=CleanUp)" Target="@26" Category="CodeSchema_Calls" Bounds="80.8066650899251,423.942489193873,21.0002928124729,0.135568123450184" Weight="1" />
+    <Link Source="(@21 @22 @23 Member=Connect)" Target="@25" Category="CodeSchema_Calls" Bounds="157.973024526294,137.879978637695,22.2563822814411,23.4695122612005" Weight="1" />
+    <Link Source="(@21 @22 @23 Member=ShowSetupWindow)" Target="@26" Category="CodeSchema_Calls" Bounds="161.243079706002,445.530875391939,0.883139001799748,76.9605906725139" Weight="1" />
+    <Link Source="@11" Target="@14" Category="CodeSchema_Calls" Bounds="311.157125587956,137.880001525879,49.6630136467064,25.8452347149434" Weight="1" />
+    <Link Source="@14" Target="(@7 @8 @12 Member=drawEyeROI)" Category="CodeSchema_FieldWrite" Bounds="413.339662737475,142.850340589352,37.7838893221877,25.029660021" Weight="1" />
+    <Link Source="@14" Target="(@7 @8 @12 Member=drawGlints)" Category="CodeSchema_FieldWrite" Bounds="412.179692365345,193.840000610352,35.2471553278887,24.8184684450984" Weight="1" />
+    <Link Source="@14" Target="(@7 @8 @12 Member=drawPupil)" Category="CodeSchema_FieldWrite" Bounds="393.849190552669,90.9197115459084,0.614713707708688,76.9602890644432" Weight="1" />
+    <Link Source="@14" Target="(@7 Type=&lt;PrivateImplementationDetails&gt;{298B4C2B-C91B-40D3-BF9B-1446574523FD} Member=$$method0x60001c5-1)" Category="CodeSchema_FieldRead" Bounds="391.018135693168,193.840000610352,2.33378528737336,76.9641177467262" Weight="3">
+      <Category Ref="CodeSchema_FieldWrite" />
+    </Link>
+    <Link Source="@14" Target="@24" Category="CodeSchema_FieldRead" Weight="1" />
+    <Link Source="@20" Target="@26" Category="CodeSchema_Calls" Bounds="222.950103708903,423.551467895508,21.0000859069824,0" Weight="1" />
+    <Link Source="@25" Target="@11" Category="CodeSchema_Calls" Bounds="219.023442674936,142.729656973857,39.3182760791123,25.1503360070995" Weight="1" />
+    <Link Source="@26" Target="(@7 @8 Type=Settings Member=WriteConfigFile)" Category="CodeSchema_Calls" Bounds="86.0764541625977,436.531463623047,64.4672622680664,139.006072998047" Weight="1" />
+    <Link Source="_standardGraphExternalsGroup" Target="@24" Category="Contains" />
   </Links>
   <Categories>
     <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
     <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
     <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_FieldRead" Label="Field Read" BasedOn="CodeSchema_FieldReference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Read By" OutgoingActionLabel="Reads Fields" />
+    <Category Id="CodeSchema_FieldReference" Label="Field Reference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References Fields" />
+    <Category Id="CodeSchema_FieldWrite" Label="Field Write" BasedOn="CodeSchema_FieldReference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Written By" OutgoingActionLabel="Writes Fields" />
     <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
     <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
     <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
     <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
-    <Category Id="CurrentCallStackCall" Label="Current Call Stack call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Current Call Stack call" OutgoingActionLabel="Current Call Stack call" />
-    <Category Id="CurrentCallStackEntry" Label="Current Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Current Call Stack Entry" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+    <Category Id="Externals" Label="Externals" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Externals" />
   </Categories>
   <Properties>
     <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsExternal" Label="Is External" Description="Flag indicating whether this node is considered external" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsInternal" Label="Is Internal" Description="Flag to indicate the method is 'Internal'" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsStatic" Label="Is Static" Description="Flag to indicate the member is a static member" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
     <Property Id="CommonLabel" DataType="System.String" />
     <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
     <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
     <Property Id="Expression" DataType="System.String" />
     <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
@@ -65,6 +97,7 @@
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
     <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
     <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
@@ -79,13 +112,26 @@
     <Name Id="Type" Label="Type" ValueType="System.Object" />
   </QualifiedNames>
   <IdentifierAliases>
-    <Alias n="1" Uri="Assembly=$(41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri)" />
-    <Alias n="2" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
-    <Alias n="3" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/PresentationCore.dll" />
-    <Alias n="4" Id="(@1 Namespace=GazeTrackerUI.SettingsUI Type=SettingsWindow Member=(Name=HideWindow OverloadingParameters=[(@2 Namespace=System Type=Object),(@3 Namespace=System.Windows Type=RoutedEventArgs)]))" />
-    <Alias n="5" Uri="Assembly=$(2f1306d9-f01d-4431-8122-9dbc888480cd.OutputPathUri)" />
-    <Alias n="6" Id="(@1 Namespace=GazeTrackerUI.SettingsUI Type=SettingsWindow Member=SaveSettings)" />
     <Alias n="7" Uri="Assembly=$(64c7d526-f5ae-4b60-87ab-5ad67104c581.OutputPathUri)" />
+    <Alias n="8" Id="Namespace=GTSettings" />
+    <Alias n="9" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
+    <Alias n="10" Id="Namespace=System" />
+    <Alias n="11" Id="(@7 @8 Type=Settings Member=(Name=LoadConfigFile OverloadingParameters=[(@9 @10 Type=String)]))" />
+    <Alias n="12" Id="Type=Visualization" />
+    <Alias n="13" Uri="Assembly=$(FxRootUri)/v2.0.50727/System.Xml.dll" />
+    <Alias n="14" Id="(@7 @8 @12 Member=(Name=LoadConfigFile OverloadingParameters=[(@13 Namespace=System.Xml Type=XmlReader)]))" />
+    <Alias n="15" Uri="Assembly=$(41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri)" />
+    <Alias n="16" Id="(@9 @10 Type=Object)" />
+    <Alias n="17" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/PresentationCore.dll" />
+    <Alias n="18" Id="Namespace=GazeTrackerUI.SettingsUI" />
+    <Alias n="19" Id="Type=SettingsWindow" />
+    <Alias n="20" Id="(@15 @18 @19 Member=(Name=HideWindow OverloadingParameters=[@16,(@17 Namespace=System.Windows Type=RoutedEventArgs)]))" />
+    <Alias n="21" Uri="Assembly=$(2f1306d9-f01d-4431-8122-9dbc888480cd.OutputPathUri)" />
+    <Alias n="22" Id="Namespace=OgamaClient.API" />
+    <Alias n="23" Id="Type=GazeTrackerAPI" />
+    <Alias n="24" Id="(@9 @10 Type=String Member=Empty)" />
+    <Alias n="25" Id="(@7 @8 Type=Settings Member=LoadLatestConfiguration)" />
+    <Alias n="26" Id="(@15 @18 @19 Member=SaveSettings)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">

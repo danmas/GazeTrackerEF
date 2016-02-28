@@ -301,7 +301,9 @@ namespace GTSettings
 
             try
             {
-                xmlWriter = new XmlTextWriter(fileSettings.SettingsDirectory + fileSettings.SettingsName + ".xml",
+                Console.WriteLine("!!!!!!!!!!!! save into " + Path.DirectorySeparatorChar + fileSettings.SettingsDirectory + " "
+                + fileSettings.SettingsName + ".xml");
+                xmlWriter = new XmlTextWriter(fileSettings.SettingsDirectory + Path.DirectorySeparatorChar + fileSettings.SettingsName + ".xml",
                                               Encoding.UTF8) { Formatting = Formatting.Indented };
                 xmlWriter.WriteStartDocument();
                 xmlWriter.WriteStartElement(Name);
@@ -338,9 +340,9 @@ namespace GTSettings
         /// path of the settings file to read.</param>
         public void LoadConfigFile(string filename)
         {
-            if (File.Exists(fileSettings.SettingsDirectory + filename))
+            if (File.Exists(fileSettings.SettingsDirectory + Path.DirectorySeparatorChar + filename))
             {
-                XmlReader xmlReader = new XmlTextReader(fileSettings.SettingsDirectory + filename);
+                XmlReader xmlReader = new XmlTextReader(fileSettings.SettingsDirectory + Path.DirectorySeparatorChar + filename);
                 if (xmlReader != null)
                 {
                     try
@@ -383,8 +385,8 @@ namespace GTSettings
                     catch (Exception ex)
                     {
                         xmlReader.Close();
-                        // MessageBox.Show("Error loading settings: " + ex.Message);
-                        // ErrorLogger.ProcessException(ex, false);
+                        Console.WriteLine("Error! loading settings: " + ex.Message);
+                        //ErrorLogger.ProcessException(ex, false);
                     }
                 }
             }

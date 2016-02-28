@@ -234,7 +234,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>pfpWMjWGYN3NL/vZTAO5V+4vc+w=</dsig:DigestValue>
+        <dsig:DigestValue>GRj6E0GAt/wpF0OxN08XNJKq//8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -246,7 +246,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>poSx8O7VO2WqvAftst05oeRumRw=</dsig:DigestValue>
+        <dsig:DigestValue>d/Mi7+p/ZX1Z7ftfJSYHVn5WZog=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -275,14 +275,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GTSettings.dll" size="69632">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GTSettings.dll" size="70144">
       <assemblyIdentity name="GTSettings" version="2.1.0.0" publicKeyToken="D1FDB187D7E10584" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>CM0j8XCghJAFZv+gvs+aY9DvTI0=</dsig:DigestValue>
+        <dsig:DigestValue>znRugxMrY8EQvLEC6BgV/MnY5qA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
