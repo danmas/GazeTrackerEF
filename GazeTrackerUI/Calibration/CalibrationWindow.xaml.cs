@@ -147,10 +147,10 @@ using GTCommons.Events;
             Console.WriteLine("--- ERV --- calibrationControl.PointTransitionDuration=" + calibrationControl.PointTransitionDuration);
             calibrationControl.PointTransitionDuration = 2000.0;
 
-            calibrationControl.PointDiameter = Settings.Instance.Calibration.PointDiameter;
+            //calibrationControl.PointDiameter = Settings.Instance.Calibration.PointDiameter;
             //erv 
             calibrationControl.PointDiameter = Settings.Instance.Visualization.CalibPointSize;
-            Console.WriteLine("--- ERV -- Start() PointDiameter = CalibPointSize" + calibrationControl.PointDiameter);
+            Console.WriteLine("--- ERV -----------------> Start() PointDiameter = CalibPointSize " + calibrationControl.PointDiameter);
 
             calibrationControl.Acceleration = Settings.Instance.Calibration.Acceleration;
             calibrationControl.Acceleration = 0.9;

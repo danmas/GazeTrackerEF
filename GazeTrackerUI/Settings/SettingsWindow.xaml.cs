@@ -761,6 +761,7 @@ namespace GazeTrackerUI.SettingsUI
         private void HideWindow(object sender, RoutedEventArgs e)
         {
 			Settings.Instance.Visualization.VideoMode = VideoModeEnum.Normal;
+            //erv 
             SaveSettings();
             Visibility = Visibility.Collapsed;
         }

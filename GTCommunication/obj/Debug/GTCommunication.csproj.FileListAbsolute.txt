@@ -33,3 +33,9 @@ E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GTCommunication.pdb
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.csprojResolveAssemblyReference.cache
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.dll
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.pdb
+E:\EYE\GazeTrackerEF\Debug\GazeTrackingData.xsd
+E:\EYE\GazeTrackerEF\Debug\GTCommunication.dll
+E:\EYE\GazeTrackerEF\Debug\GTCommunication.pdb
+E:\EYE\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.csprojResolveAssemblyReference.cache
+E:\EYE\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.dll
+E:\EYE\GazeTrackerEF\GTCommunication\obj\Debug\GTCommunication.pdb

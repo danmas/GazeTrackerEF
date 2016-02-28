@@ -43,7 +43,7 @@ namespace GTSettings
         private Color pupilThresholdColor = Color.Red;
         private VideoModeEnum videoMode = VideoModeEnum.Normal;
 
-        private double calibPointSize = 100.0;
+        private double calibPointSize = 77.0;
 
 
         //public enum ColorNames : int
@@ -312,7 +312,7 @@ namespace GTSettings
             {
                 calibPointSize = value;
                 OnPropertyChanged("CalibPointSize");
-                Console.WriteLine("!!!!!!!!!!!!!! set CalibPointSize " + calibPointSize);
+                Console.WriteLine("!!!! ---------- > !!!!!!!!!! set CalibPointSize " + calibPointSize);
             }
         }
 
@@ -346,6 +346,7 @@ namespace GTSettings
             Settings.WriteElement(xmlWriter, "GlintMaxGray", GlintMaxGray.ToString());
             //erv
             Settings.WriteElement(xmlWriter, "CalibPointSize", CalibPointSize.ToString());
+            Console.WriteLine(" ---------------------> xmlWrite CalibPointSize " + CalibPointSize);
 
             xmlWriter.WriteEndElement();
         }
