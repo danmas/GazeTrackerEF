@@ -385,7 +385,7 @@ namespace GTSettings
                     catch (Exception ex)
                     {
                         xmlReader.Close();
-                        Console.WriteLine("Error! loading settings: " + ex.Message);
+                        Console.WriteLine("ERROR! loading settings: " + ex.Message);
                         //ErrorLogger.ProcessException(ex, false);
                     }
                 }

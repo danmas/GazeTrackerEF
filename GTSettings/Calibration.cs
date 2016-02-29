@@ -64,7 +64,7 @@ namespace GTSettings
         private int distanceFromScreen;
         private int numberOfPoints = 9;
         private SolidColorBrush pointColor = new SolidColorBrush(Colors.White);
-        private double pointDiameter = 40;
+        private double pointDiameter = 44;
         private double pointDuration = 1150;
         private double pointTransitionDuration = 850;
         private bool randomizePointOrder = true;
@@ -430,7 +430,7 @@ namespace GTSettings
             Settings.WriteElement(xmlWriter, "Deacceleration", Deacceleration.ToString());
             Settings.WriteElement(xmlWriter, "BackgroundColor", BackgroundColor.Color.R + " " + BackgroundColor.Color.G + " " + BackgroundColor.Color.B);
             Settings.WriteElement(xmlWriter, "PointColor", PointColor.Color.R + " " + PointColor.Color.G + " " + PointColor.Color.B);
-            Settings.WriteElement(xmlWriter, "PointDiamter", PointDiameter.ToString());
+            Settings.WriteElement(xmlWriter, "PointDiameter", PointDiameter.ToString());
             Settings.WriteElement(xmlWriter, "UseInfantGraphics", UseInfantGraphics.ToString());
             Settings.WriteElement(xmlWriter, "WaitForValidData", WaitForValidData.ToString());
             Settings.WriteElement(xmlWriter, "RandomizePointOrder", RandomizePointOrder.ToString());
