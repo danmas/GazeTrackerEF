@@ -94,7 +94,6 @@ namespace GTSettings
             {
                 smoothLevel = value;
                 OnPropertyChanged("SmoothLevel");
-                Console.WriteLine("!!!!!!!!!!!!!!!!!! SmoothLevel");
             }
         }
 

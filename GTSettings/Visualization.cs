@@ -305,18 +305,6 @@ namespace GTSettings
 
         #region AdditionCalibOptions
 
-/*
-        public double CalibPointSize
-        {
-            get { return calibPointSize; }
-            set
-            {
-                calibPointSize = value;
-                OnPropertyChanged("CalibPointSize");
-                Console.WriteLine("!!!! ---------- > !!!!!!!!!! set CalibPointSize " + calibPointSize);
-            }
-        }
-*/
         #endregion
 
         #endregion // Properties
@@ -432,12 +420,6 @@ namespace GTSettings
                                 case "GlintMaxGray":
                                     GlintMaxGray = int.Parse(xmlReader.Value);
                                     break;
-                                //case "CalibPointSize":
-                                //    CalibPointSize = double.Parse(xmlReader.Value);
-                                //    //erv
-                                //    System.Console.WriteLine("!!!!!!!!!!! Load CalibPointSize" + CalibPointSize);
-                                //    break;
-
                             }
                             break;
                     }

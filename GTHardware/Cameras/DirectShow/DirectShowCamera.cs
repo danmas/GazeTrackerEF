@@ -370,6 +370,8 @@ namespace GTHardware.Cameras.DirectShow
             catch (Exception ex)
             {
                 //ErrorLogger.ProcessException(ex, false);
+                Console.WriteLine("ERROR! " + ex.ToString());
+                MessageBox.Show(ex.Message);
             }
 
             if (capFilter != null)
@@ -514,12 +516,16 @@ namespace GTHardware.Cameras.DirectShow
                         // Send new image to processing thread
                         OnRaiseCustomEvent(new ImageEventArgs(videoImage.Convert<Gray, byte>()));
                     }
-                    catch (ThreadInterruptedException e)
+                    catch (ThreadInterruptedException ex)
                     {
                         //ErrorLogger.ProcessException(e, false);
+                        Console.WriteLine("ERROR! " + ex.ToString());
+                        MessageBox.Show(ex.Message);
                     }
                     catch (Exception we)
                     {
+                        Console.WriteLine("ERROR! " + we.ToString());
+                        MessageBox.Show(we.Message);
                         //ErrorLogger.ProcessException(we, false);
                     }
                 }
@@ -564,6 +570,7 @@ namespace GTHardware.Cameras.DirectShow
 
             try
             {
+                Console.WriteLine("//ERV ---------- OnVideoProcAmpPropertyChanged(" + property + "," + value);   
                 videoProcAmp.GetRange(property, out min, out max, out steppingDelta, out defaultValue, out flags);
 
                 if (value >= min && value <= max)
@@ -572,6 +579,8 @@ namespace GTHardware.Cameras.DirectShow
             catch (Exception ex)
             {
                 //ErrorLogger.ProcessException(ex, false);
+                Console.WriteLine("ERROR! " + ex.ToString());
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -583,6 +592,7 @@ namespace GTHardware.Cameras.DirectShow
         /// <param name="value">The new value for the property</param>
         public void OnCameraControlPropertyChanged(CameraControlProperty property, int value)
         {
+            Console.WriteLine("//ERV --- trying... ------- OnCameraControlPropertyChanged(" + property + "," + value);
             if (cameraControl == null)
                 return;
 
@@ -596,14 +606,19 @@ namespace GTHardware.Cameras.DirectShow
             CameraControlFlags flags;
             try
             {
+
                 cameraControl.GetRange(property, out min, out max, out steppingDelta, out defaultValue, out flags);
 
                 if (value >= min && value <= max)
+                {
+                    Console.WriteLine("//ERV --- set it! ------- OnCameraControlPropertyChanged(" + property + "," + value);
                     cameraControl.Set(property, value, flags);
+                }
             }
             catch (Exception ex)
             {
-                //ErrorLogger.ProcessException(ex, false);
+                Console.WriteLine("ERROR! " + ex.ToString());
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -866,6 +881,8 @@ namespace GTHardware.Cameras.DirectShow
             catch (Exception ex)
             {
                 //ErrorLogger.ProcessException(ex, false);
+                Console.WriteLine("ERROR! " + ex.ToString());
+                MessageBox.Show(ex.Message);
 
                 Cleanup();
                 return false;
@@ -898,6 +915,7 @@ namespace GTHardware.Cameras.DirectShow
             }
             catch (Exception ex)
             {
+                Console.WriteLine("ERROR! " + ex.ToString());
                 MessageBox.Show(ex.Message);
             }
 

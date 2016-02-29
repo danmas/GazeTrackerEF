@@ -67,7 +67,6 @@ namespace GTSettings
             {
                 sizeMin = value;
                 OnPropertyChanged("SizeMin");
-                Console.WriteLine(" !!!!!!!!!!! SizeMin=" + sizeMin);
             }
         }
 

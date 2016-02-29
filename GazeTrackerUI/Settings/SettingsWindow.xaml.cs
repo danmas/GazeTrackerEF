@@ -704,7 +704,6 @@ namespace GazeTrackerUI.SettingsUI
         {
             if (TextBoxSettingsName.Text.Length < 1)
                 Settings.Instance.FileSettings.SettingsName = "Settings " + DateTime.Now.ToString("dddd dd MMMM",CultureInfo.CreateSpecificCulture("en-US"));
-            Console.WriteLine(" !!!!!!!!!!! SaveSettings() into " + Settings.Instance.FileSettings.SettingsName);
             Settings.Instance.WriteConfigFile();
 
             Visibility = Visibility.Collapsed;

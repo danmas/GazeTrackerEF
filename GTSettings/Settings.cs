@@ -301,8 +301,6 @@ namespace GTSettings
 
             try
             {
-                Console.WriteLine("!!!!!!!!!!!! save into " + Path.DirectorySeparatorChar + fileSettings.SettingsDirectory + " "
-                + fileSettings.SettingsName + ".xml");
                 xmlWriter = new XmlTextWriter(fileSettings.SettingsDirectory + Path.DirectorySeparatorChar + fileSettings.SettingsName + ".xml",
                                               Encoding.UTF8) { Formatting = Formatting.Indented };
                 xmlWriter.WriteStartDocument();
