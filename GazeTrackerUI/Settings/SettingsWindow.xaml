@@ -12,7 +12,7 @@
 	xmlns:local="clr-namespace:GazeTrackerUI.SettingsUI"
 	xmlns:GazeTrackerUI_Tools="clr-namespace:GazeTrackerUI.Tools" xmlns:SettingsUI="clr-namespace:GazeTrackerUI.SettingsUI" x:Class="GazeTrackerUI.SettingsUI.SettingsWindow"
     x:Name="settingsWindow" Title="SettingsWindow" 
-    Height="379.904" Width="599.4" 
+    Height="337.904" Width="435.9" 
 	AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" Background="{x:Null}"
     Loaded="OnLoad" Foreground="{x:Null}" WindowStartupLocation="CenterOwner">
 
@@ -30,7 +30,7 @@
     </Window.Resources>
 
 
-    <Grid x:Name="LayoutRoot" Margin="0,0,-321.6,52.8">
+    <Grid x:Name="LayoutRoot" Margin="0,0,0,33.8">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="137*"/>
             <ColumnDefinition Width="13*"/>
@@ -38,11 +38,20 @@
 
         <!-- Main Configuration Panel -->
 
-        <Grid x:Name="GridLeftPanel" Visibility="Visible" Margin="-0.2,0,0,0" MouseLeftButtonDown="DragWindow" Panel.ZIndex="1" VerticalAlignment="Top" Height="164.667" HorizontalAlignment="Left" Width="552.582">
+        <Grid x:Name="GridLeftPanel" Visibility="Visible" Margin="-0.2,0,0,0" MouseLeftButtonDown="DragWindow" Panel.ZIndex="1" VerticalAlignment="Top" Height="164.667" HorizontalAlignment="Left" Width="403.047">
 
-            <Image Margin="0,0,173.231,-0.931" Source="/GazeTrackerUI;Component/Graphics/f8e14b4df4c3413852893f1754a09ce037db2c70_m.jpg" Stretch="UniformToFill" Opacity="0.895"/>
+            <Image Margin="0,0.256,-0.089,-1.187" Source="/GazeTrackerUI;Component/Graphics/f8e14b4df4c3413852893f1754a09ce037db2c70_m.jpg" Stretch="UniformToFill" Opacity="0.895" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleY="0.225"/>
+                        <RotateTransform/>
+                        <TranslateTransform Y="0.829"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
 
-            <TabControl x:Name="TabControlMain" Style="{StaticResource GTTabControl}" IsSynchronizedWithCurrentItem="True" Margin="5,5,130.159,-0.532" BorderThickness="0" Background="{x:Null}" Panel.ZIndex="1">
+            <TabControl x:Name="TabControlMain" Style="{StaticResource GTTabControl}" IsSynchronizedWithCurrentItem="True" Margin="5,5,0,-0.532" BorderThickness="0" Background="{x:Null}" Panel.ZIndex="1" HorizontalAlignment="Left" Width="398.047">
 
                 <!-- Tracking (method) -->
 
@@ -165,7 +174,7 @@
 
             </TabControl>
 
-            <Label Content=" x" MouseDown="HideWindow" Background="{x:Null}" FontFamily="Verdana" FontSize="18" Foreground="#FFC3C3C3" HorizontalAlignment="Right" x:Name="LabelCloseX" Height="29.334" VerticalAlignment="Top" Width="37.653" Margin="0,5,130.244,0" Panel.ZIndex="2" RenderTransformOrigin="1.259,0.573" />
+            <Label Content=" x" MouseDown="HideWindow" Background="{x:Null}" FontFamily="Verdana" FontSize="18" Foreground="#FFC3C3C3" HorizontalAlignment="Right" x:Name="LabelCloseX" Height="28.334" VerticalAlignment="Top" Width="33.32" Margin="0,5,0,0" Panel.ZIndex="2" RenderTransformOrigin="1.259,0.573" />
 
         </Grid>
 
@@ -174,9 +183,9 @@
 
         <!-- Advanced options -->
 
-        <Expander x:Name="ExpanderAdvanced" Header="Advanced" ExpandDirection="Down" Margin="3,138.001,451.218,0" Foreground="#FFAFAFAF" BorderThickness="0" ToolTip="Advanced configuration options" Panel.ZIndex="2" Height="189.199" VerticalAlignment="Top">
+        <Expander x:Name="ExpanderAdvanced" Header="Advanced" ExpandDirection="Down" Margin="3,138.001,0,0" Foreground="#FFAFAFAF" BorderThickness="0" ToolTip="Advanced configuration options" Panel.ZIndex="2" Height="166.103" VerticalAlignment="Top">
 
-            <Grid x:Name="GridAdvancedPanel" Margin="0,0,10.218,0" Height="151.867" VerticalAlignment="Top" HorizontalAlignment="Right" Width="372.491">
+            <Grid x:Name="GridAdvancedPanel" Height="151.867" VerticalAlignment="Top" HorizontalAlignment="Right" Width="395.122">
                 <Rectangle Fill="#D8040404" Stroke="Black" RadiusX="4" RadiusY="4" Margin="-0.309,0,-0.309,-16.733"/>
 
                 <!-- Tracking configuration -->
@@ -621,9 +630,9 @@
         </Expander>
 
         <Expander x:Name="ExpanderMyAdvanced" Header="Additional" ExpandDirection="Down" 
-                  Margin="0,139.334,438.333,0" Foreground="#FFAFAFAF" 
+                  Margin="0,139.334,33.053,0" Foreground="#FFAFAFAF" 
                   Background="{x:Null}" BorderThickness="0" ToolTip="My Advanced configuration options" 
-                  Panel.ZIndex="6" IsExpanded="False" HorizontalAlignment="Right" Width="170.4" BorderBrush="#FF7B7A7A">
+                  Panel.ZIndex="6" IsExpanded="False" HorizontalAlignment="Right" Width="170.4" BorderBrush="#FF7B7A7A" Grid.ColumnSpan="2">
             <Grid Height="164.248" Margin="0,0,10,0" RenderTransformOrigin="0.488,0.417">
                 <Rectangle Fill="#D8353535" Stroke="Black" RadiusX="4" RadiusY="4" Margin="0,-0.124,-7.6,0.372"/>
                 <!--Button Content="Button" HorizontalAlignment="Left" Margin="74.218,108.448,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.037,0.306"/-->
@@ -631,7 +640,7 @@
                 <Slider x:Name="SliderPointDiameter" Value="{Binding PointDiameter}" Minimum="30.0" Maximum="150.0" 
                         Style="{StaticResource SimpleSlider}" HorizontalAlignment="Left" Margin="10,35.641,0,0" 
                         VerticalAlignment="Top" Width="139.218" AutoToolTipPlacement="TopLeft"/>
-                
+
                 <Label Content="Point duration" HorizontalAlignment="Left" Margin="10,54.657,0,0" VerticalAlignment="Top" Width="142.953"  FontFamily="Verdana" FontSize="12" Foreground="#FF989898"/>
                 <Slider x:Name="SliderPointDuration" Value="{Binding PointDuration}" Minimum="100.0" Maximum="3000.0" 
                 	Style="{StaticResource SimpleSlider}" HorizontalAlignment="Left" Margin="10,80.346,0,0" 
