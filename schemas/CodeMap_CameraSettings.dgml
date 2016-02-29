@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@15 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=(Name=OnCameraChange OverloadingParameters=[(@6 Namespace=System Type=Object),(@16 Namespace=System.Windows Type=RoutedEventArgs)]))" Category="CodeSchema_Method" Bounds="58.0540632120768,312.501961565764,132.726666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="OnCameraChange" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OnCameraChange" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=553 StartCharacterOffset=4 EndLineNumber=553 EndCharacterOffset=4)" />
+    <Node Id="(@15 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=Connect)" Category="CodeSchema_Method" Bounds="352.986511027018,540.272524462891,79.9266666666667,25.96" CodeSchemaProperty_IsPublic="True" CodeSchemaProperty_IsVirtual="True" CommonLabel="Connect" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method Virtual" Label="Connect" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=169 StartCharacterOffset=4 EndLineNumber=169 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="(@5 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=GazeTrackerUIMainWindow_ContentRendered OverloadingParameters=[(@6 Namespace=System Type=Object),(@6 Namespace=System Type=EventArgs)]))" Category="CodeSchema_Method" Bounds="374.065918782552,481.466450089518,280.793333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="GazeTrackerUIMainWindow_ContentRendered" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="GazeTrackerUIMainWindow_ContentRendered" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=94 StartCharacterOffset=0 EndLineNumber=94 EndCharacterOffset=0)" UseManualLocation="True">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@5 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=OnCameraChanged OverloadingParameters=[(@6 Namespace=System Type=Object),(@16 Namespace=System.Windows Type=RoutedEventArgs)]))" Category="CodeSchema_Method" Bounds="55.7392452748616,424.422161565764,139.793333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="OnCameraChanged" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OnCameraChanged" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=496 StartCharacterOffset=0 EndLineNumber=496 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@7 Namespace=SequenceCapture Type=SequenceCaptureMainWindow Member=(Name=Window1_ContentRendered OverloadingParameters=[(@6 Namespace=System Type=Object),(@6 Namespace=System Type=EventArgs)]))" Category="CodeSchema_Method" Bounds="210.140613708496,596.232624462891,184.68,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="Window1_ContentRendered" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Window1_ContentRendered" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/SequenceCapture/SequenceCaptureMainWindow.xaml.cs StartLineNumber=92 StartCharacterOffset=8 EndLineNumber=92 EndCharacterOffset=8)" />
+    <Node Id="7a9a0dc2-bd20-40e1-9438-dad952b0f3471" Category="Comment" Bounds="146.551444702266,108.861770254996,236.523333333333,73.84" Label="The IAMVideoProcAmp interface adjusts the qualities of an incoming video signal, such as brightness, contrast, hue, saturation, gamma, and sharpness." UseManualLocation="True" />
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="11.154351014923,228.661860961914,224.52,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="OnCameraControlPropertyChanged" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OnCameraControlPropertyChanged" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTHardware/Cameras/DirectShow/DirectShowCamera.cs StartLineNumber=592 StartCharacterOffset=8 EndLineNumber=592 EndCharacterOffset=8)" />
+    <Node Id="@12" Category="CodeSchema_Method" Bounds="145.29444925944,368.462061565764,93.1466666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SetCamera" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetCamera" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackingLibrary/Tracker.cs StartLineNumber=280 StartCharacterOffset=0 EndLineNumber=280 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@13" Category="CodeSchema_Method" Bounds="226.448223164876,424.422161565764,153.393333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="SetDirectShowCamera" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="SetDirectShowCamera" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GTHardware/Camera.cs StartLineNumber=265 StartCharacterOffset=0 EndLineNumber=265 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="11.1543457824299,-14.5629973220825,223.993333333333,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="OnVideoProcAmpPropertyChanged" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OnVideoProcAmpPropertyChanged" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTHardware/Cameras/DirectShow/DirectShowCamera.cs StartLineNumber=562 StartCharacterOffset=8 EndLineNumber=562 EndCharacterOffset=8)" />
+    <Node Id="@23" Category="CodeSchema_Method" Bounds="315.571767578125,368.462061565764,235.23,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ComboBoxDevices_SelectionChanged" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="ComboBoxDevices_SelectionChanged" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Settings/SettingsWindow.xaml.cs StartLineNumber=658 StartCharacterOffset=8 EndLineNumber=658 EndCharacterOffset=8)" />
+    <Node Id="@24" Category="CodeSchema_Field" Bounds="-0.0715029841353925,153.287555236816,114.623333333333,25.96" CodeSchemaProperty_IsPrivate="True" DelayedCrossGroupLinksState="Fetched" Label="videoProcAmp" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTHardware/Cameras/DirectShow/DirectShowCamera.cs StartLineNumber=77 StartCharacterOffset=32 EndLineNumber=77 EndCharacterOffset=32)" />
+    <Node Id="@4" Category="CodeSchema_Class" Bounds="-20.0715011052291,-54.5630973220825,423.146279140829,329.185058283997" CodeSchemaProperty_IsPublic="True" CommonLabel="DirectShowCamera" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="DirectShowCamera" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTHardware/Cameras/DirectShow/DirectShowCamera.cs StartLineNumber=47 StartCharacterOffset=4 EndLineNumber=47 EndCharacterOffset=4)" />
+    <Node Id="a2b30f0a-b9c2-4066-8a56-c88c049c34761" Category="Comment" Bounds="436.041049377995,0.813131439532334,239.75,57.88" Label="Изменение свойств камеры не происходят, пока один раз не изменить моду камеры в настройках" UseManualLocation="True" />
+    <Node Id="РеальныеИзмененияВыполняютсяЗдесь" Category="Comment" Bounds="95.9840058992614,42.7645030212402,247.37,25.96" Label="Реальные изменения выполняются здесь" />
+  </Nodes>
+  <Links>
+    <Link Source="(@15 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=(Name=OnCameraChange OverloadingParameters=[(@6 Namespace=System Type=Object),(@16 Namespace=System.Windows Type=RoutedEventArgs)]))" Target="@12" Category="CodeSchema_Calls" Bounds="140.062579647205,338.461961565764,29.2334918056355,24.2535175950485" Weight="1" />
+    <Link Source="(@15 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=Connect)" Target="@13" Category="CodeSchema_Calls" Bounds="318.720679772721,457.49525916303,64.1673217255739,82.7772652998603" Weight="1" />
+    <Link Source="(@5 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=GazeTrackerUIMainWindow_ContentRendered OverloadingParameters=[(@6 Namespace=System Type=Object),(@6 Namespace=System Type=EventArgs)]))" Target="@13" Category="CodeSchema_Calls" Bounds="359.91761331933,452.72769835486,106.461229092595,28.7387517346586" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+    </Link>
+    <Link Source="(@5 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=OnCameraChanged OverloadingParameters=[(@6 Namespace=System Type=Object),(@16 Namespace=System.Windows Type=RoutedEventArgs)]))" Target="@12" Category="CodeSchema_Calls" Bounds="140.998459203831,400.230564890199,28.6320914698707,24.191596675565" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+    </Link>
+    <Link Source="(@7 Namespace=SequenceCapture Type=SequenceCaptureMainWindow Member=(Name=Window1_ContentRendered OverloadingParameters=[(@6 Namespace=System Type=Object),(@6 Namespace=System Type=EventArgs)]))" Target="@13" Category="CodeSchema_Calls" Bounds="302.530798680469,459.382078118189,0.529109463235329,136.850546344702" Weight="1" />
+    <Link Source="7a9a0dc2-bd20-40e1-9438-dad952b0f3471" Target="@24" Bounds="123.508319355397,157.453248276857,23.0431253468697,2.27417166205703" />
+    <Link Source="@12" Target="@10" Category="CodeSchema_FunctionPointer" Bounds="75.146858764131,18.4599494743347,44.2600909109846,117.537573053339" Weight="1" />
+    <Link Source="@12" Target="@13" Category="CodeSchema_Calls" Bounds="217.678616596988,394.422061565764,51.6149095375969,25.9566012353038" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+    </Link>
+    <Link Source="@12" Target="@14" Category="CodeSchema_FunctionPointer" Bounds="86.0364134625119,75.9811366783248,52.4112515339815,153.403751969452" Weight="1" />
+    <Link Source="@14" Target="@24" Category="CodeSchema_FieldRead" Bounds="63.9501800537109,11.3970022201538,44.5876770019531,133.296631813049" Weight="3" />
+    <Link Source="@23" Target="@13" Category="CodeSchema_Calls" Bounds="341.575282022038,394.422061565764,61.4481446551475,26.4425920272972" Weight="1" />
+    <Link Source="@4" Target="7a9a0dc2-bd20-40e1-9438-dad952b0f3471" Category="Contains" />
+    <Link Source="@4" Target="@10" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@14" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="@24" Category="Contains" FetchingParent="@4" />
+    <Link Source="@4" Target="РеальныеИзмененияВыполняютсяЗдесь" Category="Contains" />
+    <Link Source="РеальныеИзмененияВыполняютсяЗдесь" Target="@14" Bounds="152.7424477505,15.9930336217796,45.0731039207622,26.7714693994606" />
+  </Links>
+  <Categories>
+    <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
+    <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
+    <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Class" Label="Class" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Classes" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_FieldRead" Label="Field Read" BasedOn="CodeSchema_FieldReference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Read By" OutgoingActionLabel="Reads Fields" />
+    <Category Id="CodeSchema_FieldReference" Label="Field Reference" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Referenced By" OutgoingActionLabel="References Fields" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
+    <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
+    <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
+    <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="Contains" Label="Contains" Description="Whether the source of the link contains the target object" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Contained By" IsContainment="True" OutgoingActionLabel="Contains" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsVirtual" Label="Is Virtual" Description="Flag to indicate the method can be overridden" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FetchingParent" DataType="Microsoft.VisualStudio.GraphModel.GraphNodeId" />
+    <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="Weight" Label="Weight" Description="Weight" DataType="System.Double" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="Assembly" ValueType="Uri" />
+    <Name Id="Member" Label="Member" ValueType="System.Object" />
+    <Name Id="Name" Label="Name" ValueType="System.String" />
+    <Name Id="Namespace" Label="Namespace" ValueType="System.String" />
+    <Name Id="OverloadingParameters" Label="Parameter" ValueType="Microsoft.VisualStudio.GraphModel.GraphNodeIdCollection" Formatter="NameValueNoEscape" />
+    <Name Id="Type" Label="Type" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(4ef59290-9005-460e-8919-5003414bdc92.OutputPathUri)" />
+    <Alias n="2" Id="Namespace=GTHardware.Cameras.DirectShow" />
+    <Alias n="3" Id="Type=DirectShowCamera" />
+    <Alias n="4" Id="(@1 @2 @3)" />
+    <Alias n="5" Uri="Assembly=$(41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri)" />
+    <Alias n="6" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
+    <Alias n="7" Uri="Assembly=$(adc47634-0907-46a9-a865-4213e988c32a.OutputPathUri)" />
+    <Alias n="8" Uri="Assembly=$(VsSolutionUri)/DLLs/Managed/DirectShowLib-2005.dll" />
+    <Alias n="9" Id="(@6 Namespace=System Type=Int32)" />
+    <Alias n="10" Id="(@1 @2 @3 Member=(Name=OnCameraControlPropertyChanged OverloadingParameters=[(@8 Namespace=DirectShowLib Type=CameraControlProperty),@9]))" />
+    <Alias n="11" Uri="Assembly=$(bf8d4e7f-f8e1-4204-b438-55b35233f590.OutputPathUri)" />
+    <Alias n="12" Id="(@11 Namespace=GazeTrackingLibrary Type=Tracker Member=(Name=SetCamera OverloadingParameters=[@9,@9]))" />
+    <Alias n="13" Id="(@1 Namespace=GTHardware Type=Camera Member=(Name=SetDirectShowCamera OverloadingParameters=[@9,@9]))" />
+    <Alias n="14" Id="(@1 @2 @3 Member=(Name=OnVideoProcAmpPropertyChanged OverloadingParameters=[(@8 Namespace=DirectShowLib Type=VideoProcAmpProperty),@9]))" />
+    <Alias n="15" Uri="Assembly=$(2f1306d9-f01d-4431-8122-9dbc888480cd.OutputPathUri)" />
+    <Alias n="16" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/PresentationCore.dll" />
+    <Alias n="21" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/PresentationFramework.dll" />
+    <Alias n="23" Id="(@5 Namespace=GazeTrackerUI.SettingsUI Type=SettingsWindow Member=(Name=ComboBoxDevices_SelectionChanged OverloadingParameters=[(@6 Namespace=System Type=Object),(@21 Namespace=System.Windows.Controls Type=SelectionChangedEventArgs)]))" />
+    <Alias n="24" Id="(@1 @2 @3 Member=videoProcAmp)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack Node" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External Call Stack Entry" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Results" ValueLabel="True">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enumeration" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field" ValueLabel="Has category">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Out Parameter" ValueLabel="True">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Local Variable" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Field Read" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Target.HasCategory('CodeSchema_Field') And HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="2f1306d9-f01d-4431-8122-9dbc888480cd.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/OgamaClient.dll" />
+    <Path Id="41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/GazeTrackerUI.exe" />
+    <Path Id="4ef59290-9005-460e-8919-5003414bdc92.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/GTHardware.dll" />
+    <Path Id="adc47634-0907-46a9-a865-4213e988c32a.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/SequenceCapture.exe" />
+    <Path Id="bf8d4e7f-f8e1-4204-b438-55b35233f590.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/GazeTrackingLibrary.dll" />
+    <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="FxRootUri" Value="file:///C:/Windows/Microsoft.NET/Framework" />
+    <Path Id="VsSolutionUri" Value="file:///E:/EYE/GazeTrackerEF" />
+  </Paths>
+</DirectedGraph>
