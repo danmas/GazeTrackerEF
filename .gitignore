@@ -1,4 +1,7 @@
 UpgradeLog*.htm
-Debug/log/**
+Debug/log/*.*
+Debug/log/GazeTrackerUI.log.txt
+Debug/log/*.log.txt.*
+
 
 
