@@ -9,31 +9,46 @@
     x:Class="GazeTrackerUI.ApplicationEF.ApplicationEFViewer"
     Title="Camera Viewer" Height="547" Width="Auto" 
     Background="Black" ResizeMode="CanResizeWithGrip" WindowStyle="None" mc:Ignorable="d">
-	
-    <Grid>
-	
-			<Grid x:Name="GridTop" Margin="0,-5,0,0">
-       			<Rectangle x:Name="RectBG" MouseEnter="EnterMoveWindow" MouseLeave="ExitMoveWindow" MouseLeftButtonDown="DragWindow" Fill="#D7181818" Stroke="#FF3D3D3D" RadiusX="8" RadiusY="8" Margin="0,5,0,0"/>
-       			<Label Content="x" MouseDown="WindowHide" Background="{x:Null}" FontFamily="Verdana" FontSize="18" Foreground="#FF989898" HorizontalAlignment="Right" x:Name="X" VerticalAlignment="Top" Width="Auto" Height="Auto" Margin="0,0,4,0" ToolTip="Close window" />
-			
-       			<Label MouseEnter="EnterMoveWindow" MouseLeave="ExitMoveWindow" MouseLeftButtonDown="DragWindow" Background="#00FBFBFB" FontFamily="Lithos Pro" FontSize="16" VerticalAlignment="Top" Content="GT2" HorizontalAlignment="Center" Margin="0,3,0,0">
-       				<Label.Foreground>
-       					<LinearGradientBrush EndPoint="0.499,-0.098" StartPoint="0.496,1.541">
-       						<GradientStop Color="#FF303030" Offset="0"/>
-       						<GradientStop Color="#FFB7B7B7" Offset="1"/>
-       					</LinearGradientBrush>
-       				</Label.Foreground>
-       			</Label>
 
-       		</Grid>
-			
-			<Grid>
-				<Grid HorizontalAlignment="Left" Margin="8,0,0,5.5" VerticalAlignment="Bottom" Height="21" Width="310">
-					<GazeTrackerUI:MenubarIconsUserControl x:Name="menuBarIcons" Margin="0,0,136,0"/>   
-				</Grid>
-				<Grid x:Name="GridVideoModeOutput" Margin="194,0,0,5" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="100" d:LayoutOverrides="Width" Height="20"/>
-			</Grid>
-			<!--
+    <Grid>
+
+        <Grid x:Name="GridTop" Margin="0,-5,0,0">
+            <Rectangle x:Name="RectBG" MouseEnter="EnterMoveWindow" MouseLeave="ExitMoveWindow" MouseLeftButtonDown="DragWindow" Fill="#D7181818" Stroke="#FF3D3D3D" RadiusX="8" RadiusY="8" Margin="0,5,0,0"/>
+            <Label Content="x" MouseDown="WindowHide" Background="{x:Null}" FontFamily="Verdana" FontSize="18" Foreground="#FF989898" HorizontalAlignment="Right" x:Name="X" VerticalAlignment="Top" Width="Auto" Height="Auto" Margin="0,0,4,0" ToolTip="Close window" />
+
+            <Label MouseEnter="EnterMoveWindow" MouseLeave="ExitMoveWindow" MouseLeftButtonDown="DragWindow" Background="#00FBFBFB" FontFamily="Lithos Pro" FontSize="16" VerticalAlignment="Top" Content="ApplicationEF" HorizontalAlignment="Center" Margin="0,3,0,0">
+                <Label.Foreground>
+                    <LinearGradientBrush EndPoint="0.499,-0.098" StartPoint="0.496,1.541">
+                        <GradientStop Color="#FF303030" Offset="0"/>
+                        <GradientStop Color="#FFB7B7B7" Offset="1"/>
+                    </LinearGradientBrush>
+                </Label.Foreground>
+            </Label>
+
+        </Grid>
+
+        <Grid>
+            <Grid HorizontalAlignment="Left" Margin="8,0,0,5.5" VerticalAlignment="Bottom" Height="21" Width="310">
+                <GazeTrackerUI:MenubarIconsUserControl x:Name="menuBarIcons" Margin="0,0,136,0"/>
+            </Grid>
+            <Grid ShowGridLines="True" Width="Auto" Height="Auto" Margin="10,38.209,10,31.5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Button x:Name="B00"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="0" Content="Button 00"/>
+                <Button x:Name="B01"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="1" Content="Button 01"/>
+                <Button x:Name="B10"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="0" Content="Button 10"/>
+                <Button x:Name="B11"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="1" Content="Button 11"/>
+            </Grid>
+            <Grid x:Name="GridVideoModeOutput" Margin="194,0,0,5" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="100" d:LayoutOverrides="Width" Height="20"/>
+        </Grid>
+        <!--
        		<StackPanel x:Name="GridPanel" Margin="8,0,8,1" VerticalAlignment="Bottom" Height="31" Orientation="Horizontal">
 			
 			
@@ -82,8 +97,8 @@
        				<TextBlock HorizontalAlignment="Center" Margin="0,0.02,0,2.02" Foreground="#FFCBCBCB" Text="quality" TextWrapping="Wrap" d:LayoutOverrides="Height"/>
        			</Grid>
 				-->
-       			<Label Content="Resolution: 00 x 00 px" Foreground="#FF828282" x:Name="LabelResolution" Margin="4,1,0,0" FontFamily="Segoe UI Light" VerticalAlignment="Top" FontSize="12.667" HorizontalAlignment="Left"/>
-			
-			
+        <Label Content="Resolution: 00 x 00 px" Foreground="#FF828282" x:Name="LabelResolution" Margin="4,1,0,0" FontFamily="Segoe UI Light" VerticalAlignment="Top" FontSize="12.667" HorizontalAlignment="Left"/>
+
+
     </Grid>
 </Window>

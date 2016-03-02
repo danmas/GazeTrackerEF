@@ -6,7 +6,6 @@ Debug/log/**/*.*
 Debug/log/GazeTrackerUI.log.txt
 Debug/log/*.log.txt.*
 **/*.v12.suo
-
 Debug/**/*.*
 GazeTrackerUI/obj/**/*.*
 Debug/

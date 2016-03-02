@@ -10,6 +10,7 @@
 //------------------------------------------------------------------------------
 
 using GazeTrackerUI.CalibrationUI;
+using GazeTrackerUI.Tools;
 using System;
 using System.Diagnostics;
 using System.Windows;
