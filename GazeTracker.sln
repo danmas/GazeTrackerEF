@@ -31,6 +31,8 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "GTSetupMergeModule", "GTSet
 EndProject
 Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{1F623202-2DE2-4929-BD6B-35500E9FF5FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1ForEF", "App1ForEF\App1ForEF.csproj", "{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -200,6 +202,16 @@ Global
 		{1F623202-2DE2-4929-BD6B-35500E9FF5FD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{1F623202-2DE2-4929-BD6B-35500E9FF5FD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{1F623202-2DE2-4929-BD6B-35500E9FF5FD}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{AD331F24-8782-4CE0-A168-4FB3BC16FBF1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
