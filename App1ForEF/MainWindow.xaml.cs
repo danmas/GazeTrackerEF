@@ -20,6 +20,11 @@ namespace App1ForEF
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        Button cur_button = null;    //-- current button we are enter in
+        long ticks_enter_on_button;  //-- ticks on enter
+        long CLICK_TIME = 20000000;  //-- delay before click  2 sec 
+
         public MainWindow()
         {
             InitializeComponent();
@@ -27,6 +32,16 @@ namespace App1ForEF
 
         private void Button_MouseMove(object sender, MouseEventArgs e)
         {
+            long cur_ticks = DateTime.Now.Ticks;
+
+            if (ticks_enter_on_button!=0 
+                && cur_ticks - ticks_enter_on_button > CLICK_TIME)
+            {
+                MessageBox.Show("The button " + ((Button)sender).Name + " pressed.");
+                Console.WriteLine(" !!!!!!!!!!!!!!!! CLICK BUTTON btn:" + ((Button)sender).Name);
+                ticks_enter_on_button = 0; // DateTime.Now.Ticks;
+            }
+            /*
             Point pt = e.GetPosition(this);
             if (sender is Button)
             {
@@ -44,9 +59,22 @@ namespace App1ForEF
                 {
                     Console.WriteLine("!!!!!!!! B11 " + sender.ToString() + "!!! " + String.Format("X: {0}, Y: {1}", pt.X, pt.Y));
                 }
-            }
-
+            }*/
+        }
+        
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+            cur_button = (Button)sender;
+            ticks_enter_on_button = DateTime.Now.Ticks;
+            //Console.WriteLine(" Enter button " + cur_button.Name + "  ticks_enter_on_button:" + ticks_enter_on_button);
         }
 
+        private void Button_MouseLeave(object sender, MouseEventArgs e)
+        {
+            cur_button = (Button)sender;
+            ticks_enter_on_button = 0;
+            //Console.WriteLine(" Leave button " + cur_button.Name);
+        }
+    
     }
 }

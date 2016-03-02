@@ -13,12 +13,17 @@
         </Grid.RowDefinitions>
 
         <Button Name="B00"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="0"
-                 MouseMove="Button_MouseMove">Button 00</Button>
+                 MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Lena_Jenja.jpg" />
+                <TextBlock Text="Позвать маиу." HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
         <Button Name="B01"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="1"
-                MouseMove="Button_MouseMove">Button 01</Button>
+                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">Button 01</Button>
         <Button Name="B10"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="0"
-                MouseMove="Button_MouseMove">Button 10</Button>
+                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">Button 10</Button>
         <Button Name="B11"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="1"
-                MouseMove="Button_MouseMove">Button 11</Button>
+                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">Button 11</Button>
     </Grid>
 </Window>
