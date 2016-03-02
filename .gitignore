@@ -10,4 +10,6 @@ Debug/log/*.log.txt.*
 Debug/**/*.*
 GazeTrackerUI/obj/**/*.*
 Debug/
+t.txt
+
 
