@@ -10,4 +10,7 @@ Debug/log/*.log.txt.*
 **/*.v12.suo
 
 >>>>>>> 77455c5b5dce0fd4327cc0227dfe9ba7277547fc
+Debug/**/*.*
+GazeTrackerUI/obj/**/*.*
+
 
