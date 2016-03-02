@@ -27,22 +27,22 @@ using GazeTrackingLibrary;
 using GTCommons.Enum;
 using GTSettings;
 
-namespace GazeTrackerUI.TrackerViewer
-{
-    public partial class VideoViewer : Window
+namespace GazeTrackerUI.ApplicationEF
+{ 
+    public partial class ApplicationEFViewer :  Window
     {
         #region Variables
-
-        private static VideoViewer instance;
+        
+        private static ApplicationEFViewer instance;
 
         #endregion
 
         #region Constructor
 
-        private VideoViewer()
+        private ApplicationEFViewer()
         {
             ComboBoxBackgroundColorFix.Initialize();
-            InitializeComponent(); 
+            InitializeComponent();
             menuBarIcons.IsDetachVideoVisible = false;
             RegisterForEvents();
         }
@@ -59,22 +59,17 @@ namespace GazeTrackerUI.TrackerViewer
 
         #region Get/Set
 
-        public static VideoViewer Instance
+        public static ApplicationEFViewer Instance
         {
             get
             {
                 if (instance == null)
                 {
-                    instance = new VideoViewer();
+                    instance = new ApplicationEFViewer();
                 }
 
                 return instance;
             }
-        }
-
-        public VideoImageControl VideoImageControl
-        {
-            get { return this.VideoImageControl; }
         }
 
         public VideoModeEnum VideoMode
@@ -89,45 +84,12 @@ namespace GazeTrackerUI.TrackerViewer
 
         #region Public methods
 
-        /// <summary>
-        /// Sets the size and labels.
-        /// </summary>
-        /// <param name="imgWidth">Width of the img.</param>
-        /// <param name="imgHeight">Height of the img.</param>
-        /// <param name="fps">The Frames Per Second.</param>
-        public void SetSizeAndLabels()
-        {
-            int imgWidth = GTHardware.Camera.Instance.Height;
-            int imgHeight = GTHardware.Camera.Instance.Height;
-
-            // Size
-            videoImageControl.VideoImageWidth = imgWidth;
-            videoImageControl.VideoImageHeight = imgHeight;
-
-            Width = imgWidth + videoImageControl.Margin.Left + videoImageControl.Margin.Right;
-            Height = imgHeight + videoImageControl.Margin.Top + videoImageControl.Margin.Bottom;
-
-            // Label
-            if (GTHardware.Camera.Instance.FPS == 0)
-                LabelResolution.Content = "Native resolution: " + imgWidth + " x " + imgHeight;
-            else
-                LabelResolution.Content = "Native resolution: " + imgWidth + " x " + imgHeight + " @ " + Tracker.Instance.FPSVideo + " frames per second";
-        }
-
 
         public void ShowWindow(int width, int height)
         {
             try
             {
-                Width = width + videoImageControl.Margin.Left + videoImageControl.Margin.Right;
-                Height = height + videoImageControl.Margin.Top + videoImageControl.Margin.Bottom;
-
-                this.Visibility = Visibility.Visible;
-
-               // Show();
-
-                if(videoImageControl.Overlay != null)
-                   videoImageControl.Overlay.Visibility = Visibility.Visible;
+                this.Show();    
             }
             catch (Exception)
             {
@@ -149,31 +111,28 @@ namespace GazeTrackerUI.TrackerViewer
 
             if (prevSize != newSize)
             {
-                videoImageControl.VideoImageWidth = Convert.ToInt32(newSize.Width - videoImageControl.Margin.Left - videoImageControl.Margin.Right);
-                videoImageControl.VideoImageHeight = Convert.ToInt32(newSize.Height - videoImageControl.Margin.Top - videoImageControl.Margin.Bottom);
-                videoImageControl.UpdateLayout();
+//                videoImageControl.VideoImageWidth = Convert.ToInt32(newSize.Width - videoImageControl.Margin.Left - videoImageControl.Margin.Right);
+//                videoImageControl.VideoImageHeight = Convert.ToInt32(newSize.Height - videoImageControl.Margin.Top - videoImageControl.Margin.Bottom);
+//                videoImageControl.UpdateLayout();
             }
         }
 
         private void WindowActivated(object sender, EventArgs e)
         {
             // Rendering video when active/visible
-            if (WindowState.Equals(WindowState.Normal))
-                videoImageControl.Start();
+//            if (WindowState.Equals(WindowState.Normal))
+//                videoImageControl.Start();
         }
 
         private void WindowDeactivated(object sender, EventArgs e)
         {
-            // Stop rendering when minimized
-            if (WindowState.Equals(WindowState.Minimized))
-                videoImageControl.Stop(false); // Passing false, true would stop visualization on tracker level
+            Console.WriteLine(" !!!!!!!!!!!!! ApplicationEFViewer WindowDeactivated");
         }
 
         private void WindowHide(object sender, MouseButtonEventArgs e)
         {
-            videoImageControl.Stop(false);
-            videoImageControl.Overlay.Visibility = Visibility.Collapsed;
-            Visibility = Visibility.Collapsed;
+            Console.WriteLine(" !!!!!!!!!!!!! ApplicationEFViewer WindowHide");
+            this.Hide();
         }
 
         #endregion

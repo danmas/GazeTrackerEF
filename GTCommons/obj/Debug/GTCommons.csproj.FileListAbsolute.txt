@@ -25,6 +25,6 @@ D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommo
 D:\EYE\ITUGazeTracker\gazetrackinglib-code-564-trunk\GTCommons\obj\Debug\GTCommons.pdb
 E:\EYE\GazeTrackerEF\Debug\GTCommons.dll
 E:\EYE\GazeTrackerEF\Debug\GTCommons.pdb
-E:\EYE\GazeTrackerEF\GTCommons\obj\Debug\GTCommons.csprojResolveAssemblyReference.cache
 E:\EYE\GazeTrackerEF\GTCommons\obj\Debug\GTCommons.dll
 E:\EYE\GazeTrackerEF\GTCommons\obj\Debug\GTCommons.pdb
+E:\EYE\GazeTrackerEF\GTCommons\obj\Debug\GTCommons.csprojResolveAssemblyReference.cache

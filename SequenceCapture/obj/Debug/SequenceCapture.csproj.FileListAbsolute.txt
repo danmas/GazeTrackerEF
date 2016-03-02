@@ -100,18 +100,18 @@ E:\EYE\ITUGazeTracker\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture.Pr
 E:\EYE\ITUGazeTracker\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture.csproj.GenerateResource.Cache
 E:\EYE\ITUGazeTracker\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture.exe
 E:\EYE\ITUGazeTracker\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture.pdb
-E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.log4net
-E:\EYE\GazeTrackerEF\Debug\SequenceCapture.exe
-E:\EYE\GazeTrackerEF\Debug\SequenceCapture.pdb
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture.csprojResolveAssemblyReference.cache
-E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\DummyCalibrationWindow.baml
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\Simple Styles.baml
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCaptureMainWindow.baml
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\App.baml
-E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\DummyCalibrationWindow.g.cs
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCaptureMainWindow.g.cs
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\App.g.cs
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture_MarkupCompile.cache
+E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.log4net
+E:\EYE\GazeTrackerEF\Debug\SequenceCapture.exe
+E:\EYE\GazeTrackerEF\Debug\SequenceCapture.pdb
+E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\DummyCalibrationWindow.baml
+E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\DummyCalibrationWindow.g.cs
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture.g.resources
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture.Properties.Resources.resources
 E:\EYE\GazeTrackerEF\SequenceCapture\obj\Debug\SequenceCapture.csproj.GenerateResource.Cache

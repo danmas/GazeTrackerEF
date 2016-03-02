@@ -90,6 +90,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\ApplicationEFCommands.cs" />
     <Compile Include="Commands\AutotuneCommands.cs" />
     <Compile Include="Commands\CalibrationCommands.cs" />
     <Compile Include="Commands\CameraCommands.cs" />

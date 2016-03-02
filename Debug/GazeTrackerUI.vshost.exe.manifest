@@ -222,19 +222,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>MbTZb+6ITm4W3A1ILZkYox0uj68=</dsig:DigestValue>
+        <dsig:DigestValue>klbBRdt0jCtRy5YkNHhbTE4TxZY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GazeTrackerUI.exe" size="890880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GazeTrackerUI.exe" size="896512">
       <assemblyIdentity name="GazeTrackerUI" version="2.1.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>a3A5T3GSYrjchCyauwNLU0cOxVg=</dsig:DigestValue>
+        <dsig:DigestValue>d/oxHyC4YdtqyEmod93HuJ/bHyU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -246,19 +246,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>8sNpK+UWJ7NB3pWeZe30fJ0MGIo=</dsig:DigestValue>
+        <dsig:DigestValue>H5GejczQblMLACR8mB4D4EoQHFw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GTCommons.dll" size="22016">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GTCommons.dll" size="22528">
       <assemblyIdentity name="GTCommons" version="2.1.0.0" publicKeyToken="0394C3DFE9DA180E" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>L839nl4QpZeCF5vQxhtHYxFn7qM=</dsig:DigestValue>
+        <dsig:DigestValue>osH1peJFMUnqOF4YrtTdGwvE7z8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -270,7 +270,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>1nfMu8vk89zMsDd/d6iP3TtuzP4=</dsig:DigestValue>
+        <dsig:DigestValue>sE5j0Py6CmQRZWKKbatzsfI+XVA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -282,7 +282,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>f1+g2R5XDMh7w8CvlB5Bkzg6gfw=</dsig:DigestValue>
+        <dsig:DigestValue>gdYCS9gnfVUg+5X+VfiVNV7Aab8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

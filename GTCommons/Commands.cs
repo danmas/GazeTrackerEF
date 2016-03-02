@@ -17,8 +17,10 @@ namespace GTCommons
         private readonly SettingsCommands settingsCommands;
         private readonly TrackerViewerCommands videoViewerCommands;
 
-        #endregion
+        private readonly ApplicationEFCommands applicationEFCommands;
 
+        #endregion
+         
         #region Events
 
         public static readonly RoutedEvent NetworkClientEvent = EventManager.RegisterRoutedEvent("NetworkClientEvent",
@@ -42,6 +44,7 @@ namespace GTCommons
             autotuneCommands = new AutotuneCommands();
             videoViewerCommands = new TrackerViewerCommands();
             cameraCommands = new CameraCommands();
+            applicationEFCommands = new ApplicationEFCommands();
         }
 
         #endregion
@@ -95,6 +98,11 @@ namespace GTCommons
         public AutotuneCommands Autotune
         {
             get { return autotuneCommands; }
+        }
+
+        public ApplicationEFCommands ApplicationEF
+        {
+            get { return applicationEFCommands; }
         }
 
         public TrackerViewerCommands TrackerViewer

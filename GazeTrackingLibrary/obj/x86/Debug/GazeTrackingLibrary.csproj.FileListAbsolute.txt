@@ -23,13 +23,13 @@ E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\Debug\GazeTrackingLibrary.
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.csprojResolveAssemblyReference.cache
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.dll
 E:\EYE\ITU GazeTracker\gazetrackinglib-code-564-trunk\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.pdb
-E:\EYE\GazeTrackerEF\Debug\GazeTrackingLibrary.dll
-E:\EYE\GazeTrackerEF\Debug\GazeTrackingLibrary.pdb
-E:\EYE\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.csprojResolveAssemblyReference.cache
-E:\EYE\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.dll
-E:\EYE\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.pdb
 E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GazeTrackingLibrary.dll
 E:\EYE\ITUGazeTracker\GazeTrackerEF\Debug\GazeTrackingLibrary.pdb
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.csprojResolveAssemblyReference.cache
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.dll
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.pdb
+E:\EYE\GazeTrackerEF\Debug\GazeTrackingLibrary.dll
+E:\EYE\GazeTrackerEF\Debug\GazeTrackingLibrary.pdb
+E:\EYE\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.csprojResolveAssemblyReference.cache
+E:\EYE\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.dll
+E:\EYE\GazeTrackerEF\GazeTrackingLibrary\obj\x86\Debug\GazeTrackingLibrary.pdb

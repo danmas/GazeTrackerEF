@@ -406,14 +406,6 @@ E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.Pr
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.csproj.GenerateResource.Cache
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.exe.manifest
 E:\EYE\ITUGazeTracker\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.application
-E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.config
-E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.exe
-E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.pdb
-E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.log4net
-E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.manifest
-E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.application
-E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe
-E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.pdb
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.csprojResolveAssemblyReference.cache
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\Calibration\VisualGazePoint.baml
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\Calibration\CalibrationMenuUC.baml
@@ -432,6 +424,7 @@ E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\Tools\ColorPickerUserControl.ba
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\TrackerViewer\PerformanceCountersUC.baml
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\TrackerViewer\TrackBoxUC.baml
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\App.baml
+E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\ApplicationEF\ApplicationEFViewer.g.cs
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\Calibration\VisualGazePoint.g.cs
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\Calibration\CalibrationMenuUC.g.cs
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\Calibration\CalibrationWindow.g.cs
@@ -458,6 +451,13 @@ E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI_Content.g.cs
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI_MarkupCompile.cache
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI_MarkupCompile.lref
+E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.log4net
+E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.config
+E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe.manifest
+E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.application
+E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe
+E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.pdb
+E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\ApplicationEF\ApplicationEFViewer.baml
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\Calibration\CalibrationWindow.baml
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\Calibration\CalibrationControl.baml
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\MenubarIconsUserControl.baml
@@ -474,3 +474,5 @@ E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.Properties.Resour
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.csproj.GenerateResource.Cache
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.exe.manifest
 E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.application
+E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.exe
+E:\EYE\GazeTrackerEF\GazeTrackerUI\obj\x86\Debug\GazeTrackerUI.pdb

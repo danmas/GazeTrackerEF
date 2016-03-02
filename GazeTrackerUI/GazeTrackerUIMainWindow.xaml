@@ -67,8 +67,10 @@
             		<Grid x:Name="GridVideoImage" Margin="4,3,4,0" VerticalAlignment="Top" Height="210">
             			<TrackerViewer:VideoImageControl x:Name="videoImageControl" HorizontalAlignment="Center" VerticalAlignment="Top" Panel.ZIndex="1" Margin="0" Width="384" Height="204"/>
             		</Grid>
-            		<GazeTrackerUI:MenubarIconsUserControl x:Name="menuBarIcons" Margin="0,0,6,6" VerticalAlignment="Bottom" Height="21" HorizontalAlignment="Right" Foreground="{x:Null}" Opacity="0.695"/>
-            		<ProgressBar x:Name="ProgressBarTrackingQuality" Margin="4,4,55,16" VerticalAlignment="Bottom" Height="10" Value="20" Foreground="#262AFF00" Width="250" HorizontalAlignment="Left" Opacity="0.595" Visibility="Collapsed">
+            		<GazeTrackerUI:MenubarIconsUserControl x:Name="menuBarIcons" Margin="0,0,6,6" VerticalAlignment="Bottom" 
+                        Height="21" HorizontalAlignment="Right" Foreground="{x:Null}" Opacity="0.695"/>
+            		<ProgressBar x:Name="ProgressBarTrackingQuality" Margin="4,4,55,16" VerticalAlignment="Bottom" Height="10" Value="20" Foreground="#262AFF00" Width="250" HorizontalAlignment="Left" Opacity="0.595" 
+                                 Visibility="Collapsed">
             			<ProgressBar.BorderBrush>
             				<LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
             					<GradientStop Color="#FF494949" Offset="0"/>

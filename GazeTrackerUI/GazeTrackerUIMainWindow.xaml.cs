@@ -286,6 +286,12 @@ namespace GazeTrackerUI
 
       #endregion
 
+      #region ApplicationEF
+
+      GTCommands.Instance.ApplicationEF.OnApplicationEFOpen += OnApplicationEFOpen;
+
+      #endregion
+
       #region Misc
 
       GTCommands.Instance.OnNetworkClient += OnNetworkClient;
@@ -366,6 +372,37 @@ namespace GazeTrackerUI
       SettingsWindow.Instance.Visibility = Visibility.Visible;
     }
 
+    #endregion
+
+
+    #region ApplicationEF
+
+    private void OnApplicationEFOpen(object sender, RoutedEventArgs e)
+    {
+        int width = 0;
+        int height = 0;
+
+//        ApplicationEFViewer.Instance.SetSizeAndLabels();
+
+        // If ROI has been set display at twice the image size
+        if (GTHardware.Camera.Instance.Device != null && GTHardware.Camera.Instance.Device.IsROISet)
+        {
+            width = GTHardware.Camera.Instance.ROI.Width * 2;
+            height = GTHardware.Camera.Instance.ROI.Height * 2;
+        }
+        else
+        {
+            width = GTHardware.Camera.Instance.Width;
+            height = GTHardware.Camera.Instance.Height;
+        }
+
+        int posX = Convert.ToInt32(Left - width - 5);
+        int posY = Convert.ToInt32(Top);
+
+        this.videoImageControl.VideoOverlayTopMost = false;
+
+        GazeTrackerUI.ApplicationEF.ApplicationEFViewer.Instance.ShowWindow(width, height);
+    }
     #endregion
 
     #region TrackerViewer

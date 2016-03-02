@@ -151,12 +151,19 @@
     <Resource Include="Graphics\GTagt_utilities.png" />
     <Resource Include="Graphics\GTsystem_run.png" />
     <Resource Include="Graphics\GTxeyes.png" />
+    <Page Include="ApplicationEF\ApplicationEFViewer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Calibration\VisualGazePoint.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="ApplicationEF\ApplicationEFViewer.xaml.cs">
+      <DependentUpon>ApplicationEFViewer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Calibration\VisualGazePoint.xaml.cs">
       <DependentUpon>VisualGazePoint.xaml</DependentUpon>
     </Compile>

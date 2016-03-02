@@ -22,13 +22,15 @@
 					<DropShadowEffect ShadowDepth="3"/>
 				</Image.Effect>
 			</Image>
-            <!-- 
-			<Image x:Name="IconIllumination" MouseDown="IlluminationSettings" Margin="7,-2,0,1" Width="22" Height="22" Source="Graphics/icon_lightbulb3.png" Stretch="Fill" ToolTip="Illumination control (Requires PhidgetLED64 controller)">
+
+            <Image x:Name="IconApplicationEF" MouseDown="ApplicationEF" Margin="7,-2,0,1" Width="22" Height="22" 
+                   Source="Graphics/icon_lightbulb3.png" Stretch="Fill" 
+                   ToolTip="Open application EF window">
 				<Image.Effect>
-					<DropShadowEffect ShadowDepth="2"/>
+					<DropShadowEffect ShadowDepth="5"/>
 				</Image.Effect>
 			</Image>
-            -->
+            
 			<Image x:Name="IconUDPClient" MouseDown="NetworkClient" Margin="7,0,0,0" VerticalAlignment="Bottom" Width="24" Source="Graphics\icon_network.gif" Stretch="Fill" ToolTip="Network client">
                 <Image.Effect>
 					<DropShadowEffect ShadowDepth="3"/>

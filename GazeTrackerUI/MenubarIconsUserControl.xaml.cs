@@ -15,7 +15,7 @@ namespace GazeTrackerUI
             InitializeComponent();
             IsAutoTuneVisible = false;
             IsTrackStatsVisibile = false;
-            //IsIlluminationVisibile = false;
+            IsApplicationEFVisibile = true;
         }
 
         #region Private methods (on icon click)
@@ -28,6 +28,11 @@ namespace GazeTrackerUI
         private void Autotune(object sender, MouseButtonEventArgs e)
         {
             GTCommands.Instance.Autotune.Autotune();
+        }
+
+        private void ApplicationEF(object sender, MouseButtonEventArgs e)
+        {
+            GTCommands.Instance.ApplicationEF.ApplicationEF();
         }
 
         private void CameraSettings(object sender, MouseButtonEventArgs e)
@@ -89,12 +94,12 @@ namespace GazeTrackerUI
             }
         }
 
-        //public bool IsIlluminationVisibile
-        //{
-        //    set {
-        //        IconIllumination.Visibility = value ? Visibility.Visible : Visibility.Collapsed;
-        //    }
-        //}
+        public bool IsApplicationEFVisibile
+        {
+            set {
+                IconApplicationEF.Visibility = value ? Visibility.Visible : Visibility.Collapsed;
+            }
+        }
 
         #endregion
     }
