@@ -9,5 +9,5 @@ Debug/log/*.log.txt.*
 
 Debug/**/*.*
 GazeTrackerUI/obj/**/*.*
-
+Debug/
 
