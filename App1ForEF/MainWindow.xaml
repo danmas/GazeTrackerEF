@@ -12,9 +12,13 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <Button Name="B00"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="0">Button 00</Button>
-        <Button Name="B01"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="1">Button 01</Button>
-        <Button Name="B10"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="0">Button 10</Button>
-        <Button Name="B11"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="1">Button 11</Button>
+        <Button Name="B00"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="0"
+                 MouseMove="Button_MouseMove">Button 00</Button>
+        <Button Name="B01"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="1"
+                MouseMove="Button_MouseMove">Button 01</Button>
+        <Button Name="B10"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="0"
+                MouseMove="Button_MouseMove">Button 10</Button>
+        <Button Name="B11"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="1"
+                MouseMove="Button_MouseMove">Button 11</Button>
     </Grid>
 </Window>

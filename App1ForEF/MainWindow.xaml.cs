@@ -24,5 +24,29 @@ namespace App1ForEF
         {
             InitializeComponent();
         }
+
+        private void Button_MouseMove(object sender, MouseEventArgs e)
+        {
+            Point pt = e.GetPosition(this);
+            if (sender is Button)
+            {
+                if (B00.Name == ((Button)sender).Name)
+                {
+                    Console.WriteLine("!!!!!!!! B00 " + sender.ToString() + "!!! " + String.Format("X: {0}, Y: {1}", pt.X, pt.Y));
+                } else if (B01.Name == ((Button)sender).Name)
+                {
+                    Console.WriteLine("!!!!!!!! B01 " + sender.ToString() + "!!! " + String.Format("X: {0}, Y: {1}", pt.X, pt.Y));
+                }
+                else if (B10.Name == ((Button)sender).Name)
+                {
+                    Console.WriteLine("!!!!!!!! B10 " + sender.ToString() + "!!! " + String.Format("X: {0}, Y: {1}", pt.X, pt.Y));
+                } else if (B11.Name == ((Button)sender).Name)
+                {
+                    Console.WriteLine("!!!!!!!! B11 " + sender.ToString() + "!!! " + String.Format("X: {0}, Y: {1}", pt.X, pt.Y));
+                }
+            }
+
+        }
+
     }
 }
