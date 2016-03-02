@@ -1,15 +1,12 @@
 UpgradeLog*.htm
-<<<<<<< HEAD
 Debug/log/**
 *.i.cache
 *.i.lref
-=======
-Debug/log/*.*
+Debug/log/**/*.*
 Debug/log/GazeTrackerUI.log.txt
 Debug/log/*.log.txt.*
 **/*.v12.suo
 
->>>>>>> 77455c5b5dce0fd4327cc0227dfe9ba7277547fc
 Debug/**/*.*
 GazeTrackerUI/obj/**/*.*
 
