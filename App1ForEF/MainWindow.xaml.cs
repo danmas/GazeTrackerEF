@@ -40,6 +40,33 @@ namespace App1ForEF
                 MessageBox.Show("The button " + ((Button)sender).Name + " pressed.");
                 Console.WriteLine(" !!!!!!!!!!!!!!!! CLICK BUTTON btn:" + ((Button)sender).Name);
                 ticks_enter_on_button = 0; // DateTime.Now.Ticks;
+                if (cur_button == B01)
+                {
+                    System.Diagnostics.Process.Start("E:/EYE/GazeTrackerEF/App1ForEF/mama.mp3");
+                }
+                if (cur_button == B10)
+                {
+                    String fileToOpen = "C:/test.avi";
+                    System.Diagnostics.ProcessStartInfo ps =
+                        new System.Diagnostics.ProcessStartInfo("C:/Program Files/Windows Media Player/wmplayer.exe"
+                            , fileToOpen);
+                    System.Diagnostics.Process.Start(ps);
+                }
+                {
+                }
+                {/*
+                    Microsoft.DirectX.AudioVideoPlayback.Video video 
+                        = new Microsoft.DirectX.AudioVideoPlayback.Video("fileName");
+                    //set the System.Windows.Forms.Control to play it in (e.g a panel)
+                    video.Owner = panel1;
+                    //Play the video (put this in a buttons click event)
+                    video.Play();
+                    //Pause the video (put this in a buttons click event)
+                    video.Pause();
+                    //Stop the video (put this in a buttons click event)
+                    video.Stop();
+                */}
+
             }
             /*
             Point pt = e.GetPosition(this);
