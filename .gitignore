@@ -10,5 +10,6 @@ Debug/**/*.*
 GazeTrackerUI/obj/**/*.*
 Debug/
 t.txt
-
+ApplicationsForEF/Gazespeaker/
+ApplicationsForEF/distrib/ 
 

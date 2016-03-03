@@ -38,7 +38,7 @@ namespace App1ForEF
                 && cur_ticks - ticks_enter_on_button > CLICK_TIME)
             {
                 MessageBox.Show("The button " + ((Button)sender).Name + " pressed.");
-                Console.WriteLine(" !!!!!!!!!!!!!!!! CLICK BUTTON btn:" + ((Button)sender).Name);
+                //Console.WriteLine(" !!!!!!!!!!!!!!!! CLICK BUTTON btn:" + ((Button)sender).Name);
                 ticks_enter_on_button = 0; // DateTime.Now.Ticks;
                 if (cur_button == B01)
                 {

@@ -1,28 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="Sugiyama" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@1 Namespace=GTCommons Type=GTCommands Member=.ctor)" Category="CodeSchema_Method" Bounds="-211.416494165222,-55.221269875145,110.71,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPrivate="True" CommonLabel="GTCommands" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Constructor" Label="GTCommands" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTCommons/Commands.cs StartLineNumber=39 StartCharacterOffset=8 EndLineNumber=39 EndCharacterOffset=8)" />
-    <Node Id="(@3 @4 Type=GazeTrackerUIMainWindow Member=(Name=OnApplicationEFOpen OverloadingParameters=[(@6 Namespace=System Type=Object),(@7 Namespace=System.Windows Type=RoutedEventArgs)]))" Category="CodeSchema_Method" Bounds="-20.496276870948,0.340281593358991,153.036666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="OnApplicationEFOpen" FunctionTypeFlags="Method" Label="OnApplicationEFOpen" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=381 StartCharacterOffset=0 EndLineNumber=381 EndCharacterOffset=0)">
+    <Node Id="(@1 Namespace=App1ForEF)" Category="CodeSchema_Namespace" Bounds="197.738057047913,0,114.31,25" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="App1ForEF" />
+    <Node Id="(@2 Namespace=GTCommons Type=GTCommands Member=.ctor)" Category="CodeSchema_Method" Bounds="-304.045576285421,-55.221269875145,110.71,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPrivate="True" CommonLabel="GTCommands" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Constructor" Label="GTCommands" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTCommons/Commands.cs StartLineNumber=39 StartCharacterOffset=8 EndLineNumber=39 EndCharacterOffset=8)" />
+    <Node Id="(@4 @5 Type=GazeTrackerUIMainWindow Member=(Name=OnApplicationEFOpen OverloadingParameters=[(@7 Namespace=System Type=Object),(@8 Namespace=System.Windows Type=RoutedEventArgs)]))" Category="CodeSchema_Method" Bounds="14.7012903812458,-5.09630849580479,153.036666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="OnApplicationEFOpen" FunctionTypeFlags="Method" Label="OnApplicationEFOpen" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=381 StartCharacterOffset=0 EndLineNumber=381 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="(@3 @4 Type=MenubarIconsUserControl Member=(Name=ApplicationEF OverloadingParameters=[(@6 Namespace=System Type=Object),(@7 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" Category="CodeSchema_Method" Bounds="386.475589795719,28.5199995422363,108.033333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ApplicationEF" FunctionTypeFlags="Method" Label="ApplicationEF" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/MenubarIconsUserControl.xaml.cs StartLineNumber=34 StartCharacterOffset=0 EndLineNumber=34 EndCharacterOffset=0)">
+    <Node Id="(@4 @5 Type=MenubarIconsUserControl Member=(Name=ApplicationEF OverloadingParameters=[(@7 Namespace=System Type=Object),(@8 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" Category="CodeSchema_Method" Bounds="387.946490381247,28.5199995422363,108.033333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="ApplicationEF" FunctionTypeFlags="Method" Label="ApplicationEF" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/MenubarIconsUserControl.xaml.cs StartLineNumber=34 StartCharacterOffset=0 EndLineNumber=34 EndCharacterOffset=0)">
       <Category Ref="CallStackEntry" />
       <Category Ref="CodeSchema_SourceLocation" />
     </Node>
-    <Node Id="@2" Category="CodeSchema_Class" Bounds="-262.033043537614,0.738730124855021,211.536666666667,85" CodeSchemaProperty_IsPublic="True" CommonLabel="ApplicationEFCommands" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="ApplicationEFCommands" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTCommons/Commands/ApplicationEFCommands.cs StartLineNumber=4 StartCharacterOffset=4 EndLineNumber=4 EndCharacterOffset=4)" UseManualLocation="True" />
-    <Node Id="@5" Category="CodeSchema_Class" Bounds="340.577256462386,-11.4801004577637,199.83,85.9602" CodeSchemaProperty_IsPublic="True" CommonLabel="MenubarIconsUserControl" DelayedChildNodesState="Incomplete" Group="Expanded" Icon="CodeSchema_Class" Label="MenubarIconsUserControl" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/MenubarIconsUserControl.xaml.cs StartLineNumber=10 StartCharacterOffset=4 EndLineNumber=10 EndCharacterOffset=4)" UseManualLocation="True" />
-    <Node Id="@8" Category="CodeSchema_Event" Bounds="-242.033043537614,40.738730124855,171.536666666667,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="OnApplicationEFOpen" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTCommons/Commands/ApplicationEFCommands.cs StartLineNumber=18 StartCharacterOffset=8 EndLineNumber=18 EndCharacterOffset=8)" />
-    <Node Id="@9" Category="CodeSchema_Method" Bounds="162.540489795719,26.4036207580566,148.036666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="RegisterEventListners" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="RegisterEventListners" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=251 StartCharacterOffset=4 EndLineNumber=251 EndCharacterOffset=4)" />
-    <Node Id="РеальноеОткрытиеОкнаЗдесь" Category="Comment" Bounds="30.0529375630026,-57.1803825222293,189.03,25.96" Label="Реальное открытие окна здесь" UseManualLocation="True">
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="-163.335476285421,-14.4088245585442,148.036666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="RegisterEventListners" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="RegisterEventListners" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=251 StartCharacterOffset=4 EndLineNumber=251 EndCharacterOffset=4)" />
+    <Node Id="@3" Category="CodeSchema_Class" Bounds="-77.9355192292141,50.8637915041952,211.536666666667,85.0002" CodeSchemaProperty_IsPublic="True" CommonLabel="ApplicationEFCommands" DelayedChildNodesState="Incomplete" DelayedCrossGroupLinksState="Fetched" Group="Expanded" Icon="CodeSchema_Class" Label="ApplicationEFCommands" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTCommons/Commands/ApplicationEFCommands.cs StartLineNumber=4 StartCharacterOffset=4 EndLineNumber=4 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@6" Category="CodeSchema_Class" Bounds="342.048157047913,-11.4801004577637,199.83,85.9602" CodeSchemaProperty_IsPublic="True" CommonLabel="MenubarIconsUserControl" DelayedChildNodesState="Incomplete" Group="Expanded" Icon="CodeSchema_Class" Label="MenubarIconsUserControl" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/MenubarIconsUserControl.xaml.cs StartLineNumber=10 StartCharacterOffset=4 EndLineNumber=10 EndCharacterOffset=4)" UseManualLocation="True" />
+    <Node Id="@9" Category="CodeSchema_Event" Bounds="-57.935519229214,90.8637915042952,171.536666666667,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="OnApplicationEFOpen" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GTCommons/Commands/ApplicationEFCommands.cs StartLineNumber=18 StartCharacterOffset=8 EndLineNumber=18 EndCharacterOffset=8)" />
+    <Node Id="РеальноеОткрытиеОкнаЗдесь" Category="Comment" Bounds="30.0539365703081,-61.0564084958048,189.03,25.96" Label="Реальное открытие окна здесь" UseManualLocation="True">
       <Category Ref="Category1" />
     </Node>
   </Nodes>
   <Links>
-    <Link Source="@2" Target="@8" Category="Contains" FetchingParent="@2" />
-    <Link Source="@5" Target="(@3 @4 Type=MenubarIconsUserControl Member=(Name=ApplicationEF OverloadingParameters=[(@6 Namespace=System Type=Object),(@7 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" Category="Contains" FetchingParent="@5" />
-    <Link Source="@9" Target="@8" Category="CodeSchema_Calls" Bounds="-61.5019697114892,41.9942898338494,224.042459009992,7.90210466114413" IsTargetVirtualized="True" Weight="1" />
-    <Link Source="РеальноеОткрытиеОкнаЗдесь" Target="(@3 @4 Type=GazeTrackerUIMainWindow Member=(Name=OnApplicationEFOpen OverloadingParameters=[(@6 Namespace=System Type=Object),(@7 Namespace=System.Windows Type=RoutedEventArgs)]))" Bounds="78.3841950360314,-31.2203825222293,30.7158137336232,25.7753489551804" />
+    <Link Source="@10" Target="@9" Category="CodeSchema_Calls" Bounds="-61.5019697114892,41.9942898338494,224.042459009992,7.90210466114413" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@3" Target="@9" Category="Contains" FetchingParent="@3" />
+    <Link Source="@6" Target="(@4 @5 Type=MenubarIconsUserControl Member=(Name=ApplicationEF OverloadingParameters=[(@7 Namespace=System Type=Object),(@8 Namespace=System.Windows.Input Type=MouseButtonEventArgs)]))" Category="Contains" FetchingParent="@6" />
+    <Link Source="РеальноеОткрытиеОкнаЗдесь" Target="(@4 @5 Type=GazeTrackerUIMainWindow Member=(Name=OnApplicationEFOpen OverloadingParameters=[(@7 Namespace=System Type=Object),(@8 Namespace=System.Windows Type=RoutedEventArgs)]))" Bounds="103.56243649421,-35.0964084958048,13.271094298278,22.2688775404108" />
   </Links>
   <Categories>
     <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
@@ -33,6 +34,7 @@
     <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
     <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
     <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_Namespace" Label="Namespace" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="CodeSchema_Namespace" NavigationActionLabel="Namespaces" />
     <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
     <Category Id="CodeSchema_Type" Label="Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="Types" />
     <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
@@ -85,15 +87,16 @@
     <Name Id="Type" Label="Type" ValueType="System.Object" />
   </QualifiedNames>
   <IdentifierAliases>
-    <Alias n="1" Uri="Assembly=$(02e8476c-305d-4fad-83bc-3a70cca37260.OutputPathUri)" />
-    <Alias n="2" Id="(@1 Namespace=GTCommons.Commands Type=ApplicationEFCommands)" />
-    <Alias n="3" Uri="Assembly=$(41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri)" />
-    <Alias n="4" Id="Namespace=GazeTrackerUI" />
-    <Alias n="5" Id="(@3 @4 Type=MenubarIconsUserControl)" />
-    <Alias n="6" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
-    <Alias n="7" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/PresentationCore.dll" />
-    <Alias n="8" Id="(@1 Namespace=GTCommons.Commands Type=ApplicationEFCommands Member=OnApplicationEFOpen)" />
-    <Alias n="9" Id="(@3 @4 Type=GazeTrackerUIMainWindow Member=RegisterEventListners)" />
+    <Alias n="1" Uri="Assembly=$(ad331f24-8782-4ce0-a168-4fb3bc16fbf1.OutputPathUri)" />
+    <Alias n="2" Uri="Assembly=$(02e8476c-305d-4fad-83bc-3a70cca37260.OutputPathUri)" />
+    <Alias n="3" Id="(@2 Namespace=GTCommons.Commands Type=ApplicationEFCommands)" />
+    <Alias n="4" Uri="Assembly=$(41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri)" />
+    <Alias n="5" Id="Namespace=GazeTrackerUI" />
+    <Alias n="6" Id="(@4 @5 Type=MenubarIconsUserControl)" />
+    <Alias n="7" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
+    <Alias n="8" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/PresentationCore.dll" />
+    <Alias n="9" Id="(@2 Namespace=GTCommons.Commands Type=ApplicationEFCommands Member=OnApplicationEFOpen)" />
+    <Alias n="10" Id="(@4 @5 Type=GazeTrackerUIMainWindow Member=RegisterEventListners)" />
   </IdentifierAliases>
   <Styles>
     <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
@@ -270,6 +273,7 @@
     <Path Id="02e8476c-305d-4fad-83bc-3a70cca37260.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/GTCommons.dll" />
     <Path Id="41ce4be5-ab35-45ed-945f-de384454215c.OutputPath" Value="E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe" />
     <Path Id="41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/GazeTrackerUI.exe" />
+    <Path Id="ad331f24-8782-4ce0-a168-4fb3bc16fbf1.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/App1ForEF/bin/Debug/App1ForEF.exe" />
     <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
     <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
     <Path Id="FxRoot" Value="C:\Windows\Microsoft.NET\Framework" />

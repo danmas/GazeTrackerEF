@@ -379,29 +379,27 @@ namespace GazeTrackerUI
 
     private void OnApplicationEFOpen(object sender, RoutedEventArgs e)
     {
+        //String fileToOpen = "C:/test.avi";
+        System.Diagnostics.ProcessStartInfo ps =
+            new System.Diagnostics.ProcessStartInfo(
+                "E:/EYE/GazeTrackerEF/ApplicationsForEF/App1ForEF/bin/Debug/App1ForEF.exe");
+        //        , fileToOpen);
+        System.Diagnostics.Process.Start(ps);
+/*
+        String fileToOpen = "C:/test.avi";
+        System.Diagnostics.ProcessStartInfo ps =
+            new System.Diagnostics.ProcessStartInfo("C:/Program Files/Windows Media Player/wmplayer.exe"
+                , fileToOpen);
+        System.Diagnostics.Process.Start(ps);
+
         int width = 0;
         int height = 0;
 
-//        ApplicationEFViewer.Instance.SetSizeAndLabels();
-
-        // If ROI has been set display at twice the image size
-        if (GTHardware.Camera.Instance.Device != null && GTHardware.Camera.Instance.Device.IsROISet)
-        {
-            width = GTHardware.Camera.Instance.ROI.Width * 2;
-            height = GTHardware.Camera.Instance.ROI.Height * 2;
-        }
-        else
-        {
-            width = GTHardware.Camera.Instance.Width;
-            height = GTHardware.Camera.Instance.Height;
-        }
-
-        int posX = Convert.ToInt32(Left - width - 5);
-        int posY = Convert.ToInt32(Top);
-
-        this.videoImageControl.VideoOverlayTopMost = false;
+        width = GTHardware.Camera.Instance.Width;
+        height = GTHardware.Camera.Instance.Height;
 
         GazeTrackerUI.ApplicationEF.ApplicationEFViewer.Instance.ShowWindow(width, height);
+ */ 
     }
     #endregion
 
