@@ -55,7 +55,7 @@ namespace GazeTrackerUI
     #region CONSTANTS
 
       //-- change the dirs of the App1ForEF.exe
-      public static bool DEVELOP = false;  
+      public static bool DEVELOP = true;  
 
     #endregion
 
@@ -387,9 +387,10 @@ namespace GazeTrackerUI
     {
         //String fileToOpen = "C:/test.avi";
         string directory = AppDomain.CurrentDomain.BaseDirectory;
-        Console.WriteLine("Current working directory is " + directory);
+        Console.WriteLine("Current working directory gor GT is " + directory);
+        //-- for develop mode
         string applicationEF_fn = directory + ".." + "/App1ForEF/bin/Debug/App1ForEF.exe";
-        if (DEVELOP)
+        if (!DEVELOP)
         {
             applicationEF_fn = directory + ".." + "/WRK/ApplicationsForEF/App1ForEF/bin/Debug/App1ForEF.exe";
         }
