@@ -37,16 +37,28 @@ namespace App1ForEF
             if (ticks_enter_on_button!=0 
                 && cur_ticks - ticks_enter_on_button > CLICK_TIME)
             {
-                MessageBox.Show("The button " + ((Button)sender).Name + " pressed.");
+                //MessageBox.Show("The button " + ((Button)sender).Name + " pressed.");
                 //Console.WriteLine(" !!!!!!!!!!!!!!!! CLICK BUTTON btn:" + ((Button)sender).Name);
                 string directory = AppDomain.CurrentDomain.BaseDirectory;
                 Console.WriteLine("Current working directory for AppForEF is " + directory);
+                ticks_enter_on_button = 0;
+                if (cur_button == B00)
+                {
+                    string play_file = directory + "../../" + "bell_1.mp3";
+                    try
+                    {
+                        System.Diagnostics.Process.Start(play_file);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
 
-                ticks_enter_on_button = 0; // DateTime.Now.Ticks;
+                }
+
                 if (cur_button == B01)
                 {
-                    // E:\EYE\GazeTrackerEF\App1ForEF\bin\Debug\
-                    string play_file = directory + "../../" + "mama.mp3";
+                    string play_file = directory + "../../" + "Pesnja_1.mp3";
                     try
                     {
                         System.Diagnostics.Process.Start(play_file);
@@ -59,27 +71,26 @@ namespace App1ForEF
                 }
                 if (cur_button == B10)
                 {
-                    String fileToOpen = "C:/test.avi";
+                    //String fileToOpen = "C:/test.avi";
+                    //string param = "http://opengaze.blogspot.ru/";
+                    string param = "https://vk.com/club21347948";
                     System.Diagnostics.ProcessStartInfo ps =
-                        new System.Diagnostics.ProcessStartInfo("C:/Program Files/Windows Media Player/wmplayer.exe"
-                            , fileToOpen);
-                    System.Diagnostics.Process.Start(ps);
+                        new System.Diagnostics.ProcessStartInfo("Iexplore.exe"
+                            , param);
+                    try
+                    {
+                        System.Diagnostics.Process.Start(ps);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
                 }
+                if (cur_button == B11)
                 {
+                    this.Close();
+                    System.Environment.Exit(0);
                 }
-                {/*
-                    Microsoft.DirectX.AudioVideoPlayback.Video video 
-                        = new Microsoft.DirectX.AudioVideoPlayback.Video("fileName");
-                    //set the System.Windows.Forms.Control to play it in (e.g a panel)
-                    video.Owner = panel1;
-                    //Play the video (put this in a buttons click event)
-                    video.Play();
-                    //Pause the video (put this in a buttons click event)
-                    video.Pause();
-                    //Stop the video (put this in a buttons click event)
-                    video.Stop();
-                */}
-
             }
             /*
             Point pt = e.GetPosition(this);

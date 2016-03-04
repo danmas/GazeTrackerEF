@@ -14,17 +14,31 @@
 
         <Button Name="B00"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="0"
                  MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
-            <StackPanel Orientation="Horizontal">
-                <Image Source="Lena_Jenja.jpg" />
+            <StackPanel>
+                <Image Source="Lena_Jenja.jpg" Height="232" />
                 <TextBlock Text="Позвать маиу." HorizontalAlignment="Center" VerticalAlignment="Center" />
             </StackPanel>
         </Button>
-        <Button Name="B01"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="1"
-                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">B01 
-            mama.mp3</Button>
-        <Button Name="B10"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="0"
-                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">Button 10</Button>
-        <Button Name="B11"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="1"
-                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">Button 11</Button>
+        <Button x:Name="B01"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="1"
+                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+            <StackPanel Orientation="Vertical">
+                <Image Source="winamp-1.jpg" Height="234" />
+                <TextBlock Text="Играть музыку." HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
+        <Button x:Name="B10"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="0"
+                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+            <StackPanel Orientation="Vertical">
+                <Image Source="Internet_big_button.jpg" Width="288" Height="196" />
+                <TextBlock Text="В интернет." HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
+        <Button x:Name="B11"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="1"
+                MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
+            <StackPanel Orientation="Vertical">
+                <Image Source="exit_1.jpg" Width="269" Height="199" />
+                <TextBlock Text="Выход из приложения." HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </StackPanel>
+        </Button>
     </Grid>
 </Window>

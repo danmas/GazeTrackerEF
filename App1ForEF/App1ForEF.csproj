@@ -101,6 +101,10 @@
     <Resource Include="Lena_Jenja.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="exit_1.jpg" />
+    <Content Include="Pesnja_1.mp3" />
+    <Resource Include="winamp-1.jpg" />
+    <Resource Include="Internet_big_button.jpg" />
     <Content Include="mama.mp3" />
   </ItemGroup>
   <ItemGroup>

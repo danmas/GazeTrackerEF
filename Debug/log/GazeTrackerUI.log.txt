@@ -1,6 +1,26 @@
-2016-03-04 09:10:03,740 [9] DEBUG GTHardware.Cameras.Thorlabs.ThorlabCamera - IsConnected: Attempting to retrieve list of connected UC480 cameras...
-2016-03-04 09:10:03,791 [9] INFO  GTHardware.Cameras.Thorlabs.ThorlabCamera - IsConnected: Detected no UC480 camera(s) - ThorlabCamera.IsConnected will return 'false', i.e. No Thorlabs detected
-2016-03-04 09:10:04,040 [9] INFO  GazeTrackingLibrary.Tracker - Constructing Tracker...
-2016-03-04 09:10:04,175 [9] INFO  GazeTrackingLibrary.Tracker - Looking up LoggingEnabled in FileSettings
-2016-03-04 09:10:04,176 [9] INFO  GazeTrackingLibrary.Tracker - Setting RecalibrationAvailableHandler
-2016-03-04 09:10:04,177 [9] INFO  GazeTrackingLibrary.Tracker - Completed constructing Tracker
+2016-03-04 16:13:05,043 [8] DEBUG GTHardware.Cameras.Thorlabs.ThorlabCamera - IsConnected: Attempting to retrieve list of connected UC480 cameras...
+2016-03-04 16:13:05,229 [8] INFO  GTHardware.Cameras.Thorlabs.ThorlabCamera - IsConnected: Detected no UC480 camera(s) - ThorlabCamera.IsConnected will return 'false', i.e. No Thorlabs detected
+2016-03-04 16:13:05,803 [8] INFO  GazeTrackingLibrary.Tracker - Constructing Tracker...
+2016-03-04 16:13:05,913 [8] INFO  GazeTrackingLibrary.Tracker - Looking up LoggingEnabled in FileSettings
+2016-03-04 16:13:05,914 [8] INFO  GazeTrackingLibrary.Tracker - Setting RecalibrationAvailableHandler
+2016-03-04 16:13:05,915 [8] INFO  GazeTrackingLibrary.Tracker - Setting GTHardware device OnImage EventHandler
+2016-03-04 16:13:05,916 [8] INFO  GazeTrackingLibrary.Tracker - Completed constructing Tracker
+2016-03-04 16:13:06,414 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,442 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,468 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,520 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,563 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,597 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,635 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,670 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,699 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,748 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,796 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,860 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,912 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:06,959 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:07,004 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:07,053 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:07,104 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:07,152 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
+2016-03-04 16:13:07,216 [16] DEBUG GazeTrackingLibrary.Detection.Eye.Eyetracker - DoEyeRegionExtraction: No eyes detected from DetectHaarCascade(...) call, returning false
