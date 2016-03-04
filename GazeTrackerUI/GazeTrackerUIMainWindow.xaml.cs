@@ -50,8 +50,14 @@ namespace GazeTrackerUI
   #endregion
 
 
-  public partial class GazeTrackerUIMainWindow
+    public partial class GazeTrackerUIMainWindow
   {
+    #region CONSTANTS
+
+      //-- change the dirs of the App1ForEF.exe
+      public static bool DEVELOP = false;  
+
+    #endregion
 
     #region Variables
 
@@ -380,11 +386,25 @@ namespace GazeTrackerUI
     private void OnApplicationEFOpen(object sender, RoutedEventArgs e)
     {
         //String fileToOpen = "C:/test.avi";
+        string directory = AppDomain.CurrentDomain.BaseDirectory;
+        Console.WriteLine("Current working directory is " + directory);
+        string applicationEF_fn = directory + ".." + "/App1ForEF/bin/Debug/App1ForEF.exe";
+        if (DEVELOP)
+        {
+            applicationEF_fn = directory + ".." + "/WRK/ApplicationsForEF/App1ForEF/bin/Debug/App1ForEF.exe";
+        }
         System.Diagnostics.ProcessStartInfo ps =
             new System.Diagnostics.ProcessStartInfo(
-                "E:/EYE/GazeTrackerEF/ApplicationsForEF/App1ForEF/bin/Debug/App1ForEF.exe");
+                applicationEF_fn);
         //        , fileToOpen);
-        System.Diagnostics.Process.Start(ps);
+        try
+        {
+            System.Diagnostics.Process.Start(ps);
+        }
+        catch (Exception ex)
+        {
+            System.Windows.MessageBox.Show(ex.Message);
+        }
 /*
         String fileToOpen = "C:/test.avi";
         System.Diagnostics.ProcessStartInfo ps =
