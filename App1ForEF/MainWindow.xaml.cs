@@ -39,10 +39,23 @@ namespace App1ForEF
             {
                 MessageBox.Show("The button " + ((Button)sender).Name + " pressed.");
                 //Console.WriteLine(" !!!!!!!!!!!!!!!! CLICK BUTTON btn:" + ((Button)sender).Name);
+                string directory = AppDomain.CurrentDomain.BaseDirectory;
+                Console.WriteLine("Current working directory for AppForEF is " + directory);
+
                 ticks_enter_on_button = 0; // DateTime.Now.Ticks;
                 if (cur_button == B01)
                 {
-                    System.Diagnostics.Process.Start("E:/EYE/GazeTrackerEF/App1ForEF/mama.mp3");
+                    // E:\EYE\GazeTrackerEF\App1ForEF\bin\Debug\
+                    string play_file = directory + "../../" + "mama.mp3";
+                    try
+                    {
+                        System.Diagnostics.Process.Start(play_file);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+
                 }
                 if (cur_button == B10)
                 {
