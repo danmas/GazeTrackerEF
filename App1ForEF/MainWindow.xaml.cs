@@ -75,7 +75,7 @@ namespace App1ForEF
                     }
 
                 }
-                if (cur_button == B10)
+                if (cur_button == Button_Iexplore)
                 {
                     //string param = "http://opengaze.blogspot.ru/";
                     string param = "https://vk.com/club21347948";
@@ -91,7 +91,20 @@ namespace App1ForEF
                         MessageBox.Show(ex.Message);
                     }
                 }
-                if (cur_button == B11 || cur_button == Button_Exit)
+                if (cur_button == Button_Dasher)
+                {
+                    System.Diagnostics.ProcessStartInfo ps =
+                        new System.Diagnostics.ProcessStartInfo("C:/Program Files (x86)/Dasher/Dasher 4.11/Dasher.exe");
+                    try
+                    {
+                        System.Diagnostics.Process.Start(ps);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+                if (cur_button == Button_Exit)
                 {
                     this.Close();
                     System.Environment.Exit(0);

@@ -35,18 +35,18 @@
                 <TextBlock Text="Играть музыку." HorizontalAlignment="Center" VerticalAlignment="Center" />
             </StackPanel>
         </Button>
-        <Button x:Name="B10"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="0"
+        <Button x:Name="Button_Iexplore"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="0"
                 MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
             <StackPanel Orientation="Vertical">
                 <Image Source="Internet_big_button.jpg" Width="288" Height="196" />
                 <TextBlock Text="В интернет." HorizontalAlignment="Center" VerticalAlignment="Center" />
             </StackPanel>
         </Button>
-        <Button x:Name="B11"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="1"
+        <Button x:Name="Button_Dasher"  FontSize="12" FontWeight="Bold" Grid.Row="1" Grid.Column="1"
                 MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
             <StackPanel Orientation="Vertical">
-                <Image Source="exit_1.jpg" Width="269" Height="199" />
-                <TextBlock Text="Выход из приложения." HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Image Source="Dasher.gif" Width="269" Height="199" />
+                <TextBlock Text="запустить Dasher" HorizontalAlignment="Center" VerticalAlignment="Center" />
             </StackPanel>
         </Button>
         </Grid>
