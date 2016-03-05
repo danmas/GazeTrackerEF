@@ -44,16 +44,20 @@ namespace App1ForEF
                 ticks_enter_on_button = 0;
                 if (cur_button == B00)
                 {
-                    string play_file = directory + "../../" + "bell_1.mp3";
                     try
                     {
-                        System.Diagnostics.Process.Start(play_file);
+                        System.Media.SoundPlayer Pl = new System.Media.SoundPlayer();
+                        Pl.SoundLocation = "C:\\WINDOWS\\Media\\notify.wav";
+                        Pl.Play();
+                        //-- for repeat palying
+                        ticks_enter_on_button = DateTime.Now.Ticks;
+//                        string play_file = directory + "../../" + "bell_1.mp3";
+//                        System.Diagnostics.Process.Start(play_file);
                     }
                     catch (Exception ex)
                     {
                         MessageBox.Show(ex.Message);
                     }
-
                 }
 
                 if (cur_button == B01)
