@@ -47,7 +47,9 @@ namespace App1ForEF
                     try
                     {
                         System.Media.SoundPlayer Pl = new System.Media.SoundPlayer();
-                        Pl.SoundLocation = "C:\\WINDOWS\\Media\\notify.wav";
+                        //string play_file = directory + "../../" + "bell_1.mp3";
+                        string play_file = "C:\\WINDOWS\\Media\\notify.wav";
+                        Pl.SoundLocation = play_file;
                         Pl.Play();
                         //-- for repeat palying
                         ticks_enter_on_button = DateTime.Now.Ticks;
