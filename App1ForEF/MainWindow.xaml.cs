@@ -47,7 +47,9 @@ namespace App1ForEF
                     try
                     {
                         System.Media.SoundPlayer Pl = new System.Media.SoundPlayer();
-                        Pl.SoundLocation = "C:\\WINDOWS\\Media\\notify.wav";
+                        //string play_file = directory + "../../" + "bell_1.mp3";
+                        string play_file = "C:\\WINDOWS\\Media\\notify.wav";
+                        Pl.SoundLocation = play_file;
                         Pl.Play();
                         //-- for repeat palying
                         ticks_enter_on_button = DateTime.Now.Ticks;
@@ -75,7 +77,6 @@ namespace App1ForEF
                 }
                 if (cur_button == B10)
                 {
-                    //String fileToOpen = "C:/test.avi";
                     //string param = "http://opengaze.blogspot.ru/";
                     string param = "https://vk.com/club21347948";
                     System.Diagnostics.ProcessStartInfo ps =
@@ -90,7 +91,7 @@ namespace App1ForEF
                         MessageBox.Show(ex.Message);
                     }
                 }
-                if (cur_button == B11)
+                if (cur_button == B11 || cur_button == Button_Exit)
                 {
                     this.Close();
                     System.Environment.Exit(0);
