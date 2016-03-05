@@ -15,7 +15,7 @@
         <Button Name="B00"  FontSize="12" FontWeight="Bold" Grid.Row="0" Grid.Column="0"
                  MouseMove="Button_MouseMove" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave">
             <StackPanel>
-                <Image Source="Lena_Jenja.jpg" Height="232" />
+                <Image Source="mama.jpg" Height="222" Width="226" />
                 <TextBlock Text="Позвать маиу." HorizontalAlignment="Center" VerticalAlignment="Center" />
             </StackPanel>
         </Button>
