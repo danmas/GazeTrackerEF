@@ -102,6 +102,7 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="exit_1.jpg" />
+    <Resource Include="mama.jpg" />
     <Content Include="Pesnja_1.mp3" />
     <Resource Include="winamp-1.jpg" />
     <Resource Include="Internet_big_button.jpg" />
