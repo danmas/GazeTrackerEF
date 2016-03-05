@@ -12,4 +12,5 @@ Debug/
 t.txt
 ApplicationsForEF/Gazespeaker/
 ApplicationsForEF/distrib/ 
+ApplicationsForEF/**/*.*
 
