@@ -77,7 +77,6 @@ namespace App1ForEF
                 }
                 if (cur_button == B10)
                 {
-                    //String fileToOpen = "C:/test.avi";
                     //string param = "http://opengaze.blogspot.ru/";
                     string param = "https://vk.com/club21347948";
                     System.Diagnostics.ProcessStartInfo ps =
@@ -92,7 +91,7 @@ namespace App1ForEF
                         MessageBox.Show(ex.Message);
                     }
                 }
-                if (cur_button == B11)
+                if (cur_button == B11 || cur_button == Button_Exit)
                 {
                     this.Close();
                     System.Environment.Exit(0);
