@@ -1,46 +1,121 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DirectedGraph DataVirtualized="True" Layout="ForceDirected" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
   <Nodes>
-    <Node Id="(@1 @2 Type=CalibrationControl Member=(Name=RecalibratePoint OverloadingParameters=[(@4 Namespace=System Type=Object),(@5 Namespace=System.Windows Type=RoutedEventArgs)]))" Category="CodeSchema_Method" Bounds="20.2005519358317,212.301494977542,122.106666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="RecalibratePoint" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="RecalibratePoint" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=665 StartCharacterOffset=8 EndLineNumber=665 EndCharacterOffset=8)" />
-    <Node Id="(@1 @2 Type=CalibrationControl Member=(Name=StartWithFirstFakePoint OverloadingParameters=[(@3 Namespace=System.Windows Type=Point),(@3 Namespace=System.Windows Type=Point)]))" Category="CodeSchema_Method" Bounds="95.9438943481445,156.341394977542,159.58,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="StartWithFirstFakePoint" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="StartWithFirstFakePoint" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=305 StartCharacterOffset=8 EndLineNumber=305 EndCharacterOffset=8)" />
-    <Node Id="(@1 @2 Type=CalibrationControl Member=DisplayPoints)" Category="CodeSchema_Method" Bounds="0.886535516579947,-11.538905022458,106.893333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="DisplayPoints" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="DisplayPoints" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=372 StartCharacterOffset=8 EndLineNumber=372 EndCharacterOffset=8)" />
-    <Node Id="@6" Category="CodeSchema_Method" Bounds="-3.05175781534217E-06,100.381294977542,166.15,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="RunScalePointAnimation" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="RunScalePointAnimation" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationPoint.xaml.cs StartLineNumber=88 StartCharacterOffset=8 EndLineNumber=88 EndCharacterOffset=8)" />
-    <Node Id="КалибровкаНачинаетсяЗдесь" Category="Comment" Bounds="-1.4210854715202E-14,44.421194977542,184.776666666667,25.96" Label="Калибровка начинается здесь" UseManualLocation="True">
+    <Node Id="(@1 @2 @3 Member=(Name=AnimateBetweenPoints_Completed OverloadingParameters=[(@8 Namespace=System Type=Object),(@8 Namespace=System Type=EventArgs)]))" Category="CodeSchema_Method" Bounds="0,549.277448901506,221.493333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="AnimateBetweenPoints_Completed" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="AnimateBetweenPoints_Completed" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=434 StartCharacterOffset=8 EndLineNumber=434 EndCharacterOffset=8)" />
+    <Node Id="(@1 @2 @3 Member=(Name=RecalibratePoint @13))" Category="CodeSchema_Method" Bounds="292.253636909359,717.157448901506,122.106666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="RecalibratePoint" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="RecalibratePoint" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=665 StartCharacterOffset=8 EndLineNumber=665 EndCharacterOffset=8)" />
+    <Node Id="(@1 @2 @3 Member=(Name=StartWithFirstFakePoint OverloadingParameters=[@6,@6]))" Category="CodeSchema_Method" Bounds="203.456792568999,775.214480529325,159.58,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="StartWithFirstFakePoint" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="StartWithFirstFakePoint" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=320 StartCharacterOffset=0 EndLineNumber=320 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="(@1 @2 @3 Member=(Name=fakePoint_Completed OverloadingParameters=[(@8 Namespace=System Type=Object),(@8 Namespace=System Type=EventArgs)]))" Category="CodeSchema_Method" Bounds="101.84059699578,717.157448901506,149.04,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="fakePoint_Completed" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="fakePoint_Completed" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=363 StartCharacterOffset=0 EndLineNumber=363 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="CurrentCallStackEntry" />
+    </Node>
+    <Node Id="(@1 @2 Type=CalibrationWindow Member=.ctor)" Category="CodeSchema_Method" Bounds="444.360303576025,493.317448901506,137.153333333333,25.96" CodeSchemaProperty_IsConstructor="True" CodeSchemaProperty_IsPublic="True" CommonLabel="CalibrationWindow" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Constructor" Label="CalibrationWindow" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationWindow.xaml.cs StartLineNumber=40 StartCharacterOffset=8 EndLineNumber=40 EndCharacterOffset=8)" />
+    <Node Id="(@1 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=OnPointStart @13))" Category="CodeSchema_Method" Bounds="450.093032498462,437.357448901506,104.136666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="OnPointStart" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OnPointStart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/GazeTrackerUI/GazeTrackerUIMainWindow.xaml.cs StartLineNumber=512 StartCharacterOffset=4 EndLineNumber=512 EndCharacterOffset=4)" />
+    <Node Id="(@15 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=(Name=OnPointStart @13))" Category="CodeSchema_Method" Bounds="534.771064048189,295.331083622229,104.136666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="OnPointStart" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="OnPointStart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/OgamaClient/API/GazeTrackerAPI.cs StartLineNumber=487 StartCharacterOffset=4 EndLineNumber=487 EndCharacterOffset=4)" />
+    <Node Id="(@9 Namespace=SequenceCapture Type=SequenceCaptureMainWindow Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@8 Namespace=System Type=Int32),(@8 Namespace=System Type=Object)]))" Category="CodeSchema_Method" Bounds="0,239.371014671888,339.04,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="System‎.Windows‎.Markup‎.IComponentConnector‎.Connect" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/SequenceCapture/obj/Debug/SequenceCaptureMainWindow.g.i.cs StartLineNumber=352 StartCharacterOffset=8 EndLineNumber=352 EndCharacterOffset=8)" />
+    <Node Id="@11" Category="CodeSchema_Method" Bounds="443.852741444096,351.291082625877,145.776666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="CalibrationPointStart" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="CalibrationPointStart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackingLibrary/Tracker.cs StartLineNumber=351 StartCharacterOffset=8 EndLineNumber=351 EndCharacterOffset=8)" />
+    <Node Id="@14" Category="CodeSchema_Method" Bounds="369.0401,239.371014671888,188.296666666667,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="calibrationControl_PointStart" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="calibrationControl_PointStart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationWindow.xaml.cs StartLineNumber=219 StartCharacterOffset=0 EndLineNumber=219 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="CurrentCallStackEntry" />
+    </Node>
+    <Node Id="@16" Category="CodeSchema_Method" Bounds="179.669309558024,350.331014671888,98.6533333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="RunCapture" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="RunCapture" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/EYE/GazeTrackerEF/SequenceCapture/SequenceCaptureMainWindow.xaml.cs StartLineNumber=173 StartCharacterOffset=8 EndLineNumber=173 EndCharacterOffset=8)" />
+    <Node Id="@17" Category="CodeSchema_Method" Bounds="126.129185429892,605.237448901506,106.893333333333,25.96" CodeSchemaProperty_IsPrivate="True" CommonLabel="DisplayPoints" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="DisplayPoints" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=386 StartCharacterOffset=0 EndLineNumber=386 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+      <Category Ref="CurrentCallStackEntry" />
+    </Node>
+    <Node Id="@18" Category="CodeSchema_Event" Bounds="269.202483958849,295.331014671888,122.636666666667,25" CodeSchemaProperty_IsPublic="True" DelayedChildNodesState="NotFetched" DelayedCrossGroupLinksState="Fetched" Group="Collapsed" Label="OnPointStart" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=715 StartCharacterOffset=8 EndLineNumber=715 EndCharacterOffset=8)" />
+    <Node Id="@19" Category="CodeSchema_Method" Bounds="186.393650566576,661.197448901506,166.15,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="RunScalePointAnimation" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="RunScalePointAnimation" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationPoint.xaml.cs StartLineNumber=90 StartCharacterOffset=0 EndLineNumber=90 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@20" Category="CodeSchema_Method" Bounds="344.918589964285,183.411014671888,60.7866666666667,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="Start" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="Start" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationWindow.xaml.cs StartLineNumber=92 StartCharacterOffset=0 EndLineNumber=92 EndCharacterOffset=0)">
+      <Category Ref="CallStackEntry" />
+      <Category Ref="CodeSchema_SourceLocation" />
+    </Node>
+    <Node Id="@7" Category="CodeSchema_Method" Bounds="358.721610884087,71.4910146718881,215.04,25.96" CodeSchemaProperty_IsPublic="True" CommonLabel="AdjustPointFromPartialCalibration" DelayedCrossGroupLinksState="Fetched" FunctionTypeFlags="Method" Label="AdjustPointFromPartialCalibration" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///e:/EYE/GazeTrackerEF/GazeTrackerUI/Calibration/CalibrationControl.xaml.cs StartLineNumber=835 StartCharacterOffset=8 EndLineNumber=835 EndCharacterOffset=8)" />
+    <Node Id="ЗапускЗдесь" Category="Comment" Bounds="290.961201460277,127.451014671888,89.8933333333333,25.96" Label="Запуск здесь">
       <Category Ref="Category1" />
+    </Node>
+    <Node Id="ЗдесьВыставляютсяРазмерыОкнаКалибровки" Category="Comment" Bounds="464.620183911928,551.899164881068,211.996666666667,41.9200000000001" Label="Здесь выставляются размеры окна калибровки">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="КалибровкаНачинаетсяЗдесь" Category="Comment" Bounds="177.987790718476,493.317448901506,184.776666666667,25.96" Label="Калибровка начинается здесь">
+      <Category Ref="Category1" />
+    </Node>
+    <Node Id="ЧастичнаяКалибровка" Category="Comment" Bounds="458.651024274572,0,145.443333333333,25.96" Label="Частичная калибровка">
+      <Category Ref="Category3" />
     </Node>
   </Nodes>
   <Links>
-    <Link Source="(@1 @2 Type=CalibrationControl Member=(Name=RecalibratePoint OverloadingParameters=[(@4 Namespace=System Type=Object),(@5 Namespace=System.Windows Type=RoutedEventArgs)]))" Target="@6" Category="CodeSchema_Calls" Bounds="81.4650895879066,135.340103783563,1.25227875165859,76.9613911939792" Weight="1" />
-    <Link Source="(@1 @2 Type=CalibrationControl Member=(Name=StartWithFirstFakePoint OverloadingParameters=[(@3 Namespace=System.Windows Type=Point),(@3 Namespace=System.Windows Type=Point)]))" Target="@6" Category="CodeSchema_Calls" Bounds="112.271343189012,130.994037230202,41.9702291609453,25.3473577473402" Weight="1" />
-    <Link Source="(@1 @2 Type=CalibrationControl Member=DisplayPoints)" Target="@6" Category="CodeSchema_Calls" Bounds="-10.1342153549194,14.4210939407349,47.8924360275269,82.9522428512573" Weight="1" />
-    <Link Source="КалибровкаНачинаетсяЗдесь" Target="@6" Bounds="86.7127642078552,70.381194977542,3.51533123019421,21.1222104137394" />
+    <Link Source="(@1 @2 @3 Member=(Name=AnimateBetweenPoints_Completed OverloadingParameters=[(@8 Namespace=System Type=Object),(@8 Namespace=System Type=EventArgs)]))" Target="@17" Category="CodeSchema_Calls" Bounds="126.711692133942,575.237446289063,29.9159015313298,24.3224406596252" Weight="1" />
+    <Link Source="(@1 @2 @3 Member=(Name=RecalibratePoint @13))" Target="@19" Category="CodeSchema_Calls" Bounds="296.400719175225,692.153950423627,37.4598242264664,25.0035007482485" Weight="1" />
+    <Link Source="(@1 @2 @3 Member=(Name=StartWithFirstFakePoint OverloadingParameters=[@6,@6]))" Target="@19" Category="CodeSchema_Calls" Bounds="272.116913607906,696.092457321271,9.56132680121516,79.1220006865412" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+    </Link>
+    <Link Source="(@1 @2 @3 Member=(Name=fakePoint_Completed OverloadingParameters=[(@8 Namespace=System Type=Object),(@8 Namespace=System Type=EventArgs)]))" Target="@17" Category="CodeSchema_Calls" Bounds="176.733482926208,640.193726168615,2.21102336578565,76.9637250032604" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+      <Category Ref="CurrentCallStackCall" />
+    </Link>
+    <Link Source="(@1 Namespace=GazeTrackerUI Type=GazeTrackerUIMainWindow Member=(Name=OnPointStart @13))" Target="@11" Category="CodeSchema_Calls" Bounds="504.360170971763,386.12465176992,8.67888518287799,51.2327963501968" Weight="1" />
+    <Link Source="(@15 Namespace=OgamaClient.API Type=GazeTrackerAPI Member=(Name=OnPointStart @13))" Target="@11" Category="CodeSchema_Calls" Bounds="540.034100751987,321.291080932617,30.5458814887932,24.3849988553916" Weight="1" />
+    <Link Source="(@9 Namespace=SequenceCapture Type=SequenceCaptureMainWindow Member=(Name=System.Windows.Markup.IComponentConnector.Connect OverloadingParameters=[(@8 Namespace=System Type=Int32),(@8 Namespace=System Type=Object)]))" Target="@16" Category="CodeSchema_FunctionPointer" Bounds="176.477448967085,265.331020812988,41.3092462213264,77.0676648521684" Weight="1" />
+    <Link Source="@14" Target="@11" Category="CodeSchema_Calls" Bounds="469.399246486789,265.331020812988,37.2464132385339,77.8415678238841" Weight="1" />
+    <Link Source="@14" Target="@7" Category="CodeSchema_Calls" Bounds="463.424507725218,106.449520288893,2.4173861911575,132.921500524095" Weight="1" />
+    <Link Source="@16" Target="@18" Category="CodeSchema_Calls" Bounds="252.748537864428,324.646846746973,47.000386953567,25.6841731504877" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="@17" Target="@19" Category="CodeSchema_Calls" Bounds="200.426595736925,631.197437744141,40.5508051542375,25.2436676035866" Weight="1">
+      <Category Ref="CallStackDirectCall" />
+    </Link>
+    <Link Source="@20" Target="@14" Category="CodeSchema_FunctionPointer" Bounds="395.694997606123,209.371006469727,39.5189279012965,25.1657624157137" Weight="1" />
+    <Link Source="@20" Target="@18" Category="CodeSchema_Calls" Bounds="338.901351231595,209.371006469727,31.1935151609886,77.6092876120175" IsTargetVirtualized="True" Weight="1" />
+    <Link Source="ЗапускЗдесь" Target="@20" Bounds="345.047679570773,153.410999755859,15.9427913076253,22.6412843660526" />
+    <Link Source="ЗдесьВыставляютсяРазмерыОкнаКалибровки" Target="(@1 @2 Type=CalibrationWindow Member=.ctor)" Bounds="530.07933695295,526.078920434951,22.3755182110485,25.8202409420023" />
+    <Link Source="КалибровкаНачинаетсяЗдесь" Target="@19" Bounds="269.58745675495,519.277454833984,0.718508186225449,132.920136370437" />
+    <Link Source="ЧастичнаяКалибровка" Target="@7" Bounds="484.128035287139,25.9599957275391,35.4193641690435,38.8780054217941" />
   </Links>
   <Categories>
+    <Category Id="CallStackDirectCall" Label="Call Stack direct call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Call Stack direct call" OutgoingActionLabel="Call Stack direct call" />
+    <Category Id="CallStackEntry" Label="Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Call Stack Entry" />
     <Category Id="Category1" Label="Category 1" Background="#FFE51400" IsTag="True" />
+    <Category Id="Category3" Label="Category 3" Background="#FF3EBCED" IsTag="True" />
     <Category Id="CodeSchema_Calls" Label="Calls" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Called By" OutgoingActionLabel="Calls" />
+    <Category Id="CodeSchema_Event" Label="Event" BasedOn="CodeSchema_Field" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Event" NavigationActionLabel="Events" />
+    <Category Id="CodeSchema_Field" Label="Field" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Fields" />
+    <Category Id="CodeSchema_FunctionPointer" Label="Function Pointer" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Function Pointers" OutgoingActionLabel="Function Pointers" />
     <Category Id="CodeSchema_Member" Label="Member" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="Members" />
     <Category Id="CodeSchema_Method" Label="Method" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="Methods" />
+    <Category Id="CodeSchema_SourceLocation" Label="Source Location" Icon="File" />
     <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+    <Category Id="CurrentCallStackCall" Label="Current Call Stack call" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="Current Call Stack call" OutgoingActionLabel="Current Call Stack call" />
+    <Category Id="CurrentCallStackEntry" Label="Current Call Stack Entry" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Current Call Stack Entry" />
   </Categories>
   <Properties>
     <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
     <Property Id="Bounds" DataType="System.Windows.Rect" />
     <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
     <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsConstructor" Label="Is Constructor" Description="Flag to indicate the method is a constructor" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsPrivate" Label="Is Private" Description="Flag to indicate the scope is Private" DataType="System.Boolean" />
     <Property Id="CodeSchemaProperty_IsPublic" Label="Is Public" Description="Flag to indicate the scope is Public" DataType="System.Boolean" />
     <Property Id="CommonLabel" DataType="System.String" />
     <Property Id="DataVirtualized" Label="Data Virtualized" Description="If true, the graph can contain nodes and links that represent data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="Delayed Child Nodes State" Description="Unspecified if the delayed child nodes state is not specified. NotFetched if the group contains child nodes that are not fetched into the graph yet. Fetched if the group has all its delayed child nodes already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
     <Property Id="DelayedCrossGroupLinksState" Label="Delayed Cross-Group Links State" Description="Unspecified if the delayed cross-group links state is not specified. NotFetched if delayed cross-group links on this node are not fetched into the graph yet. Fetched if all delayed cross-group links have already fetched." DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
     <Property Id="Expression" DataType="System.String" />
     <Property Id="FunctionTypeFlags" Label="FunctionTypeFlags" Description="FunctionTypeFlags" DataType="System.String" />
+    <Property Id="Group" Label="Group" Description="Display the node as a group" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
     <Property Id="GroupLabel" DataType="System.String" />
     <Property Id="Icon" Label="Icon" Description="Icon" DataType="System.String" />
     <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
     <Property Id="IsEnabled" DataType="System.Boolean" />
     <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
     <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="IsTargetVirtualized" Label="Link Target Virtualized" Description="If true, the link target end contains data for virtualized nodes/links (i.e. not actually created in the graph)." DataType="System.Boolean" />
     <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
     <Property Id="Language" Label="Language" Description="Language" DataType="System.String" />
     <Property Id="Layout" DataType="System.String" />
@@ -48,7 +123,6 @@
     <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
     <Property Id="SourceLocation" Label="Start Line Number" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
     <Property Id="TargetType" DataType="System.Type" />
-    <Property Id="UseManualLocation" DataType="System.Boolean" />
     <Property Id="Value" DataType="System.String" />
     <Property Id="ValueLabel" DataType="System.String" />
     <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
@@ -65,12 +139,60 @@
   <IdentifierAliases>
     <Alias n="1" Uri="Assembly=$(41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri)" />
     <Alias n="2" Id="Namespace=GazeTrackerUI.CalibrationUI" />
-    <Alias n="3" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/WindowsBase.dll" />
-    <Alias n="4" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
-    <Alias n="5" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/PresentationCore.dll" />
-    <Alias n="6" Id="(@1 @2 Type=CalibrationPoint Member=RunScalePointAnimation)" />
+    <Alias n="3" Id="Type=CalibrationControl" />
+    <Alias n="5" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/WindowsBase.dll" />
+    <Alias n="6" Id="(@5 Namespace=System.Windows Type=Point)" />
+    <Alias n="7" Id="(@1 @2 @3 Member=(Name=AdjustPointFromPartialCalibration OverloadingParameters=[@6]))" />
+    <Alias n="8" Uri="Assembly=$(FxRootUri)/v2.0.50727/mscorlib.dll" />
+    <Alias n="9" Uri="Assembly=$(adc47634-0907-46a9-a865-4213e988c32a.OutputPathUri)" />
+    <Alias n="10" Uri="Assembly=$(bf8d4e7f-f8e1-4204-b438-55b35233f590.OutputPathUri)" />
+    <Alias n="11" Id="(@10 Namespace=GazeTrackingLibrary Type=Tracker Member=(Name=CalibrationPointStart OverloadingParameters=[(@8 Namespace=System Type=Int32),@6]))" />
+    <Alias n="12" Uri="Assembly=$(FxReferenceAssembliesUri)/v3.0/PresentationCore.dll" />
+    <Alias n="13" Id="OverloadingParameters=[(@8 Namespace=System Type=Object),(@12 Namespace=System.Windows Type=RoutedEventArgs)]" />
+    <Alias n="14" Id="(@1 @2 Type=CalibrationWindow Member=(Name=calibrationControl_PointStart @13))" />
+    <Alias n="15" Uri="Assembly=$(2f1306d9-f01d-4431-8122-9dbc888480cd.OutputPathUri)" />
+    <Alias n="16" Id="(@9 Namespace=SequenceCapture Type=SequenceCaptureMainWindow Member=(Name=RunCapture @13))" />
+    <Alias n="17" Id="(@1 @2 @3 Member=DisplayPoints)" />
+    <Alias n="18" Id="(@1 @2 @3 Member=OnPointStart)" />
+    <Alias n="19" Id="(@1 @2 Type=CalibrationPoint Member=RunScalePointAnimation)" />
+    <Alias n="20" Id="(@1 @2 Type=CalibrationWindow Member=Start)" />
   </IdentifierAliases>
   <Styles>
+    <Style TargetType="Node" GroupLabel="Category 3" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category3')" />
+      <Setter Property="Background" Value="#FF3EBCED" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Current Call Stack Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CurrentCallStackCall')" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+      <Setter Property="Weight" Value="1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Indirect Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackIndirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+      <Setter Property="StrokeDashArray" Value="4 1" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Call Stack Direct Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('CallStackDirectCall')" />
+      <Setter Property="Stroke" Value="#FFB8B8B8" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External And Current" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('ExternalCallStackEntry') And HasCategory('CurrentCallStackEntry')" />
+      <Setter Property="Background" Value="#FFFFF8F0" />
+      <Setter Property="Stroke" Value="#FFCE5100" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Call Stack Node" ValueLabel="True">
+      <Condition Expression="HasCategory('CurrentCallStackEntry') And !HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFFFE3C6" />
+      <Setter Property="Stroke" Value="#FFD93701" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="External Call Stack Entry" ValueLabel="True">
+      <Condition Expression="HasCategory('ExternalCallStackEntry')" />
+      <Setter Property="Background" Value="#FFF7F7F7" />
+      <Setter Property="StrokeDashArray" Value="1 3" />
+      <Setter Property="Foreground" Value="#FFA5A5A5" />
+      <Setter Property="Stroke" Value="#FFA5A5A5" />
+    </Style>
     <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
       <Condition Expression="HasCategory('Category1')" />
       <Setter Property="Background" Value="#FFE51400" />
@@ -210,8 +332,14 @@
     </Style>
   </Styles>
   <Paths>
+    <Path Id="2f1306d9-f01d-4431-8122-9dbc888480cd.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/OgamaClient.dll" />
+    <Path Id="41ce4be5-ab35-45ed-945f-de384454215c.OutputPath" Value="E:\EYE\GazeTrackerEF\Debug\GazeTrackerUI.exe" />
     <Path Id="41ce4be5-ab35-45ed-945f-de384454215c.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/GazeTrackerUI.exe" />
+    <Path Id="adc47634-0907-46a9-a865-4213e988c32a.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/SequenceCapture.exe" />
+    <Path Id="bf8d4e7f-f8e1-4204-b438-55b35233f590.OutputPathUri" Value="file:///E:/EYE/GazeTrackerEF/Debug/GazeTrackingLibrary.dll" />
+    <Path Id="FxReferenceAssemblies" Value="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework" />
     <Path Id="FxReferenceAssembliesUri" Value="file:///C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework" />
+    <Path Id="FxRoot" Value="C:\Windows\Microsoft.NET\Framework" />
     <Path Id="FxRootUri" Value="file:///C:/Windows/Microsoft.NET/Framework" />
   </Paths>
 </DirectedGraph>
