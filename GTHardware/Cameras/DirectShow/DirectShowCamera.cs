@@ -100,8 +100,8 @@ namespace GTHardware.Cameras.DirectShow
         private ISampleGrabber sampGrabber;
         private IBaseFilter capFilter;
         private ICaptureGraphBuilder2 capGraph;
-        private bool isSupportingROI = false;
-        private bool isRoiSet = false;
+        private bool isSupportingROI = true;
+        private bool isRoiSet = true;
         private Rectangle roi;
         private int width;
         private int height;
@@ -306,7 +306,8 @@ namespace GTHardware.Cameras.DirectShow
             }
 
             // Set roi to full frame
-            //this.ROI = new System.Drawing.Rectangle(new Point(0, 0), new Size(videoWidth, videoHeight));
+            //this.ROI = new System.Drawing.Rectangle(new Point(0, 0)
+            //    , new Size(videoWidth, videoHeight));
             isRunning = true;
 
             return isRunning;

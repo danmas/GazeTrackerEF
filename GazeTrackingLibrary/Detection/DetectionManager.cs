@@ -170,7 +170,8 @@ namespace GazeTrackingLibrary.Detection
                         doEye = true;
                         missCounter++;
 
-                        if (GTHardware.Camera.Instance.Device.IsSupportingROI && missCounter > GTHardware.Camera.Instance.Device.FPS / 3)
+                        if (GTHardware.Camera.Instance.Device.IsSupportingROI 
+                            && missCounter > GTHardware.Camera.Instance.Device.FPS / 3)
                             GTHardware.Camera.Instance.Device.ClearROI();
 
                         return false;
@@ -243,14 +244,16 @@ namespace GazeTrackingLibrary.Detection
 
             #region Monocular
 
-            if (Settings.Instance.Processing.TrackingMode == TrackingModeEnum.Monocular)
+            if (Settings.Instance.Processing.TrackingMode 
+                == TrackingModeEnum.Monocular)
             {
                 if (!featuresLeftFound)
                 {
                     if (Settings.Instance.Processing.TrackingEye)
                     {
                         doEye = true;
-                        if (GTHardware.Camera.Instance.Device.IsSettingROI && GTHardware.Camera.Instance.Device.IsROISet == false)
+                        if (GTHardware.Camera.Instance.Device.IsSettingROI 
+                            && GTHardware.Camera.Instance.Device.IsROISet == false)
                             GTHardware.Camera.Instance.Device.ClearROI();
                     }
                     else
@@ -531,7 +534,8 @@ namespace GazeTrackingLibrary.Detection
         
         public void CameraCenterROI(TrackData trackData, Size imgSize)
         {
-            if(GTHardware.Camera.Instance.Device.IsSupportingROI == false && GTHardware.Camera.Instance.Device.IsROISet == false)
+            if(GTHardware.Camera.Instance.Device.IsSupportingROI == false 
+                && GTHardware.Camera.Instance.Device.IsROISet == false)
                 return;
 
             if(GTHardware.Camera.Instance.DefaultHeight == imgSize.Height)
